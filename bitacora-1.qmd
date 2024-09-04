@@ -213,7 +213,7 @@ La diversidad de datos (como fecha de lanzamiento, precio y popularidad) permite
 
 
 ## Revisión bibliográfica
-# Búsqueda de bibliografía
+### Búsqueda de bibliografía
 
 * @Ref1
 * @Ref2
@@ -333,4 +333,4 @@ __■ Fuente:__ @josephficha1
 
 ## Construcción de la UVE de Gowin
 # Parte de escritura
-
+# Referecencias:
