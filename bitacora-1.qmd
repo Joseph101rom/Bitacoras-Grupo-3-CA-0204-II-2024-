@@ -213,7 +213,28 @@ La diversidad de datos (como fecha de lanzamiento, precio y popularidad) permite
 
 
 ## Revisión bibliográfica
-### Búsqueda de bibliografía
+# Búsqueda de bibliografía
+
+* @Ref1
+* @Ref2
+* @Ref3
+* @Ref4
+* @Ref5
+* @Ref6
+* @Ref7
+* @Ref8
+* @Ref9
+* @Ref10
+* @Ref11
+* @Ref12
+* @Ref13
+* @Ref14
+* @Ref15
+* @Ref16
+* @Ref17
+* @Ref18
+* @Ref19
+
 ### Construcción de fichas de literatura
 __Ficha 1:__
  
