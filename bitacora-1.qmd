@@ -1,1 +1,166 @@
 Bitacora 1:
+
+ 
+# Comandos Git
+
+# Parte planificacion 
+
+## Pregunta de investigación:
+
+### Defincion del idea
+“Análisis del Éxito Comercial de Videojuegos Basado en Características del Juego”
+
+### Conceptualización de la idea:
+
+  * Análisis: Por análisis se entiende el examen minucioso y pormenorizado de un asunto para conocer su naturaleza, sus características, su estado y los factores que intervienen en todo ello.
+  [Fuente](https://definicion.edu.lat/significados/analisis.html#:~:text=Qu%C3%A9%20es%20An%C3%A1lisis%3A%20Por%20an%C3%A1lisis%20se%20entiende%20el,y%20los%20factores%20que%20intervienen%20en%20todo%20ello.)
+  
+  
+  * Éxito:  El éxito es el resultado satisfactorio de una acción o proyecto.
+  [Fuente](https://definicion.edu.lat/concepto/exito.html)
+  
+  * Comercial: Comercial es un adjetivo que se refiere a lo vinculado con el comercio o con las personas que se dedican a comprar y/o vender bienes o servicios. El término comercio, por su parte, puede hacer mención a esta actividad o al espacio físico donde se desarrolla.
+  [Fuente](https://definicion.edu.lat/definicion/comercial.html)
+  
+  * Videojuegos: Los videojuegos son softwares de juegos electrónicos desarrollados para el entretenimiento a través de un aparato electrónico como  máquinas arcade, consolas, computadores o dispositivos digitales.
+  [Fuente](https://definicion.edu.lat/significados/videojuego.html) 
+  
+  * Basado: La palabra "basado" es el participio del verbo "basar" y se utiliza como un adjetivo para describir algo que se ha fundamentado o apoyado en una base específica.
+  [Fuente](https://www.definiciones-de.com/Definicion/de/basado.php#:~:text=Definici%C3%B3n%20de%20basado%20p.%20La%20palabra%20%22basado%22%20es,base%20determinada%2C%20sin%20perder%20completamente%20su%20naturaleza%20verbal.)
+  
+  * Característica: Las características de un objeto, una persona o un referente cualquiera son aquellos rasgos, condiciones o elementos que le resultan propios, reconocibles y que sirven para distinguirlo de otros referentes similares. Así, por ejemplo, las características de un perro incluyen su color, su tamaño, su raza, su conducta, su edad y todo aquello que nos sirva para distinguirlo del resto de los animales.
+  [Fuente](https://definicion.edu.lat/concepto/caracteristica.html) 
+  
+* Juego: Ejercicio recreativo o de competición sometido a reglas, y en el cual se gana o se pierde.
+[Fuente](https://dle.rae.es/juego)
+ 
+### Identificación de tensiones:
+
+  Definición de Variables y Métricas: Consideramos fundamental definir correctamente las variables y las métricas de manera clara y concisa, ya que en caso de no hacerlo puede resultar en una labor mucho más extensa y complicada de lo esperado.
+  
+  
+  
+   Selección de Técnicas de Análisis: En caso de no realizar una correcta selección de técnicas de análisis, podríamos enfrentarnos ante un proceso más largo y complicado de lo que debería de ser, además de no brindar información fidedigna al analizar los datos con una técnica inadecuada.
+  
+  Definición de "Éxito Comercial": Pensamos que establecer una métrica clara y consistente para medir el éxito comercial de los videojuegos puede representar todo un desafío, pues este es un concepto que puede depender de factores como ventas, popularidad e ingresos, lo que lo vuelve un poco más complicado el “limitar” a la hora de definirlo.
+  
+  Identificación de Características Clave del Juego: En caso de no escoger las características de videojuegos adecuadas, puede que estas no estén presentes en nuestra base de datos o que no nos lleven a conclusiones relevantes, por ende afectando la integridad del proyecto. 
+  
+  Complejidad de las Relaciones: Entender las relaciones que pueden o no darse entre las características del juego y el éxito comercial puede ser algo complicado, pues existen interacciones y efectos que no son precisamente lineales y que podrían requerir de técnicas de análisis avanzadas (de las cuales no disponemos en este curso), lo que añade una capa más de complejidad a nuestro estudio que no fué contemplada al inicio.
+  
+  Comparabilidad entre Juegos: Los videojuegos pueden diferir significativamente en términos de presupuesto, marketing y otros factores externos al juego en sí, lo cual puede hacer más difícil aislar el efecto de las características de cada juego en el éxito comercial y por ende dificultarnos la labor de llegar a concluir alguna relación entre el juego y las características que lo llevaron ser exitoso. 
+
+### Reformulación de la idea en modo pregunta
+
+-   ¿Cómo se puede analizar el mercado de los videojuegos?
+
+-   ¿Por qué es importante analizar el mercado de los videojuegos para reconocer desencadenantes del éxito de la industria?
+
+-   ¿Qué características son fundamentales para el éxito comercial de un videojuego dado el contexto donde fue publicado?
+
+-   ¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxito comercial de los videojuegos?
+
+### Argumentación de la preguntas:
+
+¿Cómo se puede analizar el mercado de los videojuegos?
+
+*Contrargumentos:*
+
+-   *Lógica:* El análisis podría ser limitado si se considerara un subanálisis predictivo. Esto debido a que el mercado puede dar giros radicales; por ejemplo, se puede dar el caso de que anuncien una nueva consola de videojuegos.
+
+-   *Ética:* Existen videojuegos cuya temática es la violencia y realizar un proyecto donde se mencionan dichos videojuegos podría conducir a una publicidad accidental de un mercado de juegos violentos.
+
+-   *Emocional:* Un análisis simplificado del mercado de los videojuegos puede omitir aspectos como la propia perspectiva de un consumidor frente a cierto tipo de videojuegos, por ejemplo.
+
+*Argumentos:*
+
+-   *Lógica:* El análisis de este mercado podría aprovecharse de herramientas microeconómicas y macroeconómicas, pues a fin de cuentas sigue siguiendo un mercado.
+
+-   *Ética:* La mayoría de videojuegos requieren conexión permanente a internet, además, plataformas de videojuegos oficiales como Steam permiten acceder a bases de datos sobre videojugadores. Por lo tanto la información obtenida probablemente esté inalterada.
+
+-   *Emocional:* Gracias a los datos se podría ver que tan rentable es la industria de los videojuegos y de esta manera informar a la gente sobre dicha conclusión, pues existen muchas personas desempleadas que podrían incorporarse al mercado.
+
+*Conclusión:* El mercado de los videojuegos, como cualquier otro, presenta sus propias problemáticas micro y macroeconómicas. Es gracias a la salvedad de las herramientas económicas que se podrá hacer un análisis desde ambas perspectivas (consumidor y empresas), sin embargo se tendría un rezago en la parte emocional de las preferencias, por lo que el análisis puede llegar a ser considerado tosco.
+
+¿Por qué es importante analizar el mercado de los videojuegos para reconocer desencadenantes del éxito de la industria?
+
+*Contrargumentos:*
+
+-   *Lógica:* Existen otros mercados cuya influencia trasciende sustancialmente al de los videojuegos, un ejemplo de estos mercados puede ser el del petróleo, pues muchas actividades del día a día dependen de dicho recurso.
+
+-   *Ética:* En los últimos años se ha generado una gran ola de denuncias por parte de los trabajadores hacía las compañías desarrolladoras de videojuegos, lamentablemente, existen países como Japón en donde por su cultura los trabajadores no suelen visibilizar las problemáticas en los ambientes laborales. Por esta razón, la importancia de analizar este mercado no podría estar tan bien conceptualizada en este tipo de países. También podría darse el caso de que ciertos datos estén mostrando información "falsa", pues si se quisiera analizar las horas jugadas por jugador para asociar esto con las ventas, habría que tener en cuenta que muchas de esas horas corresponden a gente que estaba *afk*.
+
+-   *Emocional:* La preferencia de los consumidores estarían respaldadas bajo datos estadísticos; lo que implica que se ignorarán experiencias que los jugadores hayan experimentado mientras jugaban.
+
+*Argumentos:*
+
+-   *Lógica:* A nivel cultural sería interesante sonsacar la importancia de este mercado. Como expresión artística, los videojuegos podrían indicar una respuesta social a ciertos fenómenos de la actualidad como ha pasado con la música. Los datos estadísticos ayudarían a esclarecer este suceso.
+
+-   *Ética:* Un país en desarrollo como Costa Rica podría tomar acción al incursionar (o no) en el mercado de videojuegos gracias a las estadísticas. Si un país lograra éxito en este mercado sería posible aumentar las fuentes de ingresos.
+
+-   *Emocional:* Para muchas personas los videojuegos se les presentaron en su infancia; sería de especial interés conocer qué empresas han permanecido con sus sagas longevas de videojuegos y de esta manera complacer a sus consumidores.
+
+*Conclusión:* Pese a que bajo ciertas medidas los videojuegos no sean una industria tan influyente, siempre existirá este mercado de nicho que se mueve principalmente por razones emocionales. También es importante recalcar irregularidades del mercado para que se puedan corregir en el futuro y de esta manera mejorar el ambiente laboral, por ejemplo. También, aunque parezca utópico por la naturaleza del tema: el análisis puede servir para que gobiernos decidan si invertir recursos en la industria.
+
+¿Qué características son fundamentales para el éxito comercial de un videojuego dado el contexto donde fue publicado?
+
+*Contrargumentos:*
+
+-   *Lógica*: Los resultados de este análisis podrían no ser concretos. Los videojuegos empezaron a ser más notorios en la década de los 70 y desde entonces las tendencias han cambiado radicalmente.
+
+-   *Ética:* Si se fija el análisis dentro de un período específico, se obtendrían datos sobre características propias de videojuegos violentos, un ejemplo de esto es la década 2010-2020. De esta manera, se puede dar el caso de que algún grupo de personas interpreten de manera errónea la información.
+
+-   *Emocional:* Existen datos no parametrizables que pueden determinar el éxito de un videojuego, por ejemplo: la relación que pueden entablar varias personas en los juegos en línea.
+
+*Argumentos:*
+
+-   *Lógica:* Sería posible tener un análisis que demuestre el panorama actual de las preferencias de los videojugadores, por lo que a nivel sociológico o cultural se podrían notar patrones en las características de los videojuegos. Por ejemplo, una característica que sería de gran ayuda para este propósito es la de “géneros de los videojuegos”.
+
+-   *Ética:* Gracias a las características notadas, se podrían realizar sugerencias acerca de cómo tendrían que ser los videojuegos para mantener al público satisfecho.
+
+-   *Emocional:* El nicho de los videojuegos tiene una característica muy importante: la sociabilidad entre sus miembros. Realizar este análisis permitiría que las personas conozcan más acerca de sus preferencias en videojuegos y se vean incentivadas a socializar más.
+
+*Conclusión:* Aunque las características sean cambiantes, vale la pena realizar un análisis sobre períodos fijos y de esta manera conocer cuáles características fueron prevalecientes en dichos períodos. Un punto bueno de este análisis es el de la posibilidad de notar las mejores características de cada época y combinarlas para tratar de combatir irregularidades del presente.
+
+¿Por qué a las personas les atraen los videojuegos y su relación con el éxito de la industria?
+
+*Contraargumentos:*
+
+-   *Lógica:* Esta pregunta tiene una fuerte connotación emocional. Por lo tanto, resulta difícil socavar la premisa mediante datos numéricos y categóricos sencillos.
+
+-   *Ética:* Se ha visto casos de criminales que usan como medio a los videojuegos para realizar sus actos infames. Esto sucede gracias a juegos en línea en donde por ejemplo, un extorsionador puede utilizar a un infante para sus propósitos, por este y muchos otros motivos los videojuegos son atractivos para la delincuencia y los datos serían imprecisos para notarlo.
+
+-   *Emocional:* La atracción a los videojuegos puede conducir a una posterior adicción a los videojuegos, lo que repercute en consecuencias sociales negativas para el ya paciente psiquiátrico afectado. Desgraciadamente, la incorporación de este trastorno al DSM-V fue reciente por lo que no se tienen suficientes datos de este tema.
+
+*Argumentos:*
+
+-   *Lógica:* No podemos hablar de éxito de los videojuegos (a un nivel más profundo) basados en sus características sin antes responder a esta interrogante, pues es de la respuesta que obtenemos en una versión más primitiva (pero al mismo tiempo madura) una lista de las tan ansiadas características asociadas a dicho éxito desde el punto de vista del videojugador.
+
+-   *Ética:* Es menester de la sociedad conocer a través de un análisis los patrones de conducta que llevaron al auge y vigencia este fenómeno. De este modo la población en general tendrá un mejor juicio y panorama acerca del tema.
+
+-   *Emocional:* Un mundo sin videojuegos sería inimaginable para muchas personas, al final de cuentas muchas personas utilizan a los videojuegos como una herramienta para escapar de su realidad. Conocer qué factores están anudados a esta “fuga” de realidad podría ayudar a las personas a buscar ayuda psicológica y/o mejorarla.
+
+*Conclusión:* El punto más débil es la falta de información que pueden tener ciertos indicadores numéricos y categóricos para abstraer esta pregunta y responder. Sin embargo, se podría solventar ese problema al investigar de manera un poco más profunda sobre la conducta humana y estadísticas que se usen en estudios con propósito similar.
+
+    
+### Argumentacion a traves de datos.
+    
+_Fuente de Información:_
+La base de datos utilizada es el Steam Games Dataset, recopilado por Martin Bustos Roman en 2022 y disponible en Kaggle. Este dataset incluye información detallada sobre más de 85,000 videojuegos publicados en la plataforma Steam. El enlace de acceso es: https://doi.org/10.34740/KAGGLE/DS/2109585.
+ 
+_Contexto Temporal y Espacial de los Datos:_
+Temporal: El dataset cubre videojuegos lanzados desde los inicios de Steam hasta el año 2022, lo que permite analizar la evolución del mercado de videojuegos durante un período largo.
+Espacial: El dataset abarca un contexto espacial mundial, lo que permite realizar análisis que reflejen las tendencias y características del mercado de videojuegos a nivel internacional.
+ 
+_Facilidad de Obtener la Información:_
+La base de datos es de acceso público a través de Kaggle, lo que facilita la obtención y uso de la información. La recopilación de datos fue realizada utilizando la API de Steam, complementada con datos de Steam Spy.
+ 
+_Población de Estudio:_
+La población de estudio incluye todos los videojuegos disponibles en Steam, lo que representa una cobertura extensa del mercado de videojuegos .
+ 
+ 
+_Muestra Observada:_
+La muestra observada consta de más de 85,000 videojuegos, proporcionando una base sólida y representativa para el análisis.
+ 
+_Unidad Estadística o Individuos:_
+Cada unidad estadística en la tabla representa un videojuego individual. Cada fila en la tabla corresponde a un juego específico con sus características particulares, como precio, fecha de lanzamiento, reseñas, entre otros.
