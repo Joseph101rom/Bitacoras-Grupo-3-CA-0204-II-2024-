@@ -4,9 +4,7 @@ editor:
     wrap: 72
 ---
 
-# Bitacora 1:
-
-# Comandos Git
+# Bitacora 1
 
 ## Comando 1:
 
