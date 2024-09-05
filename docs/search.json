@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bitácora Grupo 3 que, CA-204 (II-2024)",
+    "section": "",
+    "text": "Introducción\nEn este proyecto se investigará qué características hacen que los videojuegos sean preferidos por los consumidores, para esto se utilizará una base de datos que contiene información sobre diferentes videojuegos y sus atributos. Lo que se quiere conseguir con lo anterior es descubrir patrones y relaciones que ayuden a entender qué elementos son clave para que un videojuego sea preferido por sobre los demás y para lograr esto se aplicarán técnicas de análisis de datos, para así poder identificar las características que hacen a esos juegos exitosos.",
+    "crumbs": [
+      "Introducción"
+    ]
+  },
+  {
     "objectID": "bitacora-1.html",
     "href": "bitacora-1.html",
     "title": "1  Bitacora 1",
