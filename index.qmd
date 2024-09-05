@@ -1,3 +1,4 @@
 # Introducción {.unnumbered}
 
-<> 
+En este proyecto se investigará qué características hacen que los videojuegos sean preferidos por los consumidores, para esto se utilizará una base de datos que contiene información sobre diferentes videojuegos y sus atributos. Lo que se quiere conseguir con lo anterior es descubrir patrones y relaciones que ayuden a entender qué elementos son clave para que un videojuego sea preferido por sobre los demás y para lograr esto se aplicarán técnicas de análisis de datos, para así poder identificar las características que hacen a esos juegos exitosos.
+
