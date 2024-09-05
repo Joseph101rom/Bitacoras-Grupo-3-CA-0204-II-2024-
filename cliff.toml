@@ -1,0 +1,11 @@
+[header]
+name = "CHANGELOG"
+description = "Changelog for my project"
+date_format = "%Y-%m-%d"
+
+[sections]
+[sections.unreleased]
+title = "Unreleased"
+
+[sections.changes]
+title = "Changes"
