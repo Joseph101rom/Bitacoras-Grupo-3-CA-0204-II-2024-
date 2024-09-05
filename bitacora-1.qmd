@@ -333,4 +333,24 @@ __■ Fuente:__ @josephficha1
 
 ## Construcción de la UVE de Gowin
 # Parte de escritura
+## Selección de la pregunta:
+
+¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxitocomercial de los videojuegos?
+
+### Argumentación: 
+
+La pregunta escogida tiene origen en la investigación realizada de las otras tres preguntas potenciales. La razón principal es qué la misma tiene la característica de englobar (no necesariamente en una magnitud uniforrme) a las demás de manera explícita como ímplicita. Para dilucidar la naturaleza de la pregunta, se mostrará la siguiente comparación: 
+
+__(i)__ ¿Qué características son fundamentales para el éxito comercial de un videojuego dado el contexto donde fue publicado? ó ¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxitocomercial de los videojuegos?
+
+Primero, note que el corazón de la primera pregunta reside en las palabras *características* y *fundamentales*. De esta pregunta, podemos plantear las siguientes: ¿Existen características generales que hagan que a las personas les gusten los videojuegos? y ¿Si existen dichas características, qué tan fundamentales son en el mercado de los videojuegos para la desición de los consumidores? Se puede hallar, de manera parcial, una respuesta a ambas preguntas en el escapismo que menciona 
+@maria2019 en su respectivo artículo; pero es que además esta respuesta funge de igual manera en la pregunta elegida por el grupo. Finalmente, tras confrontar ambas preguntas y notar esta relación: se determinó cuál pregunta resultó vencedora, o sea la que se eligió. 
+
+__(ii)__ ¿Por qué es importante analizar el mercado de los videojuegos para reconocer desencadenantes del éxito de la industria? ó ¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxitocomercial de los videojuegos?
+
+El vínculo entre estas dos preguntas no parece tan clara a primera vista, no obstante y de manera empírica se pueden utilizar las conclusiones del Estudio sobre juegos para móviles: hábitos en el sector ‘gaming’ (@Ref4) para proponer respuestas a la primera pregunta. En este estudio se mencionan dos cosas importantes: *frecuencia de juego* y  *celulares*, el celular es posiblemente el objeto más utilizado del siglo ventiúno. "El celular es el objeto más utilizado" es lo mismo que decir "La frecuencia de uso del celular corresponde a la mayor de otro objeto", entonces es natural pensar que si existen videojuegos de celulares, esto implicaría que no es de extrañar que los videojuegos para móbiles sean tan populares; ¿Son estas características fundamentales (relación con lo planteado en (i)) para el éxito de los videojuegos? Si la respuesta es afirmativa, entonces por transitividad se llega a que esta podría ser una razón de preferencia de los consumidores frente a los videojuegos. De semejante manera se llega a la misma conclusión que en (i): la respuesta ante la hipótesis planteada en este inciso funciona para ambas interrogantes. 
+
+__(iii)__ ¿Cómo se puede analizar el mercado de los videojuegos? ó ¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxito comercial de los videojuegos?
+
+Se desestimó fácilmente la primera pregunta, pues el mercado se puede analizar desde las preferencias, y para entender las preferencias se necesita entender el por qué de esta; o sea, el origen de la atracción que los videojuegos han cultivado en millones de personas.
 # Referencias:
