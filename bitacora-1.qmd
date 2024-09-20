@@ -849,7 +849,24 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 **■ [Fuente](https://en.wikipedia.org/wiki/Video_game_mechanics)**: @Ref12
 
+**Ficha 13:**
 
+**■ Título:** Estudio de mercado sobre juegos para móviles y gaming  
+**■ Autor(es):** We Are Testers  
+**■ Año:** 2024  
+**■ Nombre del tema:** Tendencias en el mercado de juegos móviles y gaming  
+**■ Forma de organizarlo:**  
+- **Cronológico:** Datos actuales del año 2024.  
+- **Metodológico:** Estudio de mercado basado en encuestas y análisis de tendencias.  
+- **Temático:** Comportamiento del consumidor y preferencias en juegos móviles.  
+- **Teoría:** Marketing de productos digitales y comportamiento de usuario.  
+
+**■ Resumen en una oración:** Estudio exhaustivo sobre las tendencias actuales y el comportamiento del consumidor en el mercado de juegos móviles.  
+**■ Argumento central:** Los juegos móviles están dominando el mercado global del gaming, y las empresas deben adaptarse a las nuevas preferencias del consumidor para mantenerse competitivas.  
+**■ Problemas con el argumento o el tema:** Puede estar limitado a una muestra específica y no representar completamente todos los mercados globales.  
+**■ Resumen en un párrafo:** El estudio de mercado elaborado por We Are Testers explora las tendencias y cambios en el comportamiento del consumidor en el sector de los juegos para móviles. Se destacan elementos como el creciente interés por los juegos casuales, el impacto de la publicidad en los juegos móviles y cómo las empresas pueden capitalizar estas tendencias para mejorar su estrategia de marketing. Además, el estudio ofrece una visión general del perfil del jugador moderno, señalando la importancia de adaptar los productos a las demandas cambiantes del mercado digital.  
+
+**■ [Fuente](https://www.wearetesters.com/estudios-de-mercado/gaming/)**: @Ref13
 
 
 
