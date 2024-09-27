@@ -79,13 +79,18 @@ K-means es un método de agrupamiento que divide un conjunto de datos en (k) gru
 
 1.  **Inicialización**: Seleccionar (k) centroides iniciales aleatorios.
 
-2\. **Asignación**: Cada videojuego se asigna al clúster cuyo centroide está más cercano.
+2. **Asignación**: Cada videojuego se asigna al clúster cuyo centroide está más cercano.
 
 3.  **Recalculación**: Se actualizan los centroides como el promedio de los puntos en cada clúster.
 
-4\. **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides se estabilizan.
+4. **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides se estabilizan.
 
-**Ecuación del Algoritmo**: \[ \text{Minimizar} \sum\*{i=1}\^{n}\* \sum{j=1}\^{k} \|x_i - c_j\|\^2 \] Donde (x_i) es un videojuego y (c_j) es el centroide del clúster (j).
+**Ecuación del Algoritmo**:\[
+\text{Minimizar} \sum_{i=1}^{n} \sum_{j=1}^{k} \|x_i - c_j\|^2
+\]
+
+
+Donde $(x_i)$ es un videojuego y $(c_j)$ es el centroide del clúster (j).
 
 **Fuente**: @Ref16
 
