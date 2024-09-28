@@ -925,12 +925,62 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 **■ Resumen en un párrafo:** En su artículo seminal, MacQueen presenta el método K-means, un enfoque innovador para clasificar datos en grupos basados en sus características. El autor describe el algoritmo, su implementación y las ventajas de su uso en el análisis multivariado. A través de ejemplos, MacQueen ilustra cómo K-means puede simplificar la clasificación y la interpretación de conjuntos de datos complejos, aunque también señala las limitaciones del método, especialmente en términos de sensibilidad a la elección de los centroides iniciales y la presencia de valores atípicos.  
 **■ [Fuente](https://projecteuclid.org/euclid.bsmsp/1200512992)**: @Ref16
 
+**Ficha 17:**
 
 
+**■ Título:** The Impact of Video Games on the Players Behaviors: A Survey  
+**■ Autor(es):** Muhannad, Quwaider; Alabed, Abdullah y Duwairi, Rehab.  
+**■ Año:** 2019  
+**■ Nombre del tema:** Impacto de los videojuegos en el comportamiento  
+**■ Forma de organizarlo:**  
+- **Cronológico:** Comportamiento de los jugadores conforme el desarrollo de videojuegos  
+- **Metodológico:** Investigación teórica y práctica.  
+- **Temático:** Impactos positivos y negativos sobre el comportamiento.  
+- **Teoría:** Psicología moldeable de los jugadores.  
 
 
+**■ Resumen en una oración:** Este artículo concluye comportamientos típicos de ciertos jugadores.
+**■ Argumento central:** Comportamientos positivos y negativos sobre el comportamiento de los jugadores.  
+**■ Problemas con el argumento o el tema:** A veces puede parecer sesgado.   
+**■ Resumen en un párrafo:** Es bien sabido que los videojuegos impactan de manera emocional en las personas, se han documentado ya efectos negativos y positivos en otros artículos. La propuesta de los autores se enfoca más en analizar esa parte agresiva que queda expuesta más que nada por los juegos competitivos. 
+
+**Ficha 18:**
 
 
+**■ Título:** Sports: pasado y presente de las competiciones de videojuegos 
+**■ Autor(es):** Mesonero,. S.  
+**■ Año:** 2019  
+**■ Nombre del tema:** Deportes electrónicos.  
+**■ Forma de organizarlo:**  
+- **Cronológico:** Auge de los deportes electrónicos en la última década.  
+- **Metodológico:** Investigación teórica.  
+- **Temático:** Competiciones de videojuegos.   
+- **Teoría:** Historia de la evolución de los eSports; retos y desarrollo.  
+
+
+**■ Resumen en una oración:** El autor narra la evolución que han tenido los deportes electrónicos; desde juegos arcaicos de arcade hasta videojuegos como League of Legends.
+**■ Argumento central:** Historia de los eSports.  
+**■ Problemas con el argumento o el tema:** El autor es muy optimista al respecto y no menciona mucho las partes negativas.   
+**■ Resumen en un párrafo:** Mucha gente nunca se hubiera imaginado que los videojuegos podrían ser un trabajo; es el rompimiento de dichos paradigmas en lo que se enfoca este artículo. A grandes rasgos se da a entender que un competidor de videojuegos está tan enfocado en ello que hasta puede darse el lujo de vivir de esto. 
+
+**Ficha 19:**
+
+
+**■ Título:** Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions 
+**■ Autor(es):** Goh, Edward y Al-Tabbaa, Omar y Khaan, Zaheer  
+**■ Año:** 2023 
+**■ Nombre del tema:** Industria de los videojuegos.
+**■ Forma de organizarlo:**  
+- **Cronológico:** Actualidad.  
+- **Metodológico:** Investigación teórica.  
+- **Temático:** Mercado de los videojuegos y filosofía económica.
+- **Teoría:** Importancia y complejidad de la industria de los videojuegos.  
+
+
+**■ Resumen en una oración:** Análisis en varias aristas sobre el mercado de los videojuegos.
+**■ Argumento central:** Análisis socioeconómico del mercado de los videojuegos.  
+**■ Problemas con el argumento o el tema:** Se siente redundante y circular por momentos.   
+**■ Resumen en un párrafo:** Los videojuegos, vistos desde un foco económico, no son más que otro mercado. Este comprende aspectos como: el marketing, consumidores y las empresas. Con base en estos y otros datos económicos se pretende predecir el comportamiento de este mercado (desde cuanto generará para el 2027 hasta la calidad de los videojuegos). 
 
 
 
@@ -949,7 +999,7 @@ Fuentes:
 ## Selección de la pregunta:
 
 ¿Por qué a las personas les atraen los videojuegos y cuál es su relación
-con el éxitocomercial de los videojuegos?
+con el éxito comercial de los videojuegos?
 
 ### Argumentación:
 
