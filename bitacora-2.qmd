@@ -126,11 +126,11 @@ El resumen de cada variable constará de: la mediana, el promedio, mínimo y má
 
 ### Gráficos:
 
-![Histograma sobre la variable de fechas de lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="Refleja el volumen de juegos lanzados por fecha." fig-align="center" width="137mm" height="108mm"}
+![Gráfico 1: Histograma sobre la variable de fechas de lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="." fig-align="center" width="137mm" height="108mm"}
 
-![Distribución Jugadores estimados y notas en Metacritic.](imagenes/GamersAndCriticsRelations.png){fig-align="center" width="138mm" height="93mm"}
+![Gráfico 2: Distribución Jugadores estimados y notas en Metacritic.](imagenes/GamersAndCriticsRelations.png){fig-align="center" width="138mm" height="93mm"}
 
-![Dispersión hexagonal de las variables jugadores estimados y precio.](imagenes/Rplot02.png){fig-align="center" width="138mm" height="92mm"}
+![Gráfico 3: Dispersión hexagonal de las variables jugadores estimados y precio.](imagenes/Rplot02.png){fig-align="center" width="138mm" height="92mm"}
 
 ## Propuesta Metodológica
 
@@ -197,10 +197,22 @@ K-means es un método de agrupamiento que divide un conjunto de datos en (k) gru
 
 4.  **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides se estabilizan.
 
-**Ecuación del Algoritmo**:\[ \text{Minimizar} \sum*{i=1}\^{n}* \sum{j=1}\^{k} \|x_i - c_j\|\^2 \]
+**Ecuación del Algoritmo**:\[ \text{Minimizar} \sum\*{i=1}\^{n}\* \sum{j=1}\^{k} \|x_i - c_j\|\^2 \]
 
 Donde $(x_i)$ es un videojuego y $(c_j)$ es el centroide del clúster (j).
 
 **Fuente**: @Ref16
 
 ## Construcción de Fichas de Resultados
+
+**Ficha I**:
+
+■ Nombre del hallazgo: Relación entre jugadores y la crítica de juegos.
+
+■ Resumen en una oración: Los jugadores prefieren videojuegos con mejor nota en Metacritic.
+
+■ Principal característica: Relación positiva entre las notas de Metacritic y cantidad de jugadores.
+
+■ Posibles desafíos: Entender el porqué de esta relación positiva (indicada por la pendiente de la línea de tendencia del gráfico 3), pues se está frente a un fenómenos subjetivo que requerirá de análisis alineados a la idea de la subjetividad. Las encuentas podrían servir.
+
+■ Resumen de un párrafo: La línea de tendencia de la gráfica 3 es clara; existe una relación positiva entre las notas de Metacritic y la cantidad de jugadores por juego. Este resultado a priori era de esperarse, sin embargo, dada la subjetividad del resultado puede ser difícil concluir con un porqué de manera exacta. 
