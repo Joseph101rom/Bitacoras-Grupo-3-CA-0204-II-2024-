@@ -20,108 +20,113 @@ En el estudio "Mastering Uncertainty: A Predictive Processing Account of Enjoyin
 
 "The Impact of Video Games on the Players Behaviors: A Survey" (2019) de Quwaider, et al., es un estudio que per sé contrasta los efectos negativos y positivos de los videojuegos tratando de hacerlo desde una óptica generalizada. En este estudio, los autores mencionan aspectos negativos de los videojuegos como: adicción a los videojuegos y recaídas y conductas violentas. Este último aspecto se alinea con lo encontrado por Di Blasi(2020) en su análisis sobre los juegos MMROPG; género también mencionado en este estudio. De forma más general, se menciona que los videojuegos de carácter competitivo son los gatilleros de este tipo de conductas antisociales, lo cual tiene mucho sentido si se compara con los eventos deportivos más importantes en el país; como lo es alguna final entre equipos de primera división, cuyos fanáticos son capaces de violentarse entre sí dado que su equipo perdió (ganó).
 
-Un estudio que es clave para entender el mercado en la actualidad es el de los sPorts o deportes electrónicos. Gracias al aporte de Sergio Mesonero (2019) en su artículo "eSports: pasado y presente de las competiciones de videojuegos", se puede llegar a incluso simpatizar con lo que representa esta industria. No es muy difícil notar en redes sociales como muchas personas están en contra del financiamiento que se les da a las competencias electrónicas, y no es de extrañar pues la sociedad está acostumbrada a presenciar competiciones donde el contacto físico es clave. La simpatía puede venir de parte del reconocimiento que se le hace a los competidores, quienes tienen que entrenar de manera frecuente sus artificios videojueguiles. 
-No es difícil notar que este fenómeno involucra un sistema de recompensa basado en la incertidumbre, (características evocadas en el estudio "Mastering Uncertainty: A Predictive Processing Account of Enjoying Uncertain Success in Video Game Play" (2022)) en donde las consecuencias de la misma son más severas (se gana o incluso se pierde dinero). 
+Un estudio que es clave para entender el mercado en la actualidad es el de los sPorts o deportes electrónicos. Gracias al aporte de Sergio Mesonero (2019) en su artículo "eSports: pasado y presente de las competiciones de videojuegos", se puede llegar a incluso simpatizar con lo que representa esta industria. No es muy difícil notar en redes sociales como muchas personas están en contra del financiamiento que se les da a las competencias electrónicas, y no es de extrañar pues la sociedad está acostumbrada a presenciar competiciones donde el contacto físico es clave. La simpatía puede venir de parte del reconocimiento que se le hace a los competidores, quienes tienen que entrenar de manera frecuente sus artificios videojueguiles. No es difícil notar que este fenómeno involucra un sistema de recompensa basado en la incertidumbre, (características evocadas en el estudio "Mastering Uncertainty: A Predictive Processing Account of Enjoying Uncertain Success in Video Game Play" (2022)) en donde las consecuencias de la misma son más severas (se gana o incluso se pierde dinero).
 
-"Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions" (2023) es un estudio cuyo enfoque es el mercado de los videojuegos desde un punto mucho más económico. Los autores argumentaron las dimensiones monetarias que abarca esta industria comprendida en millones de dólares. Los números son buenos indicadores para argumentar la existencia de mercados derivados de los videojuegos, como los son los sPorts mencionados por Sergio Mesonero(2019) en su artículo "eSports: pasado y presente de las competiciones de videojuegos". De acuerdo a Goh Edward et al., el mercado de los videojuegos se mantendrá fuerte y se espera que siga creciendo. Según la hipótesis del crecimiento en este mercado, los jugadores esperarían juegos de calidad superior y más ideas innovadoras como lo puede ser la creación de una nueva consola de sobremesa. 
+"Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions" (2023) es un estudio cuyo enfoque es el mercado de los videojuegos desde un punto mucho más económico. Los autores argumentaron las dimensiones monetarias que abarca esta industria comprendida en millones de dólares. Los números son buenos indicadores para argumentar la existencia de mercados derivados de los videojuegos, como los son los sPorts mencionados por Sergio Mesonero(2019) en su artículo "eSports: pasado y presente de las competiciones de videojuegos". De acuerdo a Goh Edward et al., el mercado de los videojuegos se mantendrá fuerte y se espera que siga creciendo. Según la hipótesis del crecimiento en este mercado, los jugadores esperarían juegos de calidad superior y más ideas innovadoras como lo puede ser la creación de una nueva consola de sobremesa.
 
 # Análisis Estadísticos
 
 ## Análisis Descriptivo
 
-El resumen de cada variable constará de: la mediana, el promedio, mínimo y máximo, rango y desviación estándar. Existirán variables como la fecha de lanzamiento en donde se omitirán algunas mediciones. 
+El resumen de cada variable constará de: la mediana, el promedio, mínimo y máximo, rango y desviación estándar. Existirán variables como la fecha de lanzamiento en donde se omitirán algunas mediciones.
 
 ### Resúmenes:
 
-::: {.callout}
+::: callout
 **Jugadores estimados**:
 
-- Mediana: 150 000.
+-   Mediana: 150 000.
 
-- Promedio: 861937,2.
+-   Promedio: 861937,2.
 
-- Mínimo: 10000. 
+-   Mínimo: 10000.
 
-- Máximo: 150000000.
+-   Máximo: 150000000.
 
-- Rango: 149999000. 
+-   Rango: 149999000.
 
-- Desviación estándar: 4003982,9.
+-   Desviación estándar: 4003982,9.
 :::
 
-::: {.callout}
+::: callout
 **Precio de los videojuegos (en dólares)**:
 
-- Mediana: 12,99.
+-   Mediana: 12,99.
 
-- Promedio: 15,03278
+-   Promedio: 15,03278
 
-- Mínimo: 0.
+-   Mínimo: 0.
 
-- Máximo: 69,99.
+-   Máximo: 69,99.
 
-- Rango: 69,99. 
+-   Rango: 69,99.
 
-- Desviación estándar: 11,78411.
+-   Desviación estándar: 11,78411.
 :::
 
-::: {.callout}
+::: callout
 **Nota de Metacritic**:
 
-- Mediana: 74.
+-   Mediana: 74.
 
-- Promedio: 72,93191.
+-   Promedio: 72,93191.
 
-- Mínimo: 20. 
+-   Mínimo: 20.
 
-- Máximo: 97.
+-   Máximo: 97.
 
-- Rango: 77.
+-   Rango: 77.
 
-- Desviación estándar: 10,58026.
+-   Desviación estándar: 10,58026.
 :::
 
-::: {.callout}
+::: callout
 **Reseñas positivas (positive)**:
 
-- Mediana: 929.
+-   Mediana: 929.
 
-- Promedio: 12588,49.
+-   Promedio: 12588,49.
 
-- Mínimo: 0. 
+-   Mínimo: 0.
 
-- Máximo: 5764420.
+-   Máximo: 5764420.
 
-- Rango: 5764420. 
+-   Rango: 5764420.
 
-- Desviación estándar: 106383,23.
+-   Desviación estándar: 106383,23.
 :::
 
-::: {.callout}
+::: callout
 **Negative (reseñas negativas)**:
 
-- Mediana: 198.
+-   Mediana: 198.
 
-- Promedio: 1691,981.
+-   Promedio: 1691,981.
 
-- Mínimo: 0. 
+-   Mínimo: 0.
 
-- Máximo: 766677.
+-   Máximo: 766677.
 
-- Rango: 766677. 
+-   Rango: 766677.
 
-- Desviación estándar: 14692,469.
+-   Desviación estándar: 14692,469.
 :::
 
-::: {.callout}
+::: callout
 **Fechas de lanzamiento**:
 
-- Mínimo: 1997.
+-   Mínimo: 1997.
 
-- Máximo: 2024.
+-   Máximo: 2024.
 
-- Rango: 27.  
+-   Rango: 27.\
 :::
+
+### Gráficos:
+
+![Histograma sobre la variable de fechas de lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="Refleja el volumen de juegos lanzados por fecha." fig-align="center" width="120mm" height="100mm"}
+
+![Histograma sobre como se distribuyen los juegos según su nota.](imagenes/DistribucionJuegosNota.png){fig-align="center" width="120mm" height="90mm"}
 
 ## Propuesta Metodológica
 
@@ -147,8 +152,7 @@ Se formularán varios métodos que permitirán analizar el **Steam Games Dataset
 
 \- **Estimated players**: Número estimado de propietarios/jugadores del videojuego.
 
-\- **Release Date**: Fecha de lanzamiento del videojuego. 
-
+\- **Release Date**: Fecha de lanzamiento del videojuego.
 
 **Fuente**: @Ref14
 
@@ -183,16 +187,13 @@ K-means es un método de agrupamiento que divide un conjunto de datos en (k) gru
 
 1.  **Inicialización**: Seleccionar (k) centroides iniciales aleatorios.
 
-2. **Asignación**: Cada videojuego se asigna al clúster cuyo centroide está más cercano.
+2.  **Asignación**: Cada videojuego se asigna al clúster cuyo centroide está más cercano.
 
 3.  **Recalculación**: Se actualizan los centroides como el promedio de los puntos en cada clúster.
 
-4. **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides se estabilizan.
+4.  **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides se estabilizan.
 
-**Ecuación del Algoritmo**:\[
-\text{Minimizar} \sum_{i=1}^{n} \sum_{j=1}^{k} \|x_i - c_j\|^2
-\]
-
+**Ecuación del Algoritmo**:\[ \text{Minimizar} \sum*{i=1}\^{n}* \sum{j=1}\^{k} \|x_i - c_j\|\^2 \]
 
 Donde $(x_i)$ es un videojuego y $(c_j)$ es el centroide del clúster (j).
 
