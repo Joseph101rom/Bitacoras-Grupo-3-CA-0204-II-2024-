@@ -216,3 +216,15 @@ Donde $(x_i)$ es un videojuego y $(c_j)$ es el centroide del clúster (j).
 ■ Posibles desafíos: Entender el porqué de esta relación positiva (indicada por la pendiente de la línea de tendencia del gráfico 3), pues se está frente a un fenómenos subjetivo que requerirá de análisis alineados a la idea de la subjetividad. Las encuentas podrían servir.
 
 ■ Resumen de un párrafo: La línea de tendencia de la gráfica 3 es clara; existe una relación positiva entre las notas de Metacritic y la cantidad de jugadores por juego. Este resultado a priori era de esperarse, sin embargo, dada la subjetividad del resultado puede ser difícil concluir con un porqué de manera exacta. 
+
+**Ficha II**: 
+
+■ Nombre del hallazgo: Bastantes juegos lanzados en el período 2014-2019.
+
+■ Resumen en una oración: La mayoría de juegos son pertenecen al período 2014-2019.
+
+■ Principal característica: Como se puede observar en el gráfico 1, la mayoría de juegos en Steam se ubican en el quarto de la década del 2010. 
+
+■ Posibles desafíos: Una explicación a este fenómeno se podría hacer por el método de descarte. Resultaría factible analizar porqué los juegos lanzados antes y después del período mencionado son pocos. 
+
+■ Resumen de un párrafo: Se halló que la mayoría de los videojuegos se encuentran en este rango temporal. Para explicar esto, un método coherente será el de tratar de explicar porqué no salieron tantos juegos en las otras épocas. Una explicación parcial podría ser la pandemia, sin embargo, son solo conjeturas y se requerirán analizar más estudios. 
