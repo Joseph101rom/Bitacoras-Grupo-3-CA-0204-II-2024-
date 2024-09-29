@@ -128,6 +128,8 @@ El resumen de cada variable constará de: la mediana, el promedio, mínimo y má
 
 ![Histograma sobre como se distribuyen los juegos según su nota.](imagenes/DistribucionJuegosNota.png){fig-align="center" width="120mm" height="90mm"}
 
+![Dispersión hexagonal de las variables jugadores estimados y precio.](imagenes/Rplot02.png){fig-align="center" width="120mm" height="80mm"}
+
 ## Propuesta Metodológica
 
 ### Nuevos Métodos
