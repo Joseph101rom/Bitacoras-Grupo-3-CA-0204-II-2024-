@@ -5,6 +5,7 @@ datos_limpios <- read_csv("datos_limpios.csv")
 head(datos_limpios)
 summary(datos_limpios)
 str(datos_limpios)
+
 library(ggplot2)
 
 ggplot(datos_limpios, aes(x = Price)) +

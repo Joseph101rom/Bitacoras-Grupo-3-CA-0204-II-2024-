@@ -29,6 +29,100 @@ No es difícil notar que este fenómeno involucra un sistema de recompensa basad
 
 ## Análisis Descriptivo
 
+El resumen de cada variable constará de: la mediana, el promedio, mínimo y máximo, rango y desviación estándar. Existirán variables como la fecha de lanzamiento en donde se omitirán algunas mediciones. 
+
+### Resúmenes:
+
+::: {.callout}
+**Jugadores estimados**:
+
+- Mediana: 150 000.
+
+- Promedio: 861937,2.
+
+- Mínimo: 10000. 
+
+- Máximo: 150000000.
+
+- Rango: 149999000. 
+
+- Desviación estándar: 4003982,9.
+:::
+
+::: {.callout}
+**Precio de los videojuegos (en dólares)**:
+
+- Mediana: 12,99.
+
+- Promedio: 15,03278
+
+- Mínimo: 0.
+
+- Máximo: 69,99.
+
+- Rango: 69,99. 
+
+- Desviación estándar: 11,78411.
+:::
+
+::: {.callout}
+**Nota de Metacritic**:
+
+- Mediana: 74.
+
+- Promedio: 72,93191.
+
+- Mínimo: 20. 
+
+- Máximo: 97.
+
+- Rango: 77.
+
+- Desviación estándar: 10,58026.
+:::
+
+::: {.callout}
+**Reseñas positivas (positive)**:
+
+- Mediana: 929.
+
+- Promedio: 12588,49.
+
+- Mínimo: 0. 
+
+- Máximo: 5764420.
+
+- Rango: 5764420. 
+
+- Desviación estándar: 106383,23.
+:::
+
+::: {.callout}
+**Negative (reseñas negativas)**:
+
+- Mediana: 198.
+
+- Promedio: 1691,981.
+
+- Mínimo: 0. 
+
+- Máximo: 766677.
+
+- Rango: 766677. 
+
+- Desviación estándar: 14692,469.
+:::
+
+::: {.callout}
+**Fechas de lanzamiento**:
+
+- Mínimo: 1997.
+
+- Máximo: 2024.
+
+- Rango: 27.  
+:::
+
 ## Propuesta Metodológica
 
 ### Nuevos Métodos
@@ -47,11 +141,14 @@ Se formularán varios métodos que permitirán analizar el **Steam Games Dataset
 
 \- **Negative**: Número de reseñas negativas.
 
--   **User score**: Calificación otorgada por los usuarios.
+\- **User score**: Calificación otorgada por los usuarios.
 
 \- **Metacritic score**: Calificación del videojuego en Metacritic.
 
-\- **Estimated owners**: Número estimado de propietarios del videojuego.
+\- **Estimated players**: Número estimado de propietarios/jugadores del videojuego.
+
+\- **Release Date**: Fecha de lanzamiento del videojuego. 
+
 
 **Fuente**: @Ref14
 
