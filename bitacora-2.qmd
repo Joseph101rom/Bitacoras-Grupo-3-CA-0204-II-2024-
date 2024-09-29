@@ -126,11 +126,11 @@ El resumen de cada variable constará de: la mediana, el promedio, mínimo y má
 
 ### Gráficos:
 
-![Histograma sobre la variable de fechas de lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="Refleja el volumen de juegos lanzados por fecha." fig-align="center" width="120mm" height="100mm"}
+![Histograma sobre la variable de fechas de lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="Refleja el volumen de juegos lanzados por fecha." fig-align="center" width="137mm" height="108mm"}
 
-![Histograma sobre como se distribuyen los juegos según su nota.](imagenes/DistribucionJuegosNota.png){fig-align="center" width="120mm" height="90mm"}
+![Distribución Jugadores estimados y notas en Metacritic.](imagenes/GamersAndCriticsRelations.png){fig-align="center" width="138mm" height="93mm"}
 
-![Dispersión hexagonal de las variables jugadores estimados y precio.](imagenes/Rplot02.png){fig-align="center" width="120mm" height="80mm"}
+![Dispersión hexagonal de las variables jugadores estimados y precio.](imagenes/Rplot02.png){fig-align="center" width="138mm" height="92mm"}
 
 ## Propuesta Metodológica
 
