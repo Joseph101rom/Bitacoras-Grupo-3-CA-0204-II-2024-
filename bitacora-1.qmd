@@ -433,6 +433,53 @@ comercial de los videojuego.
 -   @Ref18
 -   @Ref19
 
+### Ordenamiento de la literatura 
+
+library(knitr)
+fichas_bibliograficas <- data.frame(
+  Tipo = c("Cronológico", "Metodológico", "Temático", "Teoría", 
+           "Cronológico", "Metodológico", "Temático", "Teoría", 
+           "Cronológico", "Metodológico", "Temático", "Teoría", 
+           "Cronológico", "Metodológico", "Temático", "Teoría",
+           "Cronológico", "Metodológico", "Temático", "Teoría",
+           "Cronológico", "Metodológico", "Temático", "Teoría"),
+  "Tema general" = c("Globalización de la cultura japonesa", "Globalización de la cultura japonesa", "Globalización de la cultura japonesa", "Globalización de la cultura japonesa",
+                     "Gaming Disorder", "Gaming Disorder", "Gaming Disorder", "Gaming Disorder",
+                     "Diversión en videojuegos", "Diversión en videojuegos", "Diversión en videojuegos", "Diversión en videojuegos",
+                     "Política en videojuegos", "Política en videojuegos", "Política en videojuegos", "Política en videojuegos",
+                     "Industria de videojuegos en España", "Industria de videojuegos en España", "Industria de videojuegos en España", "Industria de videojuegos en España",
+                     "Marketing en videojuegos", "Marketing en videojuegos", "Marketing en videojuegos", "Marketing en videojuegos"),
+  "Tema específico" = c("Crisis económica de los años 90", "Análisis de mercado", "Análisis transmediático", "Cool Japan",
+                        "Entre 2017-2018", "Encuestas y datos", "Salud mental en jugadores", "Escape de la realidad",
+                        "Contexto actual", "Revisión teórica, encuestas", "Factores de diversión", "Psicología de la diversión",
+                        "No especificado", "Análisis cualitativo", "Impacto en política", "Ludoficción",
+                        "Contexto actual", "Estudio descriptivo", "Aspectos económicos", "Industria creativa",
+                        "Estrategias actuales", "Análisis de caso", "Marketing digital", "Marketing estratégico"),
+  "Título" = c("Manga, anime y videojuegos japoneses", "Manga, anime y videojuegos japoneses", "Manga, anime y videojuegos japoneses", "Manga, anime y videojuegos japoneses",
+               "Problematic video game use as an emotional coping strategy", "Problematic video game use as an emotional coping strategy", "Problematic video game use as an emotional coping strategy", "Problematic video game use as an emotional coping strategy",
+               "¿Qué hace divertido un videojuego?", "¿Qué hace divertido un videojuego?", "¿Qué hace divertido un videojuego?", "¿Qué hace divertido un videojuego?",
+               "LA POLÍTICA A LA QUE JUGAMOS", "LA POLÍTICA A LA QUE JUGAMOS", "LA POLÍTICA A LA QUE JUGAMOS", "LA POLÍTICA A LA QUE JUGAMOS",
+               "Análisis de la industria del videojuego en España", "Análisis de la industria del videojuego en España", "Análisis de la industria del videojuego en España", "Análisis de la industria del videojuego en España",
+               "Plan de marketing para una empresa de videojuegos", "Plan de marketing para una empresa de videojuegos", "Plan de marketing para una empresa de videojuegos", "Plan de marketing para una empresa de videojuegos"),
+  Año = c(2012, 2012, 2012, 2012, 
+          2019, 2019, 2019, 2019, 
+          2023, 2023, 2023, 2023, 
+          "No especificado", "No especificado", "No especificado", "No especificado",
+          2024, 2024, 2024, 2024,
+          2024, 2024, 2024, 2024),
+  "Autor(es)" = c("Carmen Mangirón", "Carmen Mangirón", "Carmen Mangirón", "Carmen Mangirón",
+                  "Maria Di Blasi", "Maria Di Blasi", "Maria Di Blasi", "Maria Di Blasi",
+                  "Guerrero Pastor, Marta", "Guerrero Pastor, Marta", "Guerrero Pastor, Marta", "Guerrero Pastor, Marta",
+                  "STEAM, ON", "STEAM, ON", "STEAM, ON", "STEAM, ON",
+                  "Autor Desconocido", "Autor Desconocido", "Autor Desconocido", "Autor Desconocido",
+                  "Autor Desconocido", "Autor Desconocido", "Autor Desconocido", "Autor Desconocido")
+)
+
+kable(fichas_bibliograficas, align = "c", col.names = c("Tipo", "Tema General", "Tema Específico", "Título", "Año", "Autor(es)"))
+
+
+
+
 ### Construcción de fichas de literatura
 
 **Ficha 1:**
