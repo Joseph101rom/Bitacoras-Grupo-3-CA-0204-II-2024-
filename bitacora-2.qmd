@@ -240,22 +240,27 @@ de lanzamiento en donde se omitirán algunas mediciones.
 
 ### Gráficos:
 
-![Gráfico 1: Histograma sobre la variable de fechas de
-lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="."
-fig-align="center" width="137mm" height="108mm"}
+![Gráfico: Histograma frecuencial de los juegos lanzados por
+año.](FreqGamesPerYear.png){fig-align="center" width="137mm"}
 
-![Gráfico 2: Distribución Jugadores estimados y notas en
-Metacritic.](imagenes/GamersAndCriticsRelations.png){fig-align="center"
-width="138mm" height="93mm"}
+![Gráfico 2: Dispersión entre la variable nota en Metacritic con la de
+jugadores
+estimados.](imagenes/GamersAndCriticsRelations.png){fig-align="center"
+width="138mm"}
 
 ![Gráfico 3: Dispersión hexagonal de las variables jugadores estimados y
 precio.](imagenes/Rplot02.png){fig-align="center" width="138mm"
-height="92mm"} ![Gráfico 4: Distribución y Comparativa del Tiempo de
-Juego Promedio por
+height="92mm"}
+
+![Gráfico 4: Distribución y Comparativa del Tiempo de Juego Promedio por
 plataforma](imagenes/GrafJoseph1.png){fig-align="center" width="138mm"
-height="92mm"} ![Gráfico 5:Distribución de Jugadores Estimados a lo
-Largo del Tiempo](imagenes/GrafJoseph2.png){fig-align="center"
-width="138mm" height="92mm"} \## Propuesta Metodológica
+height="92mm"}
+
+![Gráfico 5: Distribución de Jugadores Estimados a lo Largo del
+Tiempo](imagenes/GrafJoseph2.png){fig-align="center" width="138mm"
+height="92mm"}
+
+##Propuesta Metodológica
 
 ### Nuevos Métodos
 
@@ -343,11 +348,11 @@ incluye:
 
 La siguiente es la ecuación utilizada en el algoritmo:
 
-\[
-\text{Minimizar} \quad \sum_{i=1}^{n} \sum_{j=1}^{k} \|x_i - c_j\|^2
-\]
+\[ \text{Minimizar} \quad \sum*{i=1}\^{n}* \sum{j=1}\^{k} \|x_i -
+c_j\|\^2 \]
 
-Donde \( (x_i) \) es un videojuego y \( (c_j) \) es el centroide del clúster \( j \).
+Donde ( (x_i) ) es un videojuego y ( (c_j) ) es el centroide del clúster
+( j ).
 
 **Fuente**: @Ref16
 
