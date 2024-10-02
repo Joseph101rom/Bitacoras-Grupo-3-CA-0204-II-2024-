@@ -2,6 +2,9 @@
 title: "Bitácora 2"
 date: "2024"
 format: pdf
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 # Parte de Planificación
@@ -10,27 +13,138 @@ format: pdf
 
 # Enlaces de la Literatura
 
-En su obra "The Behavior of Organisms" (1938), B.F. Skinner plantea que el comportamiento se regula mediante un proceso de selección por consecuencias, centrado en la interacción estímulo-respuesta. Su enfoque analiza cómo los organismos cambian su conducta por los resultados obtenidos de sus acciones. Por otra parte, este planteamiento contrasta con la teoría de Csikszentmihalyi (1990), ya que él propone que el comportamiento no depende de las consecuencias inmediatas, sino también del nivel de inmersión que se logra cuando hay un equilibrio entre los desafíos y las habilidades. Mientras Skinner pone énfasis en respuestas automáticas ante estímulos, Csikszentmihalyi examina estados de conciencia elevados, como el "flujo”. Además, la obra de Skinner ofrece una base experimental sólida sobre cómo el refuerzo modifica el comportamiento, y el enfoque de Csikszentmihalyi complementa este modelo al destacar la importancia de la motivación intrínseca y el disfrute de la actividad como factores clave.
+En su obra "The Behavior of Organisms" (1938), B.F. Skinner plantea que
+el comportamiento se regula mediante un proceso de selección por
+consecuencias, centrado en la interacción estímulo-respuesta. Su enfoque
+analiza cómo los organismos cambian su conducta por los resultados
+obtenidos de sus acciones. Por otra parte, este planteamiento contrasta
+con la teoría de Csikszentmihalyi (1990), ya que él propone que el
+comportamiento no depende de las consecuencias inmediatas, sino también
+del nivel de inmersión que se logra cuando hay un equilibrio entre los
+desafíos y las habilidades. Mientras Skinner pone énfasis en respuestas
+automáticas ante estímulos, Csikszentmihalyi examina estados de
+conciencia elevados, como el "flujo”. Además, la obra de Skinner ofrece
+una base experimental sólida sobre cómo el refuerzo modifica el
+comportamiento, y el enfoque de Csikszentmihalyi complementa este modelo
+al destacar la importancia de la motivación intrínseca y el disfrute de
+la actividad como factores clave.
 
-En "Flow: The Psychology of Optimal Experience" (1990), Mihaly Csikszentmihalyi desarrolla el concepto de "flujo", un estado mental caracterizado por la plena concentración y disfrute de una actividad cuando las habilidades de la persona se alinean con el nivel de desafío de la tarea. El concepto de "flujo" guarda una conexión relevante con los estudios de Deterding et al. (2022) sobre los videojuegos, que señalan que la incertidumbre es crucial para que los jugadores disfruten. Por otro lado, ambos enfoques destacan la importancia de mantener un equilibrio: en el caso del "flujo", entre habilidad y desafío; y en los videojuegos, entre previsibilidad e incertidumbre. En la industria de los videojuegos, mantener un equilibrio entre las habilidades del jugador y el reto que ofrece el juego es esencial para garantizar una experiencia satisfactoria y prolongada, esto con el fin del que el jugador se sienta cómodo realizando los desafíos, pero no tan cómodo como para que considere el juego demasiado fácil o absurdo.
+En "Flow: The Psychology of Optimal Experience" (1990), Mihaly
+Csikszentmihalyi desarrolla el concepto de "flujo", un estado mental
+caracterizado por la plena concentración y disfrute de una actividad
+cuando las habilidades de la persona se alinean con el nivel de desafío
+de la tarea. El concepto de "flujo" guarda una conexión relevante con
+los estudios de Deterding et al. (2022) sobre los videojuegos, que
+señalan que la incertidumbre es crucial para que los jugadores
+disfruten. Por otro lado, ambos enfoques destacan la importancia de
+mantener un equilibrio: en el caso del "flujo", entre habilidad y
+desafío; y en los videojuegos, entre previsibilidad e incertidumbre. En
+la industria de los videojuegos, mantener un equilibrio entre las
+habilidades del jugador y el reto que ofrece el juego es esencial para
+garantizar una experiencia satisfactoria y prolongada, esto con el fin
+del que el jugador se sienta cómodo realizando los desafíos, pero no tan
+cómodo como para que considere el juego demasiado fácil o absurdo.
 
-¿El estudio “Innovate or Game Over?" (2022), de Handrich et al., analiza cómo la innovación en las mecánicas y la presentación de los videojuegos impacta directamente su éxito en el mercado. Los autores destacan que las innovaciones en la jugabilidad pueden mejorar el rendimiento inicial de un juego. El argumento sobre la necesidad de innovar en los videojuegos se alinea con el análisis de Deterding et al., quienes subrayan la importancia de la incertidumbre y el procesamiento predictivo en la experiencia del jugador. Sin embargo, mientras Deterding et al. se enfocan en aspectos psicológicos, Handrich et al. adoptan una perspectiva más comercial y destacando cómo la innovación en los videojuegos es clave para su competitividad en el mercado. Ambos estudios revelan que la innovación no solo es crucial en el diseño y las mecánicas de juego, sino también en la manera en que los jugadores experimentan a esos cambios. Mantener el equilibrio entre las expectativas del mercado y la experiencia del jugador resulta vital para asegurar el éxito de un videojuego a largo y corto plazo.
+¿El estudio “Innovate or Game Over?" (2022), de Handrich et al., analiza
+cómo la innovación en las mecánicas y la presentación de los videojuegos
+impacta directamente su éxito en el mercado. Los autores destacan que
+las innovaciones en la jugabilidad pueden mejorar el rendimiento inicial
+de un juego. El argumento sobre la necesidad de innovar en los
+videojuegos se alinea con el análisis de Deterding et al., quienes
+subrayan la importancia de la incertidumbre y el procesamiento
+predictivo en la experiencia del jugador. Sin embargo, mientras
+Deterding et al. se enfocan en aspectos psicológicos, Handrich et al.
+adoptan una perspectiva más comercial y destacando cómo la innovación en
+los videojuegos es clave para su competitividad en el mercado. Ambos
+estudios revelan que la innovación no solo es crucial en el diseño y las
+mecánicas de juego, sino también en la manera en que los jugadores
+experimentan a esos cambios. Mantener el equilibrio entre las
+expectativas del mercado y la experiencia del jugador resulta vital para
+asegurar el éxito de un videojuego a largo y corto plazo.
 
-En el estudio "Mastering Uncertainty: A Predictive Processing Account of Enjoying Uncertain Success in Video Game Play" (2022), exploran cómo la incertidumbre puede influir en el disfrute de los videojuegos y se analiza cómo los jugadores manejan la incertidumbre, a través del procesamiento predictivo, lo cual mantiene su interés en el juego. Deterding et al proponen que la incertidumbre es un elemento esencial para garantizar una buena experiencia al jugador, además sugieren que estos desarrollan expectativas sobre los resultados lo que les permite navegar la incertidumbre de manera efectiva. Y se dice que la incertidumbre, en lugar de disminuir la satisfacción, mantiene a los jugadores comprometidos y motivados lo que mejora su inmersión en el juego. Por otro lado, al entender el papel de la incertidumbre los desarrolladores deben considerar mecánicas del juego que puedan provocar respuestas cognitivas que fomenten el disfrute. Además, los diseñadores pueden crear experiencias más dinámicas que se adapten a las expectativas cambiantes de los jugadores.
+En el estudio "Mastering Uncertainty: A Predictive Processing Account of
+Enjoying Uncertain Success in Video Game Play" (2022), exploran cómo la
+incertidumbre puede influir en el disfrute de los videojuegos y se
+analiza cómo los jugadores manejan la incertidumbre, a través del
+procesamiento predictivo, lo cual mantiene su interés en el juego.
+Deterding et al proponen que la incertidumbre es un elemento esencial
+para garantizar una buena experiencia al jugador, además sugieren que
+estos desarrollan expectativas sobre los resultados lo que les permite
+navegar la incertidumbre de manera efectiva. Y se dice que la
+incertidumbre, en lugar de disminuir la satisfacción, mantiene a los
+jugadores comprometidos y motivados lo que mejora su inmersión en el
+juego. Por otro lado, al entender el papel de la incertidumbre los
+desarrolladores deben considerar mecánicas del juego que puedan provocar
+respuestas cognitivas que fomenten el disfrute. Además, los diseñadores
+pueden crear experiencias más dinámicas que se adapten a las
+expectativas cambiantes de los jugadores.
 
-"The Impact of Video Games on the Players Behaviors: A Survey" (2019) de Quwaider, et al., es un estudio que per sé contrasta los efectos negativos y positivos de los videojuegos tratando de hacerlo desde una óptica generalizada. En este estudio, los autores mencionan aspectos negativos de los videojuegos como: adicción a los videojuegos y recaídas y conductas violentas. Este último aspecto se alinea con lo encontrado por Di Blasi(2020) en su análisis sobre los juegos MMROPG; género también mencionado en este estudio. De forma más general, se menciona que los videojuegos de carácter competitivo son los gatilleros de este tipo de conductas antisociales, lo cual tiene mucho sentido si se compara con los eventos deportivos más importantes en el país; como lo es alguna final entre equipos de primera división, cuyos fanáticos son capaces de violentarse entre sí dado que su equipo perdió (ganó).
+"The Impact of Video Games on the Players Behaviors: A Survey" (2019) de
+Quwaider, et al., es un estudio que per sé contrasta los efectos
+negativos y positivos de los videojuegos tratando de hacerlo desde una
+óptica generalizada. En este estudio, los autores mencionan aspectos
+negativos de los videojuegos como: adicción a los videojuegos y recaídas
+y conductas violentas. Este último aspecto se alinea con lo encontrado
+por Di Blasi(2020) en su análisis sobre los juegos MMROPG; género
+también mencionado en este estudio. De forma más general, se menciona
+que los videojuegos de carácter competitivo son los gatilleros de este
+tipo de conductas antisociales, lo cual tiene mucho sentido si se
+compara con los eventos deportivos más importantes en el país; como lo
+es alguna final entre equipos de primera división, cuyos fanáticos son
+capaces de violentarse entre sí dado que su equipo perdió (ganó).
 
-Un estudio que es clave para entender el mercado en la actualidad es el de los sPorts o deportes electrónicos. Gracias al aporte de Sergio Mesonero (2019) en su artículo "eSports: pasado y presente de las competiciones de videojuegos", se puede llegar a incluso simpatizar con lo que representa esta industria. No es muy difícil notar en redes sociales como muchas personas están en contra del financiamiento que se les da a las competencias electrónicas, y no es de extrañar pues la sociedad está acostumbrada a presenciar competiciones donde el contacto físico es clave. La simpatía puede venir de parte del reconocimiento que se le hace a los competidores, quienes tienen que entrenar de manera frecuente sus artificios videojueguiles. No es difícil notar que este fenómeno involucra un sistema de recompensa basado en la incertidumbre, (características evocadas en el estudio "Mastering Uncertainty: A Predictive Processing Account of Enjoying Uncertain Success in Video Game Play" (2022)) en donde las consecuencias de la misma son más severas (se gana o incluso se pierde dinero).
+Un estudio que es clave para entender el mercado en la actualidad es el
+de los sPorts o deportes electrónicos. Gracias al aporte de Sergio
+Mesonero (2019) en su artículo "eSports: pasado y presente de las
+competiciones de videojuegos", se puede llegar a incluso simpatizar con
+lo que representa esta industria. No es muy difícil notar en redes
+sociales como muchas personas están en contra del financiamiento que se
+les da a las competencias electrónicas, y no es de extrañar pues la
+sociedad está acostumbrada a presenciar competiciones donde el contacto
+físico es clave. La simpatía puede venir de parte del reconocimiento que
+se le hace a los competidores, quienes tienen que entrenar de manera
+frecuente sus artificios videojueguiles. No es difícil notar que este
+fenómeno involucra un sistema de recompensa basado en la incertidumbre,
+(características evocadas en el estudio "Mastering Uncertainty: A
+Predictive Processing Account of Enjoying Uncertain Success in Video
+Game Play" (2022)) en donde las consecuencias de la misma son más
+severas (se gana o incluso se pierde dinero).
 
-"Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions" (2023) es un estudio cuyo enfoque es el mercado de los videojuegos desde un punto mucho más económico. Los autores argumentaron las dimensiones monetarias que abarca esta industria comprendida en millones de dólares. Los números son buenos indicadores para argumentar la existencia de mercados derivados de los videojuegos, como los son los sPorts mencionados por Sergio Mesonero(2019) en su artículo "eSports: pasado y presente de las competiciones de videojuegos". De acuerdo a Goh Edward et al., el mercado de los videojuegos se mantendrá fuerte y se espera que siga creciendo. Según la hipótesis del crecimiento en este mercado, los jugadores esperarían juegos de calidad superior y más ideas innovadoras como lo puede ser la creación de una nueva consola de sobremesa.
+"Unravelling the complexity of the Video Game Industry: An integrative
+framework and future research directions" (2023) es un estudio cuyo
+enfoque es el mercado de los videojuegos desde un punto mucho más
+económico. Los autores argumentaron las dimensiones monetarias que
+abarca esta industria comprendida en millones de dólares. Los números
+son buenos indicadores para argumentar la existencia de mercados
+derivados de los videojuegos, como los son los sPorts mencionados por
+Sergio Mesonero(2019) en su artículo "eSports: pasado y presente de las
+competiciones de videojuegos". De acuerdo a Goh Edward et al., el
+mercado de los videojuegos se mantendrá fuerte y se espera que siga
+creciendo. Según la hipótesis del crecimiento en este mercado, los
+jugadores esperarían juegos de calidad superior y más ideas innovadoras
+como lo puede ser la creación de una nueva consola de sobremesa.
 
-Un contraste interesante se da entre la entrevista realizada por Stuart, K., (2008) "Interview: the science and art of Metacritic" y el artículo de Imad, Khan., (2021) "Do Metacritic scores affect game sales?". Mientras que el entrevistado (quien es un experto en crítica de videojuegos) asegura que los beneficios de la crítica podrían ayudar a mejorar las ventas y el contento de los videojugadores, Khan Imad concluye que esto no es cierto mediante la conclusión de un estudio realizado en 2012 que involucraba las ventas de videojuegos con sus notas en Metacritic. Sin embargo, en la entrevista se habla de algo que es muy cierto: las notas en Metacritic podrían incentivar a las empresas desarrolladoras de videojuegos a innovar y/o mejorar la calidad de sus productos. Además, las conclusiones de Khan Imad se basan en solamente un estudio, por lo que es perfectamente cuestionable en muchos aspectos.
+Un contraste interesante se da entre la entrevista realizada por Stuart,
+K., (2008) "Interview: the science and art of Metacritic" y el artículo
+de Imad, Khan., (2021) "Do Metacritic scores affect game sales?".
+Mientras que el entrevistado (quien es un experto en crítica de
+videojuegos) asegura que los beneficios de la crítica podrían ayudar a
+mejorar las ventas y el contento de los videojugadores, Khan Imad
+concluye que esto no es cierto mediante la conclusión de un estudio
+realizado en 2012 que involucraba las ventas de videojuegos con sus
+notas en Metacritic. Sin embargo, en la entrevista se habla de algo que
+es muy cierto: las notas en Metacritic podrían incentivar a las empresas
+desarrolladoras de videojuegos a innovar y/o mejorar la calidad de sus
+productos. Además, las conclusiones de Khan Imad se basan en solamente
+un estudio, por lo que es perfectamente cuestionable en muchos aspectos.
 
 # Análisis Estadísticos
 
 ## Análisis Descriptivo
 
-El resumen de cada variable constará de: la mediana, el promedio, mínimo y máximo, rango y desviación estándar. Existirán variables como la fecha de lanzamiento en donde se omitirán algunas mediciones.
+El resumen de cada variable constará de: la mediana, el promedio, mínimo
+y máximo, rango y desviación estándar. Existirán variables como la fecha
+de lanzamiento en donde se omitirán algunas mediciones.
 
 ### Resúmenes:
 
@@ -126,21 +240,33 @@ El resumen de cada variable constará de: la mediana, el promedio, mínimo y má
 
 ### Gráficos:
 
-![Gráfico 1: Histograma sobre la variable de fechas de lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="." fig-align="center" width="137mm" height="108mm"}
+![Gráfico 1: Histograma sobre la variable de fechas de
+lanzamiento.](imagenes/HistogramaFechasLanzamiento.png){fig-alt="."
+fig-align="center" width="137mm" height="108mm"}
 
-![Gráfico 2: Distribución Jugadores estimados y notas en Metacritic.](imagenes/GamersAndCriticsRelations.png){fig-align="center" width="138mm" height="93mm"}
+![Gráfico 2: Distribución Jugadores estimados y notas en
+Metacritic.](imagenes/GamersAndCriticsRelations.png){fig-align="center"
+width="138mm" height="93mm"}
 
-![Gráfico 3: Dispersión hexagonal de las variables jugadores estimados y precio.](imagenes/Rplot02.png){fig-align="center" width="138mm" height="92mm"}
-
-## Propuesta Metodológica
+![Gráfico 3: Dispersión hexagonal de las variables jugadores estimados y
+precio.](imagenes/Rplot02.png){fig-align="center" width="138mm"
+height="92mm"} ![Gráfico 4: Distribución y Comparativa del Tiempo de
+Juego Promedio por
+plataforma](imagenes/GrafJoseph1.png){fig-align="center" width="138mm"
+height="92mm"} ![Gráfico 5:Distribución de Jugadores Estimados a lo
+Largo del Tiempo](imagenes/GrafJoseph2.png){fig-align="center"
+width="138mm" height="92mm"} \## Propuesta Metodológica
 
 ### Nuevos Métodos
 
-Se formularán varios métodos que permitirán analizar el **Steam Games Dataset** y predecir el éxito de los videojuegos en función de variables clave:
+Se formularán varios métodos que permitirán analizar el **Steam Games
+Dataset** y predecir el éxito de los videojuegos en función de variables
+clave:
 
 ### Análisis Exploratorio de Datos (EDA)
 
-**Objetivo**: Obtener una comprensión inicial del dataset, identificando patrones, anomalías y relaciones entre variables.
+**Objetivo**: Obtener una comprensión inicial del dataset, identificando
+patrones, anomalías y relaciones entre variables.
 
 **Variables a analizar**:
 
@@ -154,7 +280,8 @@ Se formularán varios métodos que permitirán analizar el **Steam Games Dataset
 
 \- **Metacritic score**: Calificación del videojuego en Metacritic.
 
-\- **Estimated players**: Número estimado de propietarios/jugadores del videojuego.
+\- **Estimated players**: Número estimado de propietarios/jugadores del
+videojuego.
 
 \- **Release Date**: Fecha de lanzamiento del videojuego.
 
@@ -162,46 +289,74 @@ Se formularán varios métodos que permitirán analizar el **Steam Games Dataset
 
 ### Regresión Lineal Múltiple
 
-**Objetivo**: Predecir el número estimado de propietarios de un videojuego (`Estimated owners`) utilizando diversas variables numéricas.
+**Objetivo**: Predecir el número estimado de propietarios de un
+videojuego (`Estimated owners`) utilizando diversas variables numéricas.
 
 **Ecuación del Modelo**: $$
 \text{Estimated owners} = \beta_0 + \beta_1 (\text{User score}) + \beta_2 (\text{Price}) + \beta_3 (\text{Positive}) + \epsilon
 $$ - $(\beta_0)$**: Intercepto del modelo.**
 
-**-** $(\beta_1, \beta_2, \beta_3)$: Coeficientes de las variables predictoras.
+**-** $(\beta_1, \beta_2, \beta_3)$: Coeficientes de las variables
+predictoras.
 
 **Descripción de las Variables**:
 
-\- **`User score`**: Calificación otorgada por los usuarios, que puede influir en la popularidad del videojuego.
+\- **`User score`**: Calificación otorgada por los usuarios, que puede
+influir en la popularidad del videojuego.
 
--   **`Price`**: Precio del videojuego, que puede afectar su accesibilidad y, en consecuencia, el número de propietarios.
+-   **`Price`**: Precio del videojuego, que puede afectar su
+    accesibilidad y, en consecuencia, el número de propietarios.
 
-\- **`Positive`**: Número de reseñas positivas, un indicador que refleja la aceptación del juego por parte de la comunidad.
+\- **`Positive`**: Número de reseñas positivas, un indicador que refleja
+la aceptación del juego por parte de la comunidad.
 
-El modelo de regresión lineal múltiple proporciona una herramienta poderosa para comprender cómo estas variables interactúan y afectan el número estimado de propietarios de un videojuego.
+El modelo de regresión lineal múltiple proporciona una herramienta
+poderosa para comprender cómo estas variables interactúan y afectan el
+número estimado de propietarios de un videojuego.
 
 **Fuente**: @Ref15
 
 ### Algoritmo de Clustering (K-means)
 
-**Objetivo**: Agrupar videojuegos en función de características como **precio**, **reseñas positivas**, y **calificación**. El algoritmo K-means identifica patrones en los datos, permitiendo segmentar el mercado de videojuegos.
+**Objetivo**: Agrupar videojuegos en función de características como
+**precio**, **reseñas positivas**, y **calificación**. El algoritmo
+K-means identifica patrones en los datos, permitiendo segmentar el
+mercado de videojuegos.
 
 **Descripción del Método**:\
-K-means es un método de agrupamiento que divide un conjunto de datos en (k) grupos basados en las características de los videojuegos. El proceso incluye:
+K-means es un método de agrupamiento que divide un conjunto de datos en
+(k) grupos basados en las características de los videojuegos. El proceso
+incluye:
 
 1.  **Inicialización**: Seleccionar (k) centroides iniciales aleatorios.
 
-2.  **Asignación**: Cada videojuego se asigna al clúster cuyo centroide está más cercano.
+2.  **Asignación**: Cada videojuego se asigna al clúster cuyo centroide
+    está más cercano.
 
-3.  **Recalculación**: Se actualizan los centroides como el promedio de los puntos en cada clúster.
+3.  **Recalculación**: Se actualizan los centroides como el promedio de
+    los puntos en cada clúster.
 
-4.  **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides se estabilizan.
+4.  **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides
+    se estabilizan.
 
-**Ecuación del Algoritmo**:\[ \text{Minimizar} \sum\*{i=1}\^{n}\* \sum{j=1}\^{k} \|x_i - c_j\|\^2 \]
+**Ecuación del Algoritmo**
 
-Donde $(x_i)$ es un videojuego y $(c_j)$ es el centroide del clúster (j).
+La siguiente es la ecuación utilizada en el algoritmo:
+
+\[
+\text{Minimizar} \quad \sum_{i=1}^{n} \sum_{j=1}^{k} \|x_i - c_j\|^2
+\]
+
+Donde \( (x_i) \) es un videojuego y \( (c_j) \) es el centroide del clúster \( j \).
 
 **Fuente**: @Ref16
+
+### Programa maqueta:
+
+**Codigo en R:** ![](imagenes/CodigoR1.png) ![](imagenes/CodigoR2.png)
+\### Respaldo de resultados: *Grafico de clusteres*:
+![Gráfico:](imagenes/GrafRespaldoJ.png){fig-align="center" width="138mm"
+height="92mm"}
 
 ## Construcción de Fichas de Resultados
 
@@ -209,36 +364,117 @@ Donde $(x_i)$ es un videojuego y $(c_j)$ es el centroide del clúster (j).
 
 ■ Nombre del hallazgo: Relación entre jugadores y la crítica de juegos.
 
-■ Resumen en una oración: Los jugadores prefieren videojuegos con mejor nota en Metacritic.
+■ Resumen en una oración: Los jugadores prefieren videojuegos con mejor
+nota en Metacritic.
 
-■ Principal característica: Relación positiva entre las notas de Metacritic y cantidad de jugadores.
+■ Principal característica: Relación positiva entre las notas de
+Metacritic y cantidad de jugadores.
 
-■ Posibles desafíos: Entender el porqué de esta relación positiva (indicada por la pendiente de la línea de tendencia del gráfico 3), pues se está frente a un fenómenos subjetivo que requerirá de análisis alineados a la idea de la subjetividad. Las encuentas podrían servir.
+■ Posibles desafíos: Entender el porqué de esta relación positiva
+(indicada por la pendiente de la línea de tendencia del gráfico 3), pues
+se está frente a un fenómenos subjetivo que requerirá de análisis
+alineados a la idea de la subjetividad. Las encuentas podrían servir.
 
-■ Resumen de un párrafo: La línea de tendencia de la gráfica 3 es clara; existe una relación positiva entre las notas de Metacritic y la cantidad de jugadores por juego. Este resultado a priori era de esperarse, sin embargo, dada la subjetividad del resultado puede ser difícil concluir con un porqué de manera exacta.
+■ Resumen de un párrafo: La línea de tendencia de la gráfica 3 es clara;
+existe una relación positiva entre las notas de Metacritic y la cantidad
+de jugadores por juego. Este resultado a priori era de esperarse, sin
+embargo, dada la subjetividad del resultado puede ser difícil concluir
+con un porqué de manera exacta.
 
 **Ficha II**:
 
-■ Nombre del hallazgo: Bastantes juegos lanzados en el período 2014-2019.
+■ Nombre del hallazgo: Bastantes juegos lanzados en el período
+2014-2019.
 
-■ Resumen en una oración: La mayoría de juegos son pertenecen al período 2014-2019.
+■ Resumen en una oración: La mayoría de juegos son pertenecen al período
+2014-2019.
 
-■ Principal característica: Como se puede observar en el gráfico 1, la mayoría de juegos en Steam se ubican en el quarto de la década del 2010.
+■ Principal característica: Como se puede observar en el gráfico 1, la
+mayoría de juegos en Steam se ubican en el quarto de la década del 2010.
 
-■ Posibles desafíos: Una explicación a este fenómeno se podría hacer por el método de descarte. Resultaría factible analizar porqué los juegos lanzados antes y después del período mencionado son pocos.
+■ Posibles desafíos: Una explicación a este fenómeno se podría hacer por
+el método de descarte. Resultaría factible analizar porqué los juegos
+lanzados antes y después del período mencionado son pocos.
 
-■ Resumen de un párrafo: Se halló que la mayoría de los videojuegos se encuentran en este rango temporal. Para explicar esto, un método coherente será el de tratar de explicar porqué no salieron tantos juegos en las otras épocas. Una explicación parcial podría ser la pandemia, sin embargo, son solo conjeturas y se requerirán analizar más estudios.
+■ Resumen de un párrafo: Se halló que la mayoría de los videojuegos se
+encuentran en este rango temporal. Para explicar esto, un método
+coherente será el de tratar de explicar porqué no salieron tantos juegos
+en las otras épocas. Una explicación parcial podría ser la pandemia, sin
+embargo, son solo conjeturas y se requerirán analizar más estudios.
 
 **Ficha III**:
 
-■ Nombre del hallazgo: Relación negativa entre el número de jugadores y el precio de los videojuegos.
+■ Nombre del hallazgo: Relación negativa entre el número de jugadores y
+el precio de los videojuegos.
 
-■ Resumen en una oración: Mientras más caro es un juego, menos jugadores tendrá.
+■ Resumen en una oración: Mientras más caro es un juego, menos jugadores
+tendrá.
 
 ■ Principal característica: Los juegos baratos atraen más jugadores.
 
-■ Posibles desafíos: ¿Habrán características más haya del precio que los juegos más caros no tienen? Esta pregunta surge ya que se sabe que entre más caro es algo, de mejor calidad suele ser. Entender esta problemática cuestión será crucial en el análisis profundo de preferencias.
+■ Posibles desafíos: ¿Habrán características más haya del precio que los
+juegos más caros no tienen? Esta pregunta surge ya que se sabe que entre
+más caro es algo, de mejor calidad suele ser. Entender esta problemática
+cuestión será crucial en el análisis profundo de preferencias.
 
-■ Resumen de un párrafo: El gráfico 3 es el que llevó al grupo a este importante hallazgo. Acaecen dudas acerca de este resultado relacionado a las preferencias y características que tienen los juegos más baratos y más caros. De acá surge la idea de usar como variable importante la de los géneros de videojuegos, se conjetura que esto tiene mucho que ver, pues en la base de datos está el videojuego Dota 2, el cual es un MMORPG y como se mencionó en varias fichas de literatura: este género es un gran atractor de masas (Di Blasi, 2020). 
+■ Resumen de un párrafo: El gráfico 3 es el que llevó al grupo a este
+importante hallazgo. Acaecen dudas acerca de este resultado relacionado
+a las preferencias y características que tienen los juegos más baratos y
+más caros. De acá surge la idea de usar como variable importante la de
+los géneros de videojuegos, se conjetura que esto tiene mucho que ver,
+pues en la base de datos está el videojuego Dota 2, el cual es un MMORPG
+y como se mencionó en varias fichas de literatura: este género es un
+gran atractor de masas (Di Blasi, 2020).
 
+**Ficha IV**
 
+■ Nombre del hallazgo/resultado: Comparación del tiempo de juego
+promedio por plataforma.
+
+■ Resumen en una oración: El tiempo de juego promedio varía
+considerablemente entre plataformas, con una mayor concentración en
+Windows.
+
+■ Principal característica: Diferencia notable en la distribución del
+tiempo de juego entre usuarios de Windows, Mac y Linux, con Windows
+dominando en cantidad de horas.
+
+■ Posibles desafíos: Las diferencias en tiempo de juego entre
+plataformas podrían estar influenciadas por factores más allá de la
+disponibilidad de títulos, como la optimización y características
+específicas de cada plataforma. Comprender cómo estos factores afectan
+la experiencia del usuario será fundamental para maximizar la audiencia
+en diferentes plataformas.
+
+■ Resumen en un párrafo: El análisis de la distribución del tiempo de
+juego promedio por plataforma revela que los usuarios de Windows tienden
+a tener un tiempo de juego mucho mayor en comparación con los de Mac y
+Linux. Esto puede deberse a la disponibilidad limitada de ciertos
+juegos, la optimización de rendimiento para diferentes sistemas
+operativos o incluso las preferencias inherentes de cada grupo de
+usuarios. Abordar estos desafíos podría ayudar a los desarrolladores a
+diversificar su audiencia y mejorar la experiencia del usuario en
+plataformas menos representadas.
+
+**Ficha V**:
+
+■ Nombre del hallazgo/resultado: Tendencia creciente en la cantidad
+estimada de jugadores. ■ Resumen en una oración: La cantidad estimada de
+jugadores ha mostrado un aumento significativo desde el año 2000.
+
+■ Principal característica: Existe una concentración notable de
+jugadores en los años 2010-2015.
+
+■ Posibles desafíos: Las diferencias en la cantidad de jugadores podrían
+estar relacionadas con diversos factores, como el lanzamiento de juegos
+destacados o cambios en las tendencias del mercado, por lo que
+dentificar estos factores es crucial para entender mejor el
+comportamiento de los jugadores.
+
+■ Resumen en un párrafo: El análisis de la distribución de jugadores
+estimados a lo largo del tiempo revela una tendencia creciente en la
+cantidad de jugadores desde el año 2000, con picos significativos en
+años como 2010 y 2015. Esto nos dice que el interés por los videojuegos
+ha aumentado considerablemente, posiblemente influenciado por el
+lanzamiento de títulos populares y el crecimiento de plataformas de
+juego en línea.
