@@ -240,27 +240,26 @@ de lanzamiento en donde se omitirán algunas mediciones.
 
 ### Gráficos:
 
-![Gráfico: Histograma frecuencial de los juegos lanzados por
+![Histograma frecuencial de los juegos lanzados por
 año.](FreqGamesPerYear.png){fig-align="center" width="137mm"}
 
-![Gráfico 2: Dispersión entre la variable nota en Metacritic con la de
-jugadores
+![Dispersión entre la variable nota en Metacritic con la de jugadores
 estimados.](imagenes/GamersAndCriticsRelations.png){fig-align="center"
 width="138mm"}
 
-![Gráfico 3: Dispersión hexagonal de las variables jugadores estimados y
+![Dispersión hexagonal de las variables jugadores estimados y
 precio.](imagenes/Rplot02.png){fig-align="center" width="138mm"
 height="92mm"}
 
-![Gráfico 4: Distribución y Comparativa del Tiempo de Juego Promedio por
+![Distribución y Comparativa del Tiempo de Juego Promedio por
 plataforma](imagenes/GrafJoseph1.png){fig-align="center" width="138mm"
 height="92mm"}
 
-![Gráfico 5: Distribución de Jugadores Estimados a lo Largo del
+![Distribución de Jugadores Estimados a lo Largo del
 Tiempo](imagenes/GrafJoseph2.png){fig-align="center" width="138mm"
 height="92mm"}
 
-##Propuesta Metodológica
+## Propuesta Metodológica
 
 ### Nuevos Métodos
 
@@ -309,8 +308,8 @@ predictoras.
 \- **`User score`**: Calificación otorgada por los usuarios, que puede
 influir en la popularidad del videojuego.
 
--   **`Price`**: Precio del videojuego, que puede afectar su
-    accesibilidad y, en consecuencia, el número de propietarios.
+\- **`Price`**: Precio del videojuego, que puede afectar su
+accesibilidad y, en consecuencia, el número de propietarios.
 
 \- **`Positive`**: Número de reseñas positivas, un indicador que refleja
 la aceptación del juego por parte de la comunidad.
@@ -348,7 +347,7 @@ incluye:
 
 La siguiente es la ecuación utilizada en el algoritmo:
 
-\[ \text{Minimizar} \quad \sum*{i=1}\^{n}* \sum{j=1}\^{k} \|x_i -
+\[ \text{Minimizar} \quad \sum\*{i=1}\^{n}\* \sum{j=1}\^{k} \|x_i -
 c_j\|\^2 \]
 
 Donde ( (x_i) ) es un videojuego y ( (c_j) ) es el centroide del clúster
@@ -359,8 +358,10 @@ Donde ( (x_i) ) es un videojuego y ( (c_j) ) es el centroide del clúster
 ### Programa maqueta:
 
 **Codigo en R:** ![](imagenes/CodigoR1.png) ![](imagenes/CodigoR2.png)
-\### Respaldo de resultados: *Grafico de clusteres*:
-![Gráfico:](imagenes/GrafRespaldoJ.png){fig-align="center" width="138mm"
+
+### Respaldo de resultados: *Grafico de clusteres*:
+
+![](imagenes/GrafRespaldoJ.png){fig-align="center" width="138mm"
 height="92mm"}
 
 ## Construcción de Fichas de Resultados
@@ -380,11 +381,11 @@ Metacritic y cantidad de jugadores.
 se está frente a un fenómenos subjetivo que requerirá de análisis
 alineados a la idea de la subjetividad. Las encuentas podrían servir.
 
-■ Resumen de un párrafo: La línea de tendencia de la gráfica 3 es clara;
-existe una relación positiva entre las notas de Metacritic y la cantidad
-de jugadores por juego. Este resultado a priori era de esperarse, sin
-embargo, dada la subjetividad del resultado puede ser difícil concluir
-con un porqué de manera exacta.
+■ Resumen de un párrafo: La línea de tendencia de la gráfica 7.2 es
+clara; existe una relación positiva entre las notas de Metacritic y la
+cantidad de jugadores por juego. Este resultado a priori era de
+esperarse, sin embargo, dada la subjetividad del resultado puede ser
+difícil concluir con un porqué de manera exacta.
 
 **Ficha II**:
 
@@ -394,7 +395,7 @@ con un porqué de manera exacta.
 ■ Resumen en una oración: La mayoría de juegos son pertenecen al período
 2014-2019.
 
-■ Principal característica: Como se puede observar en el gráfico 1, la
+■ Principal característica: Como se puede observar en el gráfico 7.1, la
 mayoría de juegos en Steam se ubican en el quarto de la década del 2010.
 
 ■ Posibles desafíos: Una explicación a este fenómeno se podría hacer por
@@ -422,14 +423,14 @@ juegos más caros no tienen? Esta pregunta surge ya que se sabe que entre
 más caro es algo, de mejor calidad suele ser. Entender esta problemática
 cuestión será crucial en el análisis profundo de preferencias.
 
-■ Resumen de un párrafo: El gráfico 3 es el que llevó al grupo a este
+■ Resumen de un párrafo: El gráfico 7.3 es el que llevó al grupo a este
 importante hallazgo. Acaecen dudas acerca de este resultado relacionado
 a las preferencias y características que tienen los juegos más baratos y
 más caros. De acá surge la idea de usar como variable importante la de
 los géneros de videojuegos, se conjetura que esto tiene mucho que ver,
-pues en la base de datos está el videojuego Dota 2, el cual es un MMORPG
-y como se mencionó en varias fichas de literatura: este género es un
-gran atractor de masas (Di Blasi, 2020).
+pues en la base de datos está el videojuego Dota 2, el cual es un juego
+competitivo, y como se mencionó en varias fichas de literatura: este
+tipo de juegos es un gran atractor de masas (Di Blasi, 2019).
 
 **Ficha IV**
 
@@ -442,7 +443,7 @@ Windows.
 
 ■ Principal característica: Diferencia notable en la distribución del
 tiempo de juego entre usuarios de Windows, Mac y Linux, con Windows
-dominando en cantidad de horas.
+dominando en cantidad de horas. Se refleja en el gráfico 7.4.
 
 ■ Posibles desafíos: Las diferencias en tiempo de juego entre
 plataformas podrían estar influenciadas por factores más allá de la
@@ -468,18 +469,18 @@ estimada de jugadores. ■ Resumen en una oración: La cantidad estimada de
 jugadores ha mostrado un aumento significativo desde el año 2000.
 
 ■ Principal característica: Existe una concentración notable de
-jugadores en los años 2010-2015.
+jugadores en los años 2010-2015. Se refleja en el gráfico 7.5.
 
 ■ Posibles desafíos: Las diferencias en la cantidad de jugadores podrían
 estar relacionadas con diversos factores, como el lanzamiento de juegos
 destacados o cambios en las tendencias del mercado, por lo que
-dentificar estos factores es crucial para entender mejor el
+identificar estos factores es crucial para entender mejor el
 comportamiento de los jugadores.
 
 ■ Resumen en un párrafo: El análisis de la distribución de jugadores
 estimados a lo largo del tiempo revela una tendencia creciente en la
 cantidad de jugadores desde el año 2000, con picos significativos en
-años como 2010 y 2015. Esto nos dice que el interés por los videojuegos
-ha aumentado considerablemente, posiblemente influenciado por el
+años como 2010 y 2015. Esto dice que el interés por los videojuegos ha
+aumentado considerablemente, posiblemente influenciado por el
 lanzamiento de títulos populares y el crecimiento de plataformas de
 juego en línea.
