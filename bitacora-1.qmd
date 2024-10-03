@@ -2,8 +2,10 @@
 title: "Bitácora 1"
 date: "2024"
 format: pdf
+editor: 
+  markdown: 
+    wrap: 72
 ---
-
 
 ## Comando 1:
 
@@ -476,7 +478,8 @@ las empresas japonesas lograr que sus productos sean aceptados del todo
 en los mercados extranjeros debido a las diferencias culturales.
 
 **■
-[Fuente](https://funderetica.org/wp-content/uploads/2017/01/Cuaderno-7-web-def.pdf)**: @Ref1
+[Fuente](https://funderetica.org/wp-content/uploads/2017/01/Cuaderno-7-web-def.pdf)**:
+@Ref1
 
 **Ficha 2:**
 
@@ -516,7 +519,8 @@ una gran satisfacción por parte de los encuestados, sin embargo también
 se notó que muchos llegaban a estresarse bastante durante sus sesiones
 de juego.
 
-**■ [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7044601/)**: @Ref2
+**■ [Fuente](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7044601/)**:
+@Ref2
 
 **Ficha 3:**
 
@@ -565,17 +569,21 @@ jugador. El estudio reconoce la necesidad de explorar más áreas de la
 diversión en videojuegos, sugiriendo que los resultados obtenidos abren
 nuevas preguntas sobre la naturaleza de esta diversión.
 
-**■ [Fuente](https://rua.ua.es/dspace/bitstream/10045/73641/1/Que_hace_divertido_un_videojuego_Acercamiento_al_conce_GUERRERO_PASTOR_MARTA.pdf)**: @Ref3
+**■
+[Fuente](https://rua.ua.es/dspace/bitstream/10045/73641/1/Que_hace_divertido_un_videojuego_Acercamiento_al_conce_GUERRERO_PASTOR_MARTA.pdf)**:
+@Ref3
 
 **Ficha 4:**
 
-**■ Título:** LA POLÍTICA A LA QUE JUGAMOS. CULTURA, VIDEOJUEGOS Y LUDOFICCIÓN POLÍTICA EN LA PLATAFORMA STEAM
+**■ Título:** LA POLÍTICA A LA QUE JUGAMOS. CULTURA, VIDEOJUEGOS Y
+LUDOFICCIÓN POLÍTICA EN LA PLATAFORMA STEAM
 
 **■ Autor(es):** STEAM, ON
 
 **■ Año:** No especificado
 
-**■ Nombre del tema:** Intersección entre política y videojuegos en Steam.
+**■ Nombre del tema:** Intersección entre política y videojuegos en
+Steam.
 
 **■ Forma de organizarlo:**
 
@@ -587,17 +595,27 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Teoría de la ludoficción.
 
-**■ Resumen en una oración:** Estudia cómo los videojuegos en Steam influyen en la cultura política actual.
+**■ Resumen en una oración:** Estudia cómo los videojuegos en Steam
+influyen en la cultura política actual.
 
-**■ Argumento central:** Los videojuegos pueden servir como una plataforma para la discusión política y la crítica social.
+**■ Argumento central:** Los videojuegos pueden servir como una
+plataforma para la discusión política y la crítica social.
 
-**■ Problemas con el argumento o el tema:** Falta de datos empíricos para respaldar algunas afirmaciones.
+**■ Problemas con el argumento o el tema:** Falta de datos empíricos
+para respaldar algunas afirmaciones.
 
-**■ Resumen en un párrafo:** Este artículo analiza el papel que juegan los videojuegos en la construcción del discurso político, centrándose en la plataforma Steam como un espacio donde los jugadores interactúan con narrativas que reflejan y desafían la realidad política. Se argumenta que los videojuegos no solo son entretenimiento, sino que también pueden ser herramientas de reflexión y activismo político.
+**■ Resumen en un párrafo:** Este artículo analiza el papel que juegan
+los videojuegos en la construcción del discurso político, centrándose en
+la plataforma Steam como un espacio donde los jugadores interactúan con
+narrativas que reflejan y desafían la realidad política. Se argumenta
+que los videojuegos no solo son entretenimiento, sino que también pueden
+ser herramientas de reflexión y activismo político.
 
-**■ [Fuente](https://indexcomunicacion.es/index.php/indexcomunicacion/article/view/995)**: @Ref4
+**■
+[Fuente](https://indexcomunicacion.es/index.php/indexcomunicacion/article/view/995)**:
+@Ref4
 
----
+------------------------------------------------------------------------
 
 **Ficha 5:**
 
@@ -619,17 +637,26 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Teoría de la industria creativa.
 
-**■ Resumen en una oración:** Se presenta un análisis del desarrollo y la situación actual de la industria de videojuegos en España.
+**■ Resumen en una oración:** Se presenta un análisis del desarrollo y
+la situación actual de la industria de videojuegos en España.
 
-**■ Argumento central:** La industria del videojuego en España está en crecimiento y se enfrenta a desafíos significativos.
+**■ Argumento central:** La industria del videojuego en España está en
+crecimiento y se enfrenta a desafíos significativos.
 
-**■ Problemas con el argumento o el tema:** Dificultades para obtener estadísticas precisas.
+**■ Problemas con el argumento o el tema:** Dificultades para obtener
+estadísticas precisas.
 
-**■ Resumen en un párrafo:** Este trabajo proporciona un análisis integral de la industria de videojuegos en España, abordando su evolución, desafíos y oportunidades. A través de datos y estadísticas, se examinan las tendencias actuales y se discute cómo las empresas pueden adaptarse para mejorar su competitividad en el mercado global.
+**■ Resumen en un párrafo:** Este trabajo proporciona un análisis
+integral de la industria de videojuegos en España, abordando su
+evolución, desafíos y oportunidades. A través de datos y estadísticas,
+se examinan las tendencias actuales y se discute cómo las empresas
+pueden adaptarse para mejorar su competitividad en el mercado global.
 
-**■ [Fuente](https://riunet.upv.es/bitstream/handle/10251/45702/Trabajo%20final%20carrera.pdf)**: @Ref5
+**■
+[Fuente](https://riunet.upv.es/bitstream/handle/10251/45702/Trabajo%20final%20carrera.pdf)**:
+@Ref5
 
----
+------------------------------------------------------------------------
 
 **Ficha 6:**
 
@@ -639,7 +666,8 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 **■ Año:** 2024
 
-**■ Nombre del tema:** Estrategias de marketing en la industria de videojuegos.
+**■ Nombre del tema:** Estrategias de marketing en la industria de
+videojuegos.
 
 **■ Forma de organizarlo:**
 
@@ -651,21 +679,31 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Teoría del marketing estratégico.
 
-**■ Resumen en una oración:** Se propone un plan de marketing para optimizar el lanzamiento de videojuegos.
+**■ Resumen en una oración:** Se propone un plan de marketing para
+optimizar el lanzamiento de videojuegos.
 
-**■ Argumento central:** Un enfoque integral de marketing es crucial para el éxito de nuevos videojuegos.
+**■ Argumento central:** Un enfoque integral de marketing es crucial
+para el éxito de nuevos videojuegos.
 
-**■ Problemas con el argumento o el tema:** Puede ser difícil implementar todas las recomendaciones.
+**■ Problemas con el argumento o el tema:** Puede ser difícil
+implementar todas las recomendaciones.
 
-**■ Resumen en un párrafo:** Este documento presenta un plan de marketing detallado diseñado para una empresa de videojuegos. Se abordan estrategias como el marketing digital, las redes sociales y la segmentación del mercado, subrayando la importancia de un enfoque adaptativo en un sector altamente competitivo.
+**■ Resumen en un párrafo:** Este documento presenta un plan de
+marketing detallado diseñado para una empresa de videojuegos. Se abordan
+estrategias como el marketing digital, las redes sociales y la
+segmentación del mercado, subrayando la importancia de un enfoque
+adaptativo en un sector altamente competitivo.
 
-**■ [Fuente](https://bdigital.uncu.edu.ar/objetos_digitales/15654/plan-de-marketing-para-una-empresa-de-videojuegos.pdf)**: @Ref6
+**■
+[Fuente](https://bdigital.uncu.edu.ar/objetos_digitales/15654/plan-de-marketing-para-una-empresa-de-videojuegos.pdf)**:
+@Ref6
 
----
+------------------------------------------------------------------------
 
 **Ficha 7:**
 
-**■ Título:** Innovate or game over? Examining effects of product innovativeness on video game success
+**■ Título:** Innovate or game over? Examining effects of product
+innovativeness on video game success
 
 **■ Autor(es):** Franziska Handrich, Sven Heidenreich, Tobias Kraemer
 
@@ -683,27 +721,38 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Teoría de la innovación en productos.
 
-**■ Resumen en una oración:** El estudio investiga cómo la innovación afecta el éxito en la industria de videojuegos.
+**■ Resumen en una oración:** El estudio investiga cómo la innovación
+afecta el éxito en la industria de videojuegos.
 
-**■ Argumento central:** Las innovaciones en presentación y mecánicas mejoran el éxito a corto plazo.
+**■ Argumento central:** Las innovaciones en presentación y mecánicas
+mejoran el éxito a corto plazo.
 
-**■ Problemas con el argumento o el tema:** Efectos de la innovación disminuyen con el tiempo.
+**■ Problemas con el argumento o el tema:** Efectos de la innovación
+disminuyen con el tiempo.
 
-**■ Resumen en un párrafo:** Este artículo aborda la relación entre la innovación en videojuegos y el rendimiento del mercado, destacando que las mejoras en la presentación y jugabilidad son esenciales para el éxito inicial, mientras que las innovaciones en la narrativa pueden ser más problemáticas. Se subraya la necesidad de un enfoque equilibrado para mantener la relevancia en un mercado cambiante.
+**■ Resumen en un párrafo:** Este artículo aborda la relación entre la
+innovación en videojuegos y el rendimiento del mercado, destacando que
+las mejoras en la presentación y jugabilidad son esenciales para el
+éxito inicial, mientras que las innovaciones en la narrativa pueden ser
+más problemáticas. Se subraya la necesidad de un enfoque equilibrado
+para mantener la relevancia en un mercado cambiante.
 
 **■ [Fuente](https://doi.org/10.1007/s12525-022-00521-7)**: @Ref7
 
----
+------------------------------------------------------------------------
 
 **Ficha 8:**
 
-**■ Título:** Mastering uncertainty: A predictive processing account of enjoying uncertain success in video game play
+**■ Título:** Mastering uncertainty: A predictive processing account of
+enjoying uncertain success in video game play
 
-**■ Autor(es):** Sebastian Deterding, Marc Malmdorf Andersen, Julian Kiverstein, Mark Miller
+**■ Autor(es):** Sebastian Deterding, Marc Malmdorf Andersen, Julian
+Kiverstein, Mark Miller
 
 **■ Año:** 2022
 
-**■ Nombre del tema:** Experiencia de juego y gestión de la incertidumbre.
+**■ Nombre del tema:** Experiencia de juego y gestión de la
+incertidumbre.
 
 **■ Forma de organizarlo:**
 
@@ -715,17 +764,27 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Procesamiento predictivo.
 
-**■ Resumen en una oración:** Se analiza cómo la incertidumbre afecta la diversión en los videojuegos.
+**■ Resumen en una oración:** Se analiza cómo la incertidumbre afecta la
+diversión en los videojuegos.
 
-**■ Argumento central:** La gestión de la incertidumbre es clave para la experiencia de juego.
+**■ Argumento central:** La gestión de la incertidumbre es clave para la
+experiencia de juego.
 
-**■ Problemas con el argumento o el tema:** Complejidad de medir la experiencia subjetiva del jugador.
+**■ Problemas con el argumento o el tema:** Complejidad de medir la
+experiencia subjetiva del jugador.
 
-**■ Resumen en un párrafo:** Este estudio explora la relación entre la incertidumbre en los videojuegos y la satisfacción del jugador, proponiendo que el procesamiento predictivo ayuda a entender por qué los jugadores disfrutan de los retos inciertos. Se argumenta que equilibrar el desafío y la habilidad del jugador puede mejorar significativamente la experiencia de juego.
+**■ Resumen en un párrafo:** Este estudio explora la relación entre la
+incertidumbre en los videojuegos y la satisfacción del jugador,
+proponiendo que el procesamiento predictivo ayuda a entender por qué los
+jugadores disfrutan de los retos inciertos. Se argumenta que equilibrar
+el desafío y la habilidad del jugador puede mejorar significativamente
+la experiencia de juego.
 
-**■ [Fuente](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.924953/full)**: @Ref8
+**■
+[Fuente](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.924953/full)**:
+@Ref8
 
----
+------------------------------------------------------------------------
 
 **Ficha 9:**
 
@@ -747,16 +806,22 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Teoría del flujo.
 
-**■ Resumen en una oración:** Se exploran los principios de la experiencia óptima.
+**■ Resumen en una oración:** Se exploran los principios de la
+experiencia óptima.
 
-**■ Argumento central:** La experiencia óptima se alcanza al equilibrar desafío y habilidad.
+**■ Argumento central:** La experiencia óptima se alcanza al equilibrar
+desafío y habilidad.
 
-**■ Problemas con el argumento o el tema:** Puede ser difícil aplicar la teoría en contextos prácticos.
+**■ Problemas con el argumento o el tema:** Puede ser difícil aplicar la
+teoría en contextos prácticos.
 
-**■ Resumen en un párrafo:** En este libro, Csikszentmihalyi detalla cómo las personas pueden alcanzar un estado de "flujo", donde están completamente inmersas en la actividad que realizan. Se describen las condiciones necesarias para lograr este estado y se discute su relevancia en diversas áreas, incluyendo el juego y el trabajo.
+**■ Resumen en un párrafo:** En este libro, Csikszentmihalyi detalla
+cómo las personas pueden alcanzar un estado de "flujo", donde están
+completamente inmersas en la actividad que realizan. Se describen las
+condiciones necesarias para lograr este estado y se discute su
+relevancia en diversas áreas, incluyendo el juego y el trabajo.
 
 **■ [Fuente](https://en.wikipedia.org/wiki/Flow_(psychology))**:@Ref9
-
 
 **Ficha 10:**
 
@@ -778,17 +843,27 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Conductismo.
 
-**■ Resumen en una oración:** Se presenta un análisis exhaustivo de cómo los organismos responden a estímulos.
+**■ Resumen en una oración:** Se presenta un análisis exhaustivo de cómo
+los organismos responden a estímulos.
 
-**■ Argumento central:** El comportamiento se modifica a través de la selección por consecuencias.
+**■ Argumento central:** El comportamiento se modifica a través de la
+selección por consecuencias.
 
-**■ Problemas con el argumento o el tema:** Limitaciones en el alcance de la investigación a ciertos organismos.
+**■ Problemas con el argumento o el tema:** Limitaciones en el alcance
+de la investigación a ciertos organismos.
 
-**■ Resumen en un párrafo:** En este libro, Skinner introduce su teoría conductual, fundamentando su enfoque experimental en la observación del comportamiento de los organismos en respuesta a diversos estímulos. A través de una serie de experimentos, se explora cómo las consecuencias de las acciones influyen en el aprendizaje y la modificación del comportamiento.
+**■ Resumen en un párrafo:** En este libro, Skinner introduce su teoría
+conductual, fundamentando su enfoque experimental en la observación del
+comportamiento de los organismos en respuesta a diversos estímulos. A
+través de una serie de experimentos, se explora cómo las consecuencias
+de las acciones influyen en el aprendizaje y la modificación del
+comportamiento.
 
-**■ [Fuente](https://books.google.com/books/about/The_Behavior_of_Organisms.html?id=S9WNCwAAQBAJ)**: @Ref10
+**■
+[Fuente](https://books.google.com/books/about/The_Behavior_of_Organisms.html?id=S9WNCwAAQBAJ)**:
+@Ref10
 
----
+------------------------------------------------------------------------
 
 **Ficha 11:**
 
@@ -810,17 +885,25 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Análisis cultural de videojuegos.
 
-**■ Resumen en una oración:** Se exploran las preferencias de los jugadores en el ámbito de los videojuegos.
+**■ Resumen en una oración:** Se exploran las preferencias de los
+jugadores en el ámbito de los videojuegos.
 
-**■ Argumento central:** Las preferencias de los jugadores varían según múltiples factores.
+**■ Argumento central:** Las preferencias de los jugadores varían según
+múltiples factores.
 
-**■ Problemas con el argumento o el tema:** Falta de investigación empírica específica.
+**■ Problemas con el argumento o el tema:** Falta de investigación
+empírica específica.
 
-**■ Resumen en un párrafo:** Este artículo de Wikipedia proporciona una visión general sobre las preferencias de los jugadores en videojuegos, analizando diversos factores que influyen en sus elecciones, como la mecánica del juego, la narrativa y la estética. Se discuten tendencias actuales y cómo estas reflejan cambios en la cultura del juego.
+**■ Resumen en un párrafo:** Este artículo de Wikipedia proporciona una
+visión general sobre las preferencias de los jugadores en videojuegos,
+analizando diversos factores que influyen en sus elecciones, como la
+mecánica del juego, la narrativa y la estética. Se discuten tendencias
+actuales y cómo estas reflejan cambios en la cultura del juego.
 
-**■ [Fuente](https://en.wikipedia.org/wiki/Video_game_preferences)**: @Ref11
+**■ [Fuente](https://en.wikipedia.org/wiki/Video_game_preferences)**:
+@Ref11
 
----
+------------------------------------------------------------------------
 
 **Ficha 12:**
 
@@ -842,189 +925,284 @@ nuevas preguntas sobre la naturaleza de esta diversión.
 
 -   **Teoría:** Diseño de videojuegos.
 
-**■ Resumen en una oración:** Se describen las diversas mecánicas utilizadas en los videojuegos.
+**■ Resumen en una oración:** Se describen las diversas mecánicas
+utilizadas en los videojuegos.
 
-**■ Argumento central:** Las mecánicas son fundamentales para la experiencia de juego.
+**■ Argumento central:** Las mecánicas son fundamentales para la
+experiencia de juego.
 
-**■ Problemas con el argumento o el tema:** Clasificaciones a veces simplificadas.
+**■ Problemas con el argumento o el tema:** Clasificaciones a veces
+simplificadas.
 
-**■ Resumen en un párrafo:** Este artículo ofrece un análisis sobre las mecánicas de videojuegos, abordando su importancia en el diseño y la experiencia del jugador. Se examinan diferentes tipos de mecánicas, desde las más simples hasta las más complejas, y se discute cómo estas influyen en la jugabilidad y en la narrativa de los videojuegos.
+**■ Resumen en un párrafo:** Este artículo ofrece un análisis sobre las
+mecánicas de videojuegos, abordando su importancia en el diseño y la
+experiencia del jugador. Se examinan diferentes tipos de mecánicas,
+desde las más simples hasta las más complejas, y se discute cómo estas
+influyen en la jugabilidad y en la narrativa de los videojuegos.
 
-**■ [Fuente](https://en.wikipedia.org/wiki/Video_game_mechanics)**: @Ref12
+**■ [Fuente](https://en.wikipedia.org/wiki/Video_game_mechanics)**:
+@Ref12
 
 **Ficha 13:**
 
-**■ Título:** Estudio de mercado sobre juegos para móviles y gaming  
-**■ Autor(es):** We Are Testers  
-**■ Año:** 2024  
-**■ Nombre del tema:** Tendencias en el mercado de juegos móviles y gaming  
-**■ Forma de organizarlo:**  
-- **Cronológico:** Datos actuales del año 2024.  
-- **Metodológico:** Estudio de mercado basado en encuestas y análisis de tendencias.  
-- **Temático:** Comportamiento del consumidor y preferencias en juegos móviles.  
-- **Teoría:** Marketing de productos digitales y comportamiento de usuario.  
+**■ Título:** Estudio de mercado sobre juegos para móviles y gaming\
+**■ Autor(es):** We Are Testers\
+**■ Año:** 2024\
+**■ Nombre del tema:** Tendencias en el mercado de juegos móviles y
+gaming\
+**■ Forma de organizarlo:**\
+- **Cronológico:** Datos actuales del año 2024.\
+- **Metodológico:** Estudio de mercado basado en encuestas y análisis de
+tendencias.\
+- **Temático:** Comportamiento del consumidor y preferencias en juegos
+móviles.\
+- **Teoría:** Marketing de productos digitales y comportamiento de
+usuario.
 
-**■ Resumen en una oración:** Estudio exhaustivo sobre las tendencias actuales y el comportamiento del consumidor en el mercado de juegos móviles.  
-**■ Argumento central:** Los juegos móviles están dominando el mercado global del gaming, y las empresas deben adaptarse a las nuevas preferencias del consumidor para mantenerse competitivas.  
-**■ Problemas con el argumento o el tema:** Puede estar limitado a una muestra específica y no representar completamente todos los mercados globales.  
-**■ Resumen en un párrafo:** El estudio de mercado elaborado por We Are Testers explora las tendencias y cambios en el comportamiento del consumidor en el sector de los juegos para móviles. Se destacan elementos como el creciente interés por los juegos casuales, el impacto de la publicidad en los juegos móviles y cómo las empresas pueden capitalizar estas tendencias para mejorar su estrategia de marketing. Además, el estudio ofrece una visión general del perfil del jugador moderno, señalando la importancia de adaptar los productos a las demandas cambiantes del mercado digital.  
+**■ Resumen en una oración:** Estudio exhaustivo sobre las tendencias
+actuales y el comportamiento del consumidor en el mercado de juegos
+móviles.\
+**■ Argumento central:** Los juegos móviles están dominando el mercado
+global del gaming, y las empresas deben adaptarse a las nuevas
+preferencias del consumidor para mantenerse competitivas.\
+**■ Problemas con el argumento o el tema:** Puede estar limitado a una
+muestra específica y no representar completamente todos los mercados
+globales.\
+**■ Resumen en un párrafo:** El estudio de mercado elaborado por We Are
+Testers explora las tendencias y cambios en el comportamiento del
+consumidor en el sector de los juegos para móviles. Se destacan
+elementos como el creciente interés por los juegos casuales, el impacto
+de la publicidad en los juegos móviles y cómo las empresas pueden
+capitalizar estas tendencias para mejorar su estrategia de marketing.
+Además, el estudio ofrece una visión general del perfil del jugador
+moderno, señalando la importancia de adaptar los productos a las
+demandas cambiantes del mercado digital.
 
-**■ [Fuente](https://www.wearetesters.com/estudios-de-mercado/gaming/)**: @Ref13
+**■
+[Fuente](https://www.wearetesters.com/estudios-de-mercado/gaming/)**:
+@Ref13
 
 **Ficha 14:**
 
-**■ Título:** R for Data Science: Import, Tidy, Transform, Visualize, and Model Data  
-**■ Autor(es):** Wickham, Hadley y Grolemund, Garrett  
-**■ Año:** 2017  
-**■ Nombre del tema:** Análisis de datos en R.  
-**■ Forma de organizarlo:**  
-- **Cronológico:** Desarrollo del análisis de datos en R.  
-- **Metodológico:** Enfoque práctico y orientado a proyectos.  
-- **Temático:** Técnicas de importación, limpieza y visualización de datos.  
-- **Teoría:** Ciencia de datos y programación en R.  
+**■ Título:** R for Data Science: Import, Tidy, Transform, Visualize,
+and Model Data\
+**■ Autor(es):** Wickham, Hadley y Grolemund, Garrett\
+**■ Año:** 2017\
+**■ Nombre del tema:** Análisis de datos en R.\
+**■ Forma de organizarlo:**\
+- **Cronológico:** Desarrollo del análisis de datos en R.\
+- **Metodológico:** Enfoque práctico y orientado a proyectos.\
+- **Temático:** Técnicas de importación, limpieza y visualización de
+datos.\
+- **Teoría:** Ciencia de datos y programación en R.
 
-**■ Resumen en una oración:** Este libro presenta un enfoque práctico para realizar análisis de datos utilizando R.  
-**■ Argumento central:** La manipulación y visualización de datos son fundamentales para el análisis efectivo en R.  
-**■ Problemas con el argumento o el tema:** El enfoque puede no ser aplicable a conjuntos de datos extremadamente grandes o complejos.  
-**■ Resumen en un párrafo:** *R for Data Science* es un libro clave para quienes deseen aprender a manejar y analizar datos utilizando R. A través de ejemplos prácticos, Wickham y Grolemund explican cómo importar, limpiar y visualizar datos de manera efectiva. El texto enfatiza la importancia de una buena manipulación de datos como base para el análisis y la toma de decisiones informadas en ciencia de datos.  
+**■ Resumen en una oración:** Este libro presenta un enfoque práctico
+para realizar análisis de datos utilizando R.\
+**■ Argumento central:** La manipulación y visualización de datos son
+fundamentales para el análisis efectivo en R.\
+**■ Problemas con el argumento o el tema:** El enfoque puede no ser
+aplicable a conjuntos de datos extremadamente grandes o complejos.\
+**■ Resumen en un párrafo:** *R for Data Science* es un libro clave para
+quienes deseen aprender a manejar y analizar datos utilizando R. A
+través de ejemplos prácticos, Wickham y Grolemund explican cómo
+importar, limpiar y visualizar datos de manera efectiva. El texto
+enfatiza la importancia de una buena manipulación de datos como base
+para el análisis y la toma de decisiones informadas en ciencia de
+datos.\
 **■ [Fuente](https://r4ds.had.co.nz)**: @Ref14
 
----
+------------------------------------------------------------------------
 
 **Ficha 15:**
 
-**■ Título:** An Introduction to Statistical Learning with Applications in R  
-**■ Autor(es):** James, Gareth; Witten, Daniela; Hastie, Trevor; y Tibshirani, Robert  
-**■ Año:** 2021  
-**■ Nombre del tema:** Aprendizaje estadístico.  
-**■ Forma de organizarlo:**  
-- **Cronológico:** Evolución del aprendizaje estadístico.  
-- **Metodológico:** Enfoque teórico y práctico.  
-- **Temático:** Modelos estadísticos y su aplicación en R.  
-- **Teoría:** Aprendizaje automático y estadística.  
+**■ Título:** An Introduction to Statistical Learning with Applications
+in R\
+**■ Autor(es):** James, Gareth; Witten, Daniela; Hastie, Trevor; y
+Tibshirani, Robert\
+**■ Año:** 2021\
+**■ Nombre del tema:** Aprendizaje estadístico.\
+**■ Forma de organizarlo:**\
+- **Cronológico:** Evolución del aprendizaje estadístico.\
+- **Metodológico:** Enfoque teórico y práctico.\
+- **Temático:** Modelos estadísticos y su aplicación en R.\
+- **Teoría:** Aprendizaje automático y estadística.
 
-**■ Resumen en una oración:** El libro ofrece un enfoque accesible al aprendizaje estadístico y sus aplicaciones prácticas.  
-**■ Argumento central:** La comprensión de los modelos estadísticos es esencial para aplicar técnicas de aprendizaje automático.  
-**■ Problemas con el argumento o el tema:** Puede ser complejo para principiantes sin formación previa en estadística.  
-**■ Resumen en un párrafo:** *An Introduction to Statistical Learning* es una referencia fundamental para quienes buscan entender el aprendizaje estadístico. Los autores presentan conceptos clave y modelos prácticos en un formato accesible, utilizando R como herramienta principal. Se abordan temas desde la regresión hasta el aprendizaje no supervisado, brindando ejemplos que facilitan la comprensión de la teoría detrás de cada técnica. Este libro es un recurso valioso para estudiantes y profesionales que desean aplicar métodos estadísticos en sus investigaciones y proyectos.  
+**■ Resumen en una oración:** El libro ofrece un enfoque accesible al
+aprendizaje estadístico y sus aplicaciones prácticas.\
+**■ Argumento central:** La comprensión de los modelos estadísticos es
+esencial para aplicar técnicas de aprendizaje automático.\
+**■ Problemas con el argumento o el tema:** Puede ser complejo para
+principiantes sin formación previa en estadística.\
+**■ Resumen en un párrafo:** *An Introduction to Statistical Learning*
+es una referencia fundamental para quienes buscan entender el
+aprendizaje estadístico. Los autores presentan conceptos clave y modelos
+prácticos en un formato accesible, utilizando R como herramienta
+principal. Se abordan temas desde la regresión hasta el aprendizaje no
+supervisado, brindando ejemplos que facilitan la comprensión de la
+teoría detrás de cada técnica. Este libro es un recurso valioso para
+estudiantes y profesionales que desean aplicar métodos estadísticos en
+sus investigaciones y proyectos.\
 **■ [Fuente](https://www.statlearning.com)**: @Ref15
 
----
+------------------------------------------------------------------------
 
 **Ficha 16:**
 
-**■ Título:** Some Methods for Classification and Analysis of Multivariate Observations  
-**■ Autor(es):** MacQueen, J.  
-**■ Año:** 1967  
-**■ Nombre del tema:** Clustering y clasificación.  
-**■ Forma de organizarlo:**  
-- **Cronológico:** Desarrollo del método K-means.  
-- **Metodológico:** Investigación teórica y práctica.  
-- **Temático:** Clasificación y análisis multivariado.  
-- **Teoría:** Métodos estadísticos de agrupamiento.  
+**■ Título:** Some Methods for Classification and Analysis of
+Multivariate Observations\
+**■ Autor(es):** MacQueen, J.\
+**■ Año:** 1967\
+**■ Nombre del tema:** Clustering y clasificación.\
+**■ Forma de organizarlo:**\
+- **Cronológico:** Desarrollo del método K-means.\
+- **Metodológico:** Investigación teórica y práctica.\
+- **Temático:** Clasificación y análisis multivariado.\
+- **Teoría:** Métodos estadísticos de agrupamiento.
 
-**■ Resumen en una oración:** Este artículo introduce el método K-means para el agrupamiento de datos multivariados.  
-**■ Argumento central:** K-means es un método efectivo para clasificar y analizar conjuntos de datos complejos.  
-**■ Problemas con el argumento o el tema:** El rendimiento del algoritmo depende de la inicialización de los centroides y puede ser sensible a outliers.  
-**■ Resumen en un párrafo:** En su artículo seminal, MacQueen presenta el método K-means, un enfoque innovador para clasificar datos en grupos basados en sus características. El autor describe el algoritmo, su implementación y las ventajas de su uso en el análisis multivariado. A través de ejemplos, MacQueen ilustra cómo K-means puede simplificar la clasificación y la interpretación de conjuntos de datos complejos, aunque también señala las limitaciones del método, especialmente en términos de sensibilidad a la elección de los centroides iniciales y la presencia de valores atípicos.  
-**■ [Fuente](https://projecteuclid.org/euclid.bsmsp/1200512992)**: @Ref16
+**■ Resumen en una oración:** Este artículo introduce el método K-means
+para el agrupamiento de datos multivariados.\
+**■ Argumento central:** K-means es un método efectivo para clasificar y
+analizar conjuntos de datos complejos.\
+**■ Problemas con el argumento o el tema:** El rendimiento del algoritmo
+depende de la inicialización de los centroides y puede ser sensible a
+outliers.\
+**■ Resumen en un párrafo:** En su artículo seminal, MacQueen presenta
+el método K-means, un enfoque innovador para clasificar datos en grupos
+basados en sus características. El autor describe el algoritmo, su
+implementación y las ventajas de su uso en el análisis multivariado. A
+través de ejemplos, MacQueen ilustra cómo K-means puede simplificar la
+clasificación y la interpretación de conjuntos de datos complejos,
+aunque también señala las limitaciones del método, especialmente en
+términos de sensibilidad a la elección de los centroides iniciales y la
+presencia de valores atípicos.\
+**■ [Fuente](https://projecteuclid.org/euclid.bsmsp/1200512992)**:
+@Ref16
 
 **Ficha 17:**
 
+**■ Título:** The Impact of Video Games on the Players Behaviors: A
+Survey\
+**■ Autor(es):** Muhannad, Quwaider; Alabed, Abdullah y Duwairi, Rehab.\
+**■ Año:** 2019\
+**■ Nombre del tema:** Impacto de los videojuegos en el comportamiento\
+**■ Forma de organizarlo:**\
+- **Cronológico:** Comportamiento de los jugadores conforme el
+desarrollo de videojuegos\
+- **Metodológico:** Investigación teórica y práctica.\
+- **Temático:** Impactos positivos y negativos sobre el comportamiento.\
+- **Teoría:** Psicología moldeable de los jugadores.
 
-**■ Título:** The Impact of Video Games on the Players Behaviors: A Survey  
-**■ Autor(es):** Muhannad, Quwaider; Alabed, Abdullah y Duwairi, Rehab.  
-**■ Año:** 2019  
-**■ Nombre del tema:** Impacto de los videojuegos en el comportamiento  
-**■ Forma de organizarlo:**  
-- **Cronológico:** Comportamiento de los jugadores conforme el desarrollo de videojuegos  
-- **Metodológico:** Investigación teórica y práctica.  
-- **Temático:** Impactos positivos y negativos sobre el comportamiento.  
-- **Teoría:** Psicología moldeable de los jugadores.  
-
-
-**■ Resumen en una oración:** Este artículo concluye comportamientos típicos de ciertos jugadores.
-**■ Argumento central:** Comportamientos positivos y negativos sobre el comportamiento de los jugadores.  
-**■ Problemas con el argumento o el tema:** A veces puede parecer sesgado.   
-**■ Resumen en un párrafo:** Es bien sabido que los videojuegos impactan de manera emocional en las personas, se han documentado ya efectos negativos y positivos en otros artículos. La propuesta de los autores se enfoca más en analizar esa parte agresiva que queda expuesta más que nada por los juegos competitivos. 
+**■ Resumen en una oración:** Este artículo concluye comportamientos
+típicos de ciertos jugadores. **■ Argumento central:** Comportamientos
+positivos y negativos sobre el comportamiento de los jugadores.\
+**■ Problemas con el argumento o el tema:** A veces puede parecer
+sesgado.\
+**■ Resumen en un párrafo:** Es bien sabido que los videojuegos impactan
+de manera emocional en las personas, se han documentado ya efectos
+negativos y positivos en otros artículos. La propuesta de los autores se
+enfoca más en analizar esa parte agresiva que queda expuesta más que
+nada por los juegos competitivos.
 
 **Ficha 18:**
 
+**■ Título:** Sports: pasado y presente de las competiciones de
+videojuegos **■ Autor(es):** Mesonero,. S.\
+**■ Año:** 2019\
+**■ Nombre del tema:** Deportes electrónicos.\
+**■ Forma de organizarlo:**\
+- **Cronológico:** Auge de los deportes electrónicos en la última
+década.\
+- **Metodológico:** Investigación teórica.\
+- **Temático:** Competiciones de videojuegos.\
+- **Teoría:** Historia de la evolución de los eSports; retos y
+desarrollo.
 
-**■ Título:** Sports: pasado y presente de las competiciones de videojuegos 
-**■ Autor(es):** Mesonero,. S.  
-**■ Año:** 2019  
-**■ Nombre del tema:** Deportes electrónicos.  
-**■ Forma de organizarlo:**  
-- **Cronológico:** Auge de los deportes electrónicos en la última década.  
-- **Metodológico:** Investigación teórica.  
-- **Temático:** Competiciones de videojuegos.   
-- **Teoría:** Historia de la evolución de los eSports; retos y desarrollo.  
-
-
-**■ Resumen en una oración:** El autor narra la evolución que han tenido los deportes electrónicos; desde juegos arcaicos de arcade hasta videojuegos como League of Legends.
-**■ Argumento central:** Historia de los eSports.  
-**■ Problemas con el argumento o el tema:** El autor es muy optimista al respecto y no menciona mucho las partes negativas.   
-**■ Resumen en un párrafo:** Mucha gente nunca se hubiera imaginado que los videojuegos podrían ser un trabajo; es el rompimiento de dichos paradigmas en lo que se enfoca este artículo. A grandes rasgos se da a entender que un competidor de videojuegos está tan enfocado en ello que hasta puede darse el lujo de vivir de esto. 
+**■ Resumen en una oración:** El autor narra la evolución que han tenido
+los deportes electrónicos; desde juegos arcaicos de arcade hasta
+videojuegos como League of Legends. **■ Argumento central:** Historia de
+los eSports.\
+**■ Problemas con el argumento o el tema:** El autor es muy optimista al
+respecto y no menciona mucho las partes negativas.\
+**■ Resumen en un párrafo:** Mucha gente nunca se hubiera imaginado que
+los videojuegos podrían ser un trabajo; es el rompimiento de dichos
+paradigmas en lo que se enfoca este artículo. A grandes rasgos se da a
+entender que un competidor de videojuegos está tan enfocado en ello que
+hasta puede darse el lujo de vivir de esto.
 
 **Ficha 19:**
 
+**■ Título:** Unravelling the complexity of the Video Game Industry: An
+integrative framework and future research directions **■ Autor(es):**
+Goh, Edward y Al-Tabbaa, Omar y Khaan, Zaheer\
+**■ Año:** 2023 **■ Nombre del tema:** Industria de los videojuegos. **■
+Forma de organizarlo:**\
+- **Cronológico:** Actualidad.\
+- **Metodológico:** Investigación teórica.\
+- **Temático:** Mercado de los videojuegos y filosofía económica. -
+**Teoría:** Importancia y complejidad de la industria de los
+videojuegos.
 
-**■ Título:** Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions 
-**■ Autor(es):** Goh, Edward y Al-Tabbaa, Omar y Khaan, Zaheer  
-**■ Año:** 2023 
-**■ Nombre del tema:** Industria de los videojuegos.
-**■ Forma de organizarlo:**  
-- **Cronológico:** Actualidad.  
-- **Metodológico:** Investigación teórica.  
-- **Temático:** Mercado de los videojuegos y filosofía económica.
-- **Teoría:** Importancia y complejidad de la industria de los videojuegos.  
-
-
-**■ Resumen en una oración:** Análisis en varias aristas sobre el mercado de los videojuegos.
-**■ Argumento central:** Análisis socioeconómico del mercado de los videojuegos.  
-**■ Problemas con el argumento o el tema:** Se siente redundante y circular por momentos.   
-**■ Resumen en un párrafo:** Los videojuegos, vistos desde un foco económico, no son más que otro mercado. Este comprende aspectos como: el marketing, consumidores y las empresas. Con base en estos y otros datos económicos se pretende predecir el comportamiento de este mercado (desde cuanto generará para el 2027 hasta la calidad de los videojuegos). 
+**■ Resumen en una oración:** Análisis en varias aristas sobre el
+mercado de los videojuegos. **■ Argumento central:** Análisis
+socioeconómico del mercado de los videojuegos.\
+**■ Problemas con el argumento o el tema:** Se siente redundante y
+circular por momentos.\
+**■ Resumen en un párrafo:** Los videojuegos, vistos desde un foco
+económico, no son más que otro mercado. Este comprende aspectos como: el
+marketing, consumidores y las empresas. Con base en estos y otros datos
+económicos se pretende predecir el comportamiento de este mercado (desde
+cuanto generará para el 2027 hasta la calidad de los videojuegos).
 
 **Ficha 20:**
 
+**■ Título:** Interview: the science and art of Metacritic **■
+Autor(es):** Stuart, Keith\
+**■ Año:** 2008 **■ Nombre del tema:** Crecimiento de las críticas de
+videojuegos. **■ Forma de organizarlo:**\
+- **Cronológico:** Auge de los sistemas modernos de críticas de
+videojuegos.\
+- **Metodológico:** Entrevista a profesional.\
+- **Temático:** Filosofía de las críticas de videojuegos. - **Teoría:**
+Críticas de videojuegos.
 
-**■ Título:** Interview: the science and art of Metacritic
-**■ Autor(es):** Stuart, Keith  
-**■ Año:** 2008
-**■ Nombre del tema:** Crecimiento de las críticas de videojuegos.
-**■ Forma de organizarlo:**  
-- **Cronológico:** Auge de los sistemas modernos de críticas de videojuegos.  
-- **Metodológico:** Entrevista a profesional.  
-- **Temático:** Filosofía de las críticas de videojuegos.
-- **Teoría:** Críticas de videojuegos.  
-
-
-**■ Resumen en una oración:** Entrevista para entender el impacto que pueden tener estas críticas.
-**■ Argumento central:** Análisis de las críticas de videojuegos.  
-**■ Problemas con el argumento o el tema:** El entrevistado en ese entonces trabaja con Metacritic, una de las empresas importantes de críticas de videojuegos, por lo tanto puede ser que estuviera ignorando bastante cosas negativas.  
-**■ Resumen en un párrafo:** El auge de los videojuegos o de cualquier medio de entretenimiento aviva la idea medir la calidad del mismo mediante la crítica. El entrevistado, quien trabaja para Metacritic (empresa importante a día de hoy sobre crítica de videojuegos) para ese momento, menciona el porqué de la importancia de una industria dedicada a la crítica de los videojuegos; mencionando que la crítica puede ser beneficiosa, pues obligaría a las desarrolladoras a mejorar la calidad de sus productos. 
+**■ Resumen en una oración:** Entrevista para entender el impacto que
+pueden tener estas críticas. **■ Argumento central:** Análisis de las
+críticas de videojuegos.\
+**■ Problemas con el argumento o el tema:** El entrevistado en ese
+entonces trabaja con Metacritic, una de las empresas importantes de
+críticas de videojuegos, por lo tanto puede ser que estuviera ignorando
+bastante cosas negativas.\
+**■ Resumen en un párrafo:** El auge de los videojuegos o de cualquier
+medio de entretenimiento aviva la idea medir la calidad del mismo
+mediante la crítica. El entrevistado, quien trabaja para Metacritic
+(empresa importante a día de hoy sobre crítica de videojuegos) para ese
+momento, menciona el porqué de la importancia de una industria dedicada
+a la crítica de los videojuegos; mencionando que la crítica puede ser
+beneficiosa, pues obligaría a las desarrolladoras a mejorar la calidad
+de sus productos.
 
 **Ficha 21:**
 
+**■ Título:** Do Metacritic scores affect game sales? **■ Autor(es):**
+Imad, Khan\
+**■ Año:** 2021 **■ Nombre del tema:** Efectos de la crítica sobre la
+venta de videojuegos. **■ Forma de organizarlo:**\
+- **Cronológico:** Análisis de datos del 2012.\
+- **Metodológico:** Artículo informativo.\
+- **Temático:** El rol de las críticas en los videojuegos. - **Teoría:**
+Teoría del consumidor: preferencias.
 
-**■ Título:** Do Metacritic scores affect game sales?
-**■ Autor(es):** Imad, Khan  
-**■ Año:** 2021
-**■ Nombre del tema:** Efectos de la crítica sobre la venta de videojuegos.
-**■ Forma de organizarlo:**  
-- **Cronológico:** Análisis de datos del 2012.  
-- **Metodológico:** Artículo informativo.   
-- **Temático:** El rol de las críticas en los videojuegos.
-- **Teoría:** Teoría del consumidor: preferencias.  
-
-
-**■ Resumen en una oración:** El autor concluye de estudios previos que las críticas no afectan a las ventas.
-**■ Argumento central:** Críticas de videojuegos.  
-**■ Problemas con el argumento o el tema:** Pese a que la conclusión a la que llega el autor es acertada, el artículo se siente bastante corto.  
-**■ Resumen en un párrafo:** El autor asegura que la crítica de videojuegos, más específicamente las de Metacritic, no afectan a las ventas de los videojuegos. Esto con base en un estudio sobre ventas del 2012, donde se comparaban ventas de videojuegos y sus respectivos análisis en Metacritic.  
-
-
+**■ Resumen en una oración:** El autor concluye de estudios previos que
+las críticas no afectan a las ventas. **■ Argumento central:** Críticas
+de videojuegos.\
+**■ Problemas con el argumento o el tema:** Pese a que la conclusión a
+la que llega el autor es acertada, el artículo se siente bastante
+corto.\
+**■ Resumen en un párrafo:** El autor asegura que la crítica de
+videojuegos, más específicamente las de Metacritic, no afectan a las
+ventas de los videojuegos. Esto con base en un estudio sobre ventas del
+2012, donde se comparaban ventas de videojuegos y sus respectivos
+análisis en Metacritic.
 
 ## Construcción de la UVE de Gowin
 
@@ -1077,8 +1255,8 @@ las personas les atraen los videojuegos y cuál es su relación con el
 El vínculo entre estas dos preguntas no parece tan clara a primera
 vista, no obstante y de manera empírica se pueden utilizar las
 conclusiones del Estudio sobre juegos para móviles: hábitos en el sector
-‘gaming’ (@Ref13) para proponer respuestas a la primera pregunta. En este
-estudio se mencionan dos cosas importantes: *frecuencia de juego* y
+‘gaming’ (@Ref13) para proponer respuestas a la primera pregunta. En
+este estudio se mencionan dos cosas importantes: *frecuencia de juego* y
 *celulares*, el celular es posiblemente el objeto más utilizado del
 siglo ventiúno. "El celular es el objeto más utilizado" es lo mismo que
 decir "La frecuencia de uso del celular corresponde a la mayor de otro
@@ -1100,4 +1278,3 @@ Se desestimó fácilmente la primera pregunta, pues el mercado se puede
 analizar desde las preferencias, y para entender las preferencias se
 necesita entender el por qué de esta; o sea, el origen de la atracción
 que los videojuegos han cultivado en millones de personas. \#
-

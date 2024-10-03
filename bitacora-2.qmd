@@ -7,6 +7,18 @@ editor:
     wrap: 72
 ---
 
+## Comando 1:
+
+![](images/Captura de pantalla (347).png)
+
+## Comando 2:
+
+![](images/Captura de pantalla (348).png)
+
+## Comando 3:
+
+![](images/Captura de pantalla (349).png)
+
 # Parte de Planificación
 
 ## Ordenamiento de la Literatura
@@ -140,43 +152,6 @@ es muy cierto: las notas en Metacritic podrían incentivar a las empresas
 desarrolladoras de videojuegos a innovar y/o mejorar la calidad de sus
 productos. Además, las conclusiones de Khan Imad se basan en solamente
 un estudio, por lo que es perfectamente cuestionable en muchos aspectos.
-
-Mangiron explora la interconexión entre el manga, el anime y los
-videojuegos japoneses; destaca cómo estos medios se influyen mutuamente
-y forman parte de una cultura visual más amplia. En su análisis, ella
-observa cómo el consumo de los productos culturales relacionados con la
-subcultura japonesa está directamente relacionado con el auge de la
-cultura pop japonesa en todo el mundo. Por otro lado, el Análisis de la
-industria del videojuego en España se diferencia exactamente en el
-enfoque de la cuestión: el autor desconocido se centra en el contexto
-español y cómo la industria local ha evolucionado, centrándose en cómo
-se adaptó a las influencias globales, incluyendo el arte japonés
-popular. Mientras que Mangiron se centra en la dependencia de diferentes
-formas de arte japonés, el autor desconocido explora el mercado de
-videojuegos y su evolución y prácticas en un contexto geográfico
-específico. Por supuesto, podemos ver la influencia de la cultura
-japonesa en el mercado del videojuego; sin embargo, también debemos
-considerar cómo las peculiaridades culturales pueden influir en la
-percepción y la experiencia del jugador. En España, la combinación de
-influencias japonesas y locales podría intreteresarse en un producto
-híbrido que refleja influencias extranjeras y tradiciones locales.
-
-El artículo Plan de marketing para una empresa de videojuegos
-consolidará el marco para desarrollar un plan de marketing eficaz para
-una empresa de videojuegos desde la investigación de mercado hasta la
-implementación de estrategias promocionales. Se destaca la importancia
-de conocer a su audiencia y, al mismo tiempo, las tendencias del
-mercado. En comparación con el trabajo anterior, Análisis de datos para
-mejorar el diseño de videojuegos ; se enfoca en la optimización del
-proceso de diseño basado en la retroalimentación de los usuarios,
-mientras que el plan de marketing se centra en cómo presentar el
-producto al mercado objetivo. Sin embargo, estos enfoques son
-complementarios. Un trabajo anterior intenta mejorar el producto, por lo
-que el otro debe venderlo. La incorporación de datos de usuarios al
-proceso de diseño de videojuegos es fundamental, pero también es cómo
-venderte al público. El marketing no solo se trata de cómo destacarse
-entre el mar de videojuegos, sino también de cómo contar una historia
-que resuene con su público y cree una presencia emocional.
 
 # Análisis Estadísticos
 
