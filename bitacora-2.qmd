@@ -11,6 +11,9 @@ editor:
 
 ## Ordenamiento de la Literatura
 
+![](imagenes/literatura.png){fig-align="center" width="633"
+height="150"}
+
 # Enlaces de la Literatura
 
 En su obra "The Behavior of Organisms" (1938), B.F. Skinner plantea que
@@ -23,7 +26,7 @@ comportamiento no depende de las consecuencias inmediatas, sino también
 del nivel de inmersión que se logra cuando hay un equilibrio entre los
 desafíos y las habilidades. Mientras Skinner pone énfasis en respuestas
 automáticas ante estímulos, Csikszentmihalyi examina estados de
-conciencia elevados, como el "flujo”. Además, la obra de Skinner ofrece
+conciencia elevados, como el "flujo". Además, la obra de Skinner ofrece
 una base experimental sólida sobre cómo el refuerzo modifica el
 comportamiento, y el enfoque de Csikszentmihalyi complementa este modelo
 al destacar la importancia de la motivación intrínseca y el disfrute de
@@ -45,7 +48,7 @@ garantizar una experiencia satisfactoria y prolongada, esto con el fin
 del que el jugador se sienta cómodo realizando los desafíos, pero no tan
 cómodo como para que considere el juego demasiado fácil o absurdo.
 
-¿El estudio “Innovate or Game Over?" (2022), de Handrich et al., analiza
+¿El estudio "Innovate or Game Over?" (2022), de Handrich et al., analiza
 cómo la innovación en las mecánicas y la presentación de los videojuegos
 impacta directamente su éxito en el mercado. Los autores destacan que
 las innovaciones en la jugabilidad pueden mejorar el rendimiento inicial
