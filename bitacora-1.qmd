@@ -424,8 +424,12 @@ comercial de los videojuego.
 -   @Ref9
 -   @Ref10
 -   @Ref11
--   @Ref12
--   @Ref13
+-   @Ref14
+-   @Ref15
+-   @Ref16
+-   @Ref17
+-   @Ref18
+-   @Ref19
 
 ### Construcción de fichas de literatura
 
