@@ -9,15 +9,15 @@ editor:
 
 ## Comando 1:
 
-![](images/Captura de pantalla (347).png)
+![](images/Captura%20de%20pantalla%20(347).png)
 
 ## Comando 2:
 
-![](images/Captura de pantalla (348).png)
+![](images/Captura%20de%20pantalla%20(348).png)
 
 ## Comando 3:
 
-![](images/Captura de pantalla (349).png)
+![](images/Captura%20de%20pantalla%20(349).png)
 
 # Parte de Planificación
 
