@@ -5,8 +5,7 @@
 # Session Data files
 .RData
 .RDataTmp
-#
-games.csv
+
 
 # User-specific files
 .Ruserdata
