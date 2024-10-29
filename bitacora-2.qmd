@@ -2,10 +2,27 @@
 title: "Bitácora 2"
 date: "2024"
 format: pdf
+output: html_document
 editor: 
   markdown: 
     wrap: 72
 ---
+
+```{r}
+#| echo: false
+#| warning: false
+library(tidyverse)
+library(broom)
+library(cluster)
+library(tidyr)
+library(dplyr)
+library(cowplot)
+library(ggplot2)
+library(scales)
+library(hexbin)
+library(kableExtra)
+
+```
 
 ## Comando 1:
 
@@ -23,8 +40,53 @@ editor:
 
 ## Ordenamiento de la Literatura
 
-![](imagenes/literatura.png){fig-align="center" width="633"
-height="150"}
+```{r}
+#| echo: false
+#| warning: false
+tabla <- data.frame(
+  Tipo = c("Teórico", "Metodológico", "Teórico", "Temático", "Metodológico", 
+           "Metodológico", "Temático", "Metodológico", "Teórico", 
+           "Metodológico", "Temático"),
+  Tema_General = c("Videojuegos y cultura japonesa", "Adicción a videojuegos", 
+                   "Diversión en videojuegos", "Videojuegos y política", 
+                   "Industria de videojuegos", "Marketing de videojuegos", 
+                   "Innovación en videojuegos", "Experiencia de juego", 
+                   "Psicología del juego", "Análisis de comportamiento", 
+                   "Juegos móviles y mercado"),
+  Tema_Especifico = c("Análisis de éxito global de videojuegos japoneses", 
+                      "Uso de videojuegos como estrategia de afrontamiento emocional", 
+                      "Concepto de diversión a través del análisis de videojuegos", 
+                      "Ludoficción política en Steam", 
+                      "Análisis de la industria del videojuego en España", 
+                      "Plan de marketing para empresas de videojuegos", 
+                      "Innovación en productos y éxito en videojuegos", 
+                      "Procesamiento predictivo y disfrute de la incertidumbre en videojuegos", 
+                      "Experiencia óptima (flow)", 
+                      "Análisis experimental del comportamiento", 
+                      "Estudio de mercado sobre juegos para móviles y gaming"),
+  Titulo = c("Manga, anime y videojuegos japoneses: análisis de los principales factores de su éxito global",
+             "Problematic video game use as an emotional coping strategy",
+             "¿Qué hace divertido un videojuego? Acercamiento al concepto de diversión",
+             "LA POLÍTICA A LA QUE JUGAMOS. CULTURA, VIDEOJUEGOS Y LUDOFICCIÓN POLÍTICA EN STEAM",
+             "Análisis de la industria del videojuego en España",
+             "Plan de marketing para una empresa de videojuegos",
+             "Innovate or game over? Examining effects of product innovativeness on video game success",
+             "Mastering uncertainty: A predictive processing account of enjoying uncertain success in video game play",
+             "Flow: The Psychology of Optimal Experience",
+             "The Behavior of Organisms: An Experimental Analysis",
+             "Estudio de mercado sobre juegos para móviles y gaming"),
+  Año = c(2012, 2019, 2015, 2024, 2024, 2024, 2022, 2022, 1990, 1938, 2024),
+  Autores = c("Hevia, Carme Mangiron", "Di Blasi, Maria", "Guerrero Pastor, Marta", 
+              "STEAM, ON", "Autor Desconocido", "Autor Desconocido", 
+              "Handrich, Franziska; Heidenreich, Sven; Kraemer, Tobias", 
+              "Deterding, Sebastian; Andersen, Marc Malmdorf; Kiverstein, Julian", 
+              "Csikszentmihalyi, Mihaly", "Skinner, B.F.", "We Are Testers")
+)
+tabla %>%
+  kable("html", caption = "Tabla ordenamiento de literatura") %>%
+  kable_styling("striped", full_width = F)
+
+```
 
 # Enlaces de la Literatura
 
@@ -255,24 +317,78 @@ de lanzamiento en donde se omitirán algunas mediciones.
 
 ### Gráficos:
 
-![Histograma frecuencial de los juegos lanzados por
-año.](FreqGamesPerYear.png){fig-align="center" width="137mm"}
+```{r}
+#| warning: false
+ggplot(clean_database, aes(x = clean_database$ReleaseDate)) +
+  geom_freqpoly(alpha = 20, binwidth = 2.5, color = "black", size = 0.9) +
+  labs(x = "Año de lanzamiento", y = "Cantidad de videojuegos", title = "Cantidad de videojuegos lanzados por año") +
+  cowplot::theme_cowplot()
+```
 
-![Dispersión entre la variable nota en Metacritic con la de jugadores
-estimados.](imagenes/GamersAndCriticsRelations.png){fig-align="center"
-width="138mm"}
+```{r}
+#| warning: false
+ggplot(clean_database, aes(x = Metacritic.score, y = EstimatedPlayers)) +
+  geom_point(alpha = 20, color = "black", position = position_jitter()) +
+  scale_y_log10(labels = scales::number) +
+  scale_x_continuous(breaks = seq(0, 100, by = 10)) +
+  labs(title = "Dispersión entre las variables jugadores estimados y nota en Metacritic", x = "Nota en Metacritic", y = "Jugadores estimados") +
+  cowplot::theme_cowplot() +
+  geom_smooth(method = "lm", se = FALSE,color = "blue")
+```
 
-![Dispersión hexagonal de las variables jugadores estimados y
-precio.](imagenes/Rplot02.png){fig-align="center" width="138mm"
-height="92mm"}
+```{r}
+#| warning: False
+ggplot(clean_database, aes(x = Price, y = EstimatedPlayers)) +
+  geom_hex(alpha = 0.5, size = 1, position = position_jitter(width = 0.1, height = 0.1)) +  
+  scale_y_log10(labels = scales::number) +
+  scale_x_continuous(breaks = seq(0, 70, by = 10)) +
+  labs(title = "Gráfico de dispersión entre el número de jugadores y el precio",
+       x = "Precio",
+       y = "Número de jugadores",
+       fill = "Gradiente de densidad") +
+  cowplot::theme_cowplot() +
+  scale_fill_gradient(low = "blue", high = "red")
+```
 
-![Distribución y Comparativa del Tiempo de Juego Promedio por
-plataforma](imagenes/GrafJoseph1.png){fig-align="center" width="138mm"
-height="92mm"}
+```{r}
+#| warning: False
+playtime_platforms_long <- clean_database %>%
+  select(Windows, Mac, Linux, Average.playtime.forever) %>%
+  pivot_longer(cols = c(Windows, Mac, Linux), names_to = "Plataform", values_to = "Supported")
 
-![Distribución de Jugadores Estimados a lo Largo del
-Tiempo](imagenes/GrafJoseph2.png){fig-align="center" width="138mm"
-height="92mm"}
+ggplot(playtime_platforms_long, aes(x = Plataform, y = Average.playtime.forever, fill = Plataform)) +
+  geom_violin(trim = FALSE, alpha = 0.7, color = "black") +
+  geom_jitter(width = 0.2, alpha = 0.3, color = "black", size = 1) +
+  scale_fill_manual(values = c("darkorange", "darkturquoise", "orchid4")) +
+  labs(
+    title = "Tiempo de Juego Promedio por Plataforma",
+    x = "Plataforma",
+    y = "Tiempo de Juego Promedio (horas)"
+  ) +
+  theme_classic(base_family = "Arial") +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    legend.position = "none",
+    panel.grid.major = element_line(color = "gray85")
+  )
+```
+
+```{r}
+#| echo: True
+ggplot(clean_database, aes(x = ReleaseDate, y = EstimatedPlayers)) +
+  geom_point(alpha = 0.9, color = "blue", size = 0.5) +
+  stat_density_2d(aes(fill = after_stat(level)), geom = "polygon", color = "white", alpha = 0.6) +
+  scale_fill_viridis_c(option = "plasma", name = "Densidad de Jugadores") +  
+  scale_y_log10() + 
+  labs(
+    title = "Distribución de Jugadores a lo Largo del Tiempo",
+    x = "Año de Lanzamiento",
+    y = "Cantidad Estimada de Jugadores"
+  ) +
+  theme_minimal() 
+```
 
 ## Propuesta Metodológica
 
@@ -334,50 +450,6 @@ poderosa para comprender cómo estas variables interactúan y afectan el
 número estimado de propietarios de un videojuego.
 
 **Fuente**: @Ref15
-
-### Algoritmo de Clustering (K-means)
-
-**Objetivo**: Agrupar videojuegos en función de características como
-**precio**, **reseñas positivas**, y **calificación**. El algoritmo
-K-means identifica patrones en los datos, permitiendo segmentar el
-mercado de videojuegos.
-
-**Descripción del Método**:\
-K-means es un método de agrupamiento que divide un conjunto de datos en
-(k) grupos basados en las características de los videojuegos. El proceso
-incluye:
-
-1.  **Inicialización**: Seleccionar (k) centroides iniciales aleatorios.
-
-2.  **Asignación**: Cada videojuego se asigna al clúster cuyo centroide
-    está más cercano.
-
-3.  **Recalculación**: Se actualizan los centroides como el promedio de
-    los puntos en cada clúster.
-
-4.  **Iteración**: Se repiten los pasos 2 y 3 hasta que los centroides
-    se estabilizan.
-
-**Ecuación del Algoritmo**
-
-La siguiente es la ecuación utilizada en el algoritmo:
-
-\[ \text{Minimizar} \quad \sum\*{i=1}\^{n}\* \sum{j=1}\^{k} \|x_i -
-c_j\|\^2 \]
-
-Donde ( (x_i) ) es un videojuego y ( (c_j) ) es el centroide del clúster
-( j ).
-
-**Fuente**: @Ref16
-
-### Programa maqueta:
-
-**Codigo en R:** ![](imagenes/CodigoR1.png) ![](imagenes/CodigoR2.png)
-
-### Respaldo de resultados: *Grafico de clusteres*:
-
-![](imagenes/GrafRespaldoJ.png){fig-align="center" width="138mm"
-height="92mm"}
 
 ## Construcción de Fichas de Resultados
 
@@ -499,3 +571,8 @@ años como 2010 y 2015. Esto dice que el interés por los videojuegos ha
 aumentado considerablemente, posiblemente influenciado por el
 lanzamiento de títulos populares y el crecimiento de plataformas de
 juego en línea.
+
+```{r}
+#| echo: false
+#| fig.width: 10
+```
