@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bitácora Grupo 3 que, CA-204 (II-2024) - 1&nbsp; Bitacora 1</title>
+<title>Bitácora Grupo 3 , CA-204 (II-2024) - 1&nbsp; Bitácora 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,14 +17,16 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,6 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./bitacora-2.html" rel="next">
 <link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -65,7 +67,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Sin resultados",
     "search-matching-documents-text": "documentos encontrados",
@@ -74,8 +82,10 @@ div.csl-indent {
     "search-more-match-text": "resultado adicional en este documento",
     "search-more-matches-text": "resultados adicionales en este documento",
     "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar"
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 
@@ -86,11 +96,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Bitacora 1</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bitacora-1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Bitácora 1</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -98,68 +113,77 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Bitácora Grupo 3 que, CA-204 (II-2024)</a> 
+      <a href="./">Bitácora Grupo 3 , CA-204 (II-2024)</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Buscar"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Introducción</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bitacora-1.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Bitacora 1</span></a>
+  <a href="./bitacora-1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Bitácora 1</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bitacora-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Bitácora 2</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#comando-1" id="toc-comando-1" class="nav-link active" data-scroll-target="#comando-1"><span class="toc-section-number">1.1</span>  Comando 1:</a></li>
-  <li><a href="#comando-2" id="toc-comando-2" class="nav-link" data-scroll-target="#comando-2"><span class="toc-section-number">1.2</span>  Comando 2:</a></li>
-  <li><a href="#comando-3" id="toc-comando-3" class="nav-link" data-scroll-target="#comando-3"><span class="toc-section-number">1.3</span>  Comando 3:</a></li>
-  <li><a href="#parte-planificacion" id="toc-parte-planificacion" class="nav-link" data-scroll-target="#parte-planificacion"><span class="toc-section-number">2</span>  Parte planificacion</a>
+  <li><a href="#comando-1" id="toc-comando-1" class="nav-link active" data-scroll-target="#comando-1"><span class="header-section-number">1.1</span> Comando 1:</a></li>
+  <li><a href="#comando-2" id="toc-comando-2" class="nav-link" data-scroll-target="#comando-2"><span class="header-section-number">1.2</span> Comando 2:</a></li>
+  <li><a href="#comando-3" id="toc-comando-3" class="nav-link" data-scroll-target="#comando-3"><span class="header-section-number">1.3</span> Comando 3:</a></li>
+  <li><a href="#parte-planificacion" id="toc-parte-planificacion" class="nav-link" data-scroll-target="#parte-planificacion"><span class="header-section-number">2</span> Parte planificacion</a>
   <ul class="collapse">
-  <li><a href="#pregunta-de-investigación" id="toc-pregunta-de-investigación" class="nav-link" data-scroll-target="#pregunta-de-investigación"><span class="toc-section-number">2.1</span>  Pregunta de investigación:</a>
+  <li><a href="#pregunta-de-investigación" id="toc-pregunta-de-investigación" class="nav-link" data-scroll-target="#pregunta-de-investigación"><span class="header-section-number">2.1</span> Pregunta de investigación:</a>
   <ul class="collapse">
-  <li><a href="#defincion-del-idea" id="toc-defincion-del-idea" class="nav-link" data-scroll-target="#defincion-del-idea"><span class="toc-section-number">2.1.1</span>  Defincion del idea</a></li>
-  <li><a href="#conceptualización-de-la-idea" id="toc-conceptualización-de-la-idea" class="nav-link" data-scroll-target="#conceptualización-de-la-idea"><span class="toc-section-number">2.1.2</span>  Conceptualización de la idea:</a></li>
-  <li><a href="#identificación-de-tensiones" id="toc-identificación-de-tensiones" class="nav-link" data-scroll-target="#identificación-de-tensiones"><span class="toc-section-number">2.1.3</span>  Identificación de tensiones:</a></li>
-  <li><a href="#reformulación-de-la-idea-en-modo-pregunta" id="toc-reformulación-de-la-idea-en-modo-pregunta" class="nav-link" data-scroll-target="#reformulación-de-la-idea-en-modo-pregunta"><span class="toc-section-number">2.1.4</span>  Reformulación de la idea en modo pregunta</a></li>
-  <li><a href="#argumentación-de-la-preguntas" id="toc-argumentación-de-la-preguntas" class="nav-link" data-scroll-target="#argumentación-de-la-preguntas"><span class="toc-section-number">2.1.5</span>  Argumentación de la preguntas:</a></li>
-  <li><a href="#argumentacion-a-traves-de-datos." id="toc-argumentacion-a-traves-de-datos." class="nav-link" data-scroll-target="#argumentacion-a-traves-de-datos."><span class="toc-section-number">2.1.6</span>  Argumentacion a traves de datos.</a></li>
+  <li><a href="#defincion-del-idea" id="toc-defincion-del-idea" class="nav-link" data-scroll-target="#defincion-del-idea"><span class="header-section-number">2.1.1</span> Defincion del idea</a></li>
+  <li><a href="#conceptualización-de-la-idea" id="toc-conceptualización-de-la-idea" class="nav-link" data-scroll-target="#conceptualización-de-la-idea"><span class="header-section-number">2.1.2</span> Conceptualización de la idea:</a></li>
+  <li><a href="#identificación-de-tensiones" id="toc-identificación-de-tensiones" class="nav-link" data-scroll-target="#identificación-de-tensiones"><span class="header-section-number">2.1.3</span> Identificación de tensiones:</a></li>
+  <li><a href="#reformulación-de-la-idea-en-modo-pregunta" id="toc-reformulación-de-la-idea-en-modo-pregunta" class="nav-link" data-scroll-target="#reformulación-de-la-idea-en-modo-pregunta"><span class="header-section-number">2.1.4</span> Reformulación de la idea en modo pregunta</a></li>
+  <li><a href="#argumentación-de-la-preguntas" id="toc-argumentación-de-la-preguntas" class="nav-link" data-scroll-target="#argumentación-de-la-preguntas"><span class="header-section-number">2.1.5</span> Argumentación de la preguntas:</a></li>
+  <li><a href="#argumentacion-a-traves-de-datos." id="toc-argumentacion-a-traves-de-datos." class="nav-link" data-scroll-target="#argumentacion-a-traves-de-datos."><span class="header-section-number">2.1.6</span> Argumentacion a traves de datos.</a></li>
   </ul></li>
-  <li><a href="#revisión-bibliográfica" id="toc-revisión-bibliográfica" class="nav-link" data-scroll-target="#revisión-bibliográfica"><span class="toc-section-number">2.2</span>  Revisión bibliográfica</a>
+  <li><a href="#revisión-bibliográfica" id="toc-revisión-bibliográfica" class="nav-link" data-scroll-target="#revisión-bibliográfica"><span class="header-section-number">2.2</span> Revisión bibliográfica</a>
   <ul class="collapse">
-  <li><a href="#búsqueda-de-bibliografía" id="toc-búsqueda-de-bibliografía" class="nav-link" data-scroll-target="#búsqueda-de-bibliografía"><span class="toc-section-number">2.2.1</span>  Búsqueda de bibliografía</a></li>
-  <li><a href="#ordenamiento-de-la-literatura" id="toc-ordenamiento-de-la-literatura" class="nav-link" data-scroll-target="#ordenamiento-de-la-literatura"><span class="toc-section-number">2.2.2</span>  Ordenamiento de la literatura</a></li>
-  <li><a href="#construcción-de-fichas-de-literatura" id="toc-construcción-de-fichas-de-literatura" class="nav-link" data-scroll-target="#construcción-de-fichas-de-literatura"><span class="toc-section-number">2.2.3</span>  Construcción de fichas de literatura</a></li>
+  <li><a href="#búsqueda-de-bibliografía" id="toc-búsqueda-de-bibliografía" class="nav-link" data-scroll-target="#búsqueda-de-bibliografía"><span class="header-section-number">2.2.1</span> Búsqueda de bibliografía</a></li>
+  <li><a href="#ordenamiento-de-la-literatura" id="toc-ordenamiento-de-la-literatura" class="nav-link" data-scroll-target="#ordenamiento-de-la-literatura"><span class="header-section-number">2.2.2</span> Ordenamiento de la literatura</a></li>
+  <li><a href="#ordenamiento-de-la-literatura-1" id="toc-ordenamiento-de-la-literatura-1" class="nav-link" data-scroll-target="#ordenamiento-de-la-literatura-1"><span class="header-section-number">2.2.3</span> Ordenamiento de la literatura</a></li>
+  <li><a href="#construcción-de-fichas-de-literatura" id="toc-construcción-de-fichas-de-literatura" class="nav-link" data-scroll-target="#construcción-de-fichas-de-literatura"><span class="header-section-number">2.2.4</span> Construcción de fichas de literatura</a></li>
   </ul></li>
-  <li><a href="#construcción-de-la-uve-de-gowin" id="toc-construcción-de-la-uve-de-gowin" class="nav-link" data-scroll-target="#construcción-de-la-uve-de-gowin"><span class="toc-section-number">2.3</span>  Construcción de la UVE de Gowin</a></li>
+  <li><a href="#construcción-de-la-uve-de-gowin" id="toc-construcción-de-la-uve-de-gowin" class="nav-link" data-scroll-target="#construcción-de-la-uve-de-gowin"><span class="header-section-number">2.3</span> Construcción de la UVE de Gowin</a></li>
   </ul></li>
-  <li><a href="#parte-de-escritura" id="toc-parte-de-escritura" class="nav-link" data-scroll-target="#parte-de-escritura"><span class="toc-section-number">3</span>  Parte de escritura</a>
+  <li><a href="#parte-de-escritura" id="toc-parte-de-escritura" class="nav-link" data-scroll-target="#parte-de-escritura"><span class="header-section-number">3</span> Parte de escritura</a>
   <ul class="collapse">
-  <li><a href="#selección-de-la-pregunta" id="toc-selección-de-la-pregunta" class="nav-link" data-scroll-target="#selección-de-la-pregunta"><span class="toc-section-number">3.1</span>  Selección de la pregunta:</a>
+  <li><a href="#selección-de-la-pregunta" id="toc-selección-de-la-pregunta" class="nav-link" data-scroll-target="#selección-de-la-pregunta"><span class="header-section-number">3.1</span> Selección de la pregunta:</a>
   <ul class="collapse">
-  <li><a href="#argumentación" id="toc-argumentación" class="nav-link" data-scroll-target="#argumentación"><span class="toc-section-number">3.1.1</span>  Argumentación:</a></li>
+  <li><a href="#argumentación" id="toc-argumentación" class="nav-link" data-scroll-target="#argumentación"><span class="header-section-number">3.1.1</span> Argumentación:</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias"><span class="toc-section-number">4</span>  Referencias:</a></li>
   </ul>
 </nav>
     </div>
@@ -168,7 +192,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Bitacora 1</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Bitácora 1</span></h1>
 </div>
 
 
@@ -176,19 +200,27 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">31 de diciembre de 2023</p>
+    </div>
+  </div>
   
     
   </div>
   
 
+
 </header>
+
 
 <section id="comando-1" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="comando-1"><span class="header-section-number">1.1</span> Comando 1:</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="imagenes/link-1.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Resultado del link</figcaption><p></p>
+<figcaption>Resultado del link</figcaption>
 </figure>
 </div>
 </section>
@@ -197,7 +229,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="imagenes/CHANGELOG-1.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Changelog</figcaption><p></p>
+<figcaption>Changelog</figcaption>
 </figure>
 </div>
 </section>
@@ -206,7 +238,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="imagenes/gitsummary-1.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Git summary</figcaption><p></p>
+<figcaption>Git summary</figcaption>
 </figure>
 </div>
 </section>
@@ -376,9 +408,13 @@ div.csl-indent {
 <li><span class="citation" data-cites="Ref8">Deterding et&nbsp;al. (<a href="#ref-Ref8" role="doc-biblioref">2022</a>)</span></li>
 <li><span class="citation" data-cites="Ref9">Csikszentmihalyi (<a href="#ref-Ref9" role="doc-biblioref">1990</a>)</span></li>
 <li><span class="citation" data-cites="Ref10">Skinner (<a href="#ref-Ref10" role="doc-biblioref">1938</a>)</span></li>
-<li><span class="citation" data-cites="Ref11">Wikipedia (<a href="#ref-Ref11" role="doc-biblioref">2024b</a>)</span></li>
-<li><span class="citation" data-cites="Ref12">Wikipedia (<a href="#ref-Ref12" role="doc-biblioref">2024a</a>)</span></li>
-<li><span class="citation" data-cites="Ref13">We Are Testers (<a href="#ref-Ref13" role="doc-biblioref">2024</a>)</span></li>
+<li><span class="citation" data-cites="Ref11">(<a href="#ref-Ref11" role="doc-biblioref"><strong>Ref11?</strong></a>)</span></li>
+<li><span class="citation" data-cites="Ref14">Wickham y Grolemund (<a href="#ref-Ref14" role="doc-biblioref">2017</a>)</span></li>
+<li><span class="citation" data-cites="Ref15">James et&nbsp;al. (<a href="#ref-Ref15" role="doc-biblioref">2021</a>)</span></li>
+<li><span class="citation" data-cites="Ref16">MacQueen (<a href="#ref-Ref16" role="doc-biblioref">1967</a>)</span></li>
+<li><span class="citation" data-cites="Ref17">Muhannad (<a href="#ref-Ref17" role="doc-biblioref">2019</a>)</span></li>
+<li><span class="citation" data-cites="Ref18">Sergi Mesonero (<a href="#ref-Ref18" role="doc-biblioref">2019</a>)</span></li>
+<li><span class="citation" data-cites="Ref19">Goh, Al-Tabbaa, y Khaan (<a href="#ref-Ref19" role="doc-biblioref">2023</a>)</span></li>
 </ul>
 </section>
 <section id="ordenamiento-de-la-literatura" class="level3" data-number="2.2.2">
@@ -386,8 +422,13 @@ div.csl-indent {
 <p>library(knitr) fichas_bibliograficas &lt;- data.frame( Tipo = c(“Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”), “Tema general” = c(“Globalización de la cultura japonesa”, “Globalización de la cultura japonesa”, “Globalización de la cultura japonesa”, “Globalización de la cultura japonesa”, “Gaming Disorder”, “Gaming Disorder”, “Gaming Disorder”, “Gaming Disorder”, “Diversión en videojuegos”, “Diversión en videojuegos”, “Diversión en videojuegos”, “Diversión en videojuegos”, “Política en videojuegos”, “Política en videojuegos”, “Política en videojuegos”, “Política en videojuegos”, “Industria de videojuegos en España”, “Industria de videojuegos en España”, “Industria de videojuegos en España”, “Industria de videojuegos en España”, “Marketing en videojuegos”, “Marketing en videojuegos”, “Marketing en videojuegos”, “Marketing en videojuegos”), “Tema específico” = c(“Crisis económica de los años 90”, “Análisis de mercado”, “Análisis transmediático”, “Cool Japan”, “Entre 2017-2018”, “Encuestas y datos”, “Salud mental en jugadores”, “Escape de la realidad”, “Contexto actual”, “Revisión teórica, encuestas”, “Factores de diversión”, “Psicología de la diversión”, “No especificado”, “Análisis cualitativo”, “Impacto en política”, “Ludoficción”, “Contexto actual”, “Estudio descriptivo”, “Aspectos económicos”, “Industria creativa”, “Estrategias actuales”, “Análisis de caso”, “Marketing digital”, “Marketing estratégico”), “Título” = c(“Manga, anime y videojuegos japoneses”, “Manga, anime y videojuegos japoneses”, “Manga, anime y videojuegos japoneses”, “Manga, anime y videojuegos japoneses”, “Problematic video game use as an emotional coping strategy”, “Problematic video game use as an emotional coping strategy”, “Problematic video game use as an emotional coping strategy”, “Problematic video game use as an emotional coping strategy”, “¿Qué hace divertido un videojuego?”, “¿Qué hace divertido un videojuego?”, “¿Qué hace divertido un videojuego?”, “¿Qué hace divertido un videojuego?”, “LA POLÍTICA A LA QUE JUGAMOS”, “LA POLÍTICA A LA QUE JUGAMOS”, “LA POLÍTICA A LA QUE JUGAMOS”, “LA POLÍTICA A LA QUE JUGAMOS”, “Análisis de la industria del videojuego en España”, “Análisis de la industria del videojuego en España”, “Análisis de la industria del videojuego en España”, “Análisis de la industria del videojuego en España”, “Plan de marketing para una empresa de videojuegos”, “Plan de marketing para una empresa de videojuegos”, “Plan de marketing para una empresa de videojuegos”, “Plan de marketing para una empresa de videojuegos”), Año = c(2012, 2012, 2012, 2012, 2019, 2019, 2019, 2019, 2023, 2023, 2023, 2023, “No especificado”, “No especificado”, “No especificado”, “No especificado”, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024), “Autor(es)” = c(“Carmen Mangirón”, “Carmen Mangirón”, “Carmen Mangirón”, “Carmen Mangirón”, “Maria Di Blasi”, “Maria Di Blasi”, “Maria Di Blasi”, “Maria Di Blasi”, “Guerrero Pastor, Marta”, “Guerrero Pastor, Marta”, “Guerrero Pastor, Marta”, “Guerrero Pastor, Marta”, “STEAM, ON”, “STEAM, ON”, “STEAM, ON”, “STEAM, ON”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”) )</p>
 <p>kable(fichas_bibliograficas, align = “c”, col.names = c(“Tipo”, “Tema General”, “Tema Específico”, “Título”, “Año”, “Autor(es)”))</p>
 </section>
-<section id="construcción-de-fichas-de-literatura" class="level3" data-number="2.2.3">
-<h3 data-number="2.2.3" class="anchored" data-anchor-id="construcción-de-fichas-de-literatura"><span class="header-section-number">2.2.3</span> Construcción de fichas de literatura</h3>
+<section id="ordenamiento-de-la-literatura-1" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="ordenamiento-de-la-literatura-1"><span class="header-section-number">2.2.3</span> Ordenamiento de la literatura</h3>
+<p>library(knitr) fichas_bibliograficas &lt;- data.frame( Tipo = c(“Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”, “Cronológico”, “Metodológico”, “Temático”, “Teoría”), “Tema general” = c(“Globalización de la cultura japonesa”, “Globalización de la cultura japonesa”, “Globalización de la cultura japonesa”, “Globalización de la cultura japonesa”, “Gaming Disorder”, “Gaming Disorder”, “Gaming Disorder”, “Gaming Disorder”, “Diversión en videojuegos”, “Diversión en videojuegos”, “Diversión en videojuegos”, “Diversión en videojuegos”, “Política en videojuegos”, “Política en videojuegos”, “Política en videojuegos”, “Política en videojuegos”, “Industria de videojuegos en España”, “Industria de videojuegos en España”, “Industria de videojuegos en España”, “Industria de videojuegos en España”, “Marketing en videojuegos”, “Marketing en videojuegos”, “Marketing en videojuegos”, “Marketing en videojuegos”), “Tema específico” = c(“Crisis económica de los años 90”, “Análisis de mercado”, “Análisis transmediático”, “Cool Japan”, “Entre 2017-2018”, “Encuestas y datos”, “Salud mental en jugadores”, “Escape de la realidad”, “Contexto actual”, “Revisión teórica, encuestas”, “Factores de diversión”, “Psicología de la diversión”, “No especificado”, “Análisis cualitativo”, “Impacto en política”, “Ludoficción”, “Contexto actual”, “Estudio descriptivo”, “Aspectos económicos”, “Industria creativa”, “Estrategias actuales”, “Análisis de caso”, “Marketing digital”, “Marketing estratégico”), “Título” = c(“Manga, anime y videojuegos japoneses”, “Manga, anime y videojuegos japoneses”, “Manga, anime y videojuegos japoneses”, “Manga, anime y videojuegos japoneses”, “Problematic video game use as an emotional coping strategy”, “Problematic video game use as an emotional coping strategy”, “Problematic video game use as an emotional coping strategy”, “Problematic video game use as an emotional coping strategy”, “¿Qué hace divertido un videojuego?”, “¿Qué hace divertido un videojuego?”, “¿Qué hace divertido un videojuego?”, “¿Qué hace divertido un videojuego?”, “LA POLÍTICA A LA QUE JUGAMOS”, “LA POLÍTICA A LA QUE JUGAMOS”, “LA POLÍTICA A LA QUE JUGAMOS”, “LA POLÍTICA A LA QUE JUGAMOS”, “Análisis de la industria del videojuego en España”, “Análisis de la industria del videojuego en España”, “Análisis de la industria del videojuego en España”, “Análisis de la industria del videojuego en España”, “Plan de marketing para una empresa de videojuegos”, “Plan de marketing para una empresa de videojuegos”, “Plan de marketing para una empresa de videojuegos”, “Plan de marketing para una empresa de videojuegos”), Año = c(2012, 2012, 2012, 2012, 2019, 2019, 2019, 2019, 2023, 2023, 2023, 2023, “No especificado”, “No especificado”, “No especificado”, “No especificado”, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024), “Autor(es)” = c(“Carmen Mangirón”, “Carmen Mangirón”, “Carmen Mangirón”, “Carmen Mangirón”, “Maria Di Blasi”, “Maria Di Blasi”, “Maria Di Blasi”, “Maria Di Blasi”, “Guerrero Pastor, Marta”, “Guerrero Pastor, Marta”, “Guerrero Pastor, Marta”, “Guerrero Pastor, Marta”, “STEAM, ON”, “STEAM, ON”, “STEAM, ON”, “STEAM, ON”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”, “Autor Desconocido”) )</p>
+<p>kable(fichas_bibliograficas, align = “c”, col.names = c(“Tipo”, “Tema General”, “Tema Específico”, “Título”, “Año”, “Autor(es)”))</p>
+</section>
+<section id="construcción-de-fichas-de-literatura" class="level3" data-number="2.2.4">
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="construcción-de-fichas-de-literatura"><span class="header-section-number">2.2.4</span> Construcción de fichas de literatura</h3>
 <p><strong>Ficha 1:</strong></p>
 <p><strong>■ Título:</strong> Manga, anime y videojuegos japoneses: análisis de los principales factores de su éxito global</p>
 <p><strong>■ Autor(es):</strong> Carmen Mangirón</p>
@@ -579,7 +620,7 @@ div.csl-indent {
 <p><strong>■ Argumento central:</strong> Las preferencias de los jugadores varían según múltiples factores.</p>
 <p><strong>■ Problemas con el argumento o el tema:</strong> Falta de investigación empírica específica.</p>
 <p><strong>■ Resumen en un párrafo:</strong> Este artículo de Wikipedia proporciona una visión general sobre las preferencias de los jugadores en videojuegos, analizando diversos factores que influyen en sus elecciones, como la mecánica del juego, la narrativa y la estética. Se discuten tendencias actuales y cómo estas reflejan cambios en la cultura del juego.</p>
-<p><strong>■ <a href="https://en.wikipedia.org/wiki/Video_game_preferences">Fuente</a></strong>: <span class="citation" data-cites="Ref11">Wikipedia (<a href="#ref-Ref11" role="doc-biblioref">2024b</a>)</span></p>
+<p><strong>■ <a href="https://en.wikipedia.org/wiki/Video_game_preferences">Fuente</a></strong>: <span class="citation" data-cites="Ref11">(<a href="#ref-Ref11" role="doc-biblioref"><strong>Ref11?</strong></a>)</span></p>
 <hr>
 <p><strong>Ficha 12:</strong></p>
 <p><strong>■ Título:</strong> Video game mechanics</p>
@@ -597,7 +638,7 @@ div.csl-indent {
 <p><strong>■ Argumento central:</strong> Las mecánicas son fundamentales para la experiencia de juego.</p>
 <p><strong>■ Problemas con el argumento o el tema:</strong> Clasificaciones a veces simplificadas.</p>
 <p><strong>■ Resumen en un párrafo:</strong> Este artículo ofrece un análisis sobre las mecánicas de videojuegos, abordando su importancia en el diseño y la experiencia del jugador. Se examinan diferentes tipos de mecánicas, desde las más simples hasta las más complejas, y se discute cómo estas influyen en la jugabilidad y en la narrativa de los videojuegos.</p>
-<p><strong>■ <a href="https://en.wikipedia.org/wiki/Video_game_mechanics">Fuente</a></strong>: <span class="citation" data-cites="Ref12">Wikipedia (<a href="#ref-Ref12" role="doc-biblioref">2024a</a>)</span></p>
+<p><strong>■ <a href="https://en.wikipedia.org/wiki/Video_game_mechanics">Fuente</a></strong>: <span class="citation" data-cites="Ref12">(<a href="#ref-Ref12" role="doc-biblioref"><strong>Ref12?</strong></a>)</span></p>
 <p><strong>Ficha 13:</strong></p>
 <p><strong>■ Título:</strong> Estudio de mercado sobre juegos para móviles y gaming<br>
 <strong>■ Autor(es):</strong> We Are Testers<br>
@@ -613,6 +654,105 @@ div.csl-indent {
 <strong>■ Problemas con el argumento o el tema:</strong> Puede estar limitado a una muestra específica y no representar completamente todos los mercados globales.<br>
 <strong>■ Resumen en un párrafo:</strong> El estudio de mercado elaborado por We Are Testers explora las tendencias y cambios en el comportamiento del consumidor en el sector de los juegos para móviles. Se destacan elementos como el creciente interés por los juegos casuales, el impacto de la publicidad en los juegos móviles y cómo las empresas pueden capitalizar estas tendencias para mejorar su estrategia de marketing. Además, el estudio ofrece una visión general del perfil del jugador moderno, señalando la importancia de adaptar los productos a las demandas cambiantes del mercado digital.</p>
 <p><strong>■ <a href="https://www.wearetesters.com/estudios-de-mercado/gaming/">Fuente</a></strong>: <span class="citation" data-cites="Ref13">We Are Testers (<a href="#ref-Ref13" role="doc-biblioref">2024</a>)</span></p>
+<p><strong>Ficha 14:</strong></p>
+<p><strong>■ Título:</strong> R for Data Science: Import, Tidy, Transform, Visualize, and Model Data<br>
+<strong>■ Autor(es):</strong> Wickham, Hadley y Grolemund, Garrett<br>
+<strong>■ Año:</strong> 2017<br>
+<strong>■ Nombre del tema:</strong> Análisis de datos en R.<br>
+<strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Desarrollo del análisis de datos en R.<br>
+- <strong>Metodológico:</strong> Enfoque práctico y orientado a proyectos.<br>
+- <strong>Temático:</strong> Técnicas de importación, limpieza y visualización de datos.<br>
+- <strong>Teoría:</strong> Ciencia de datos y programación en R.</p>
+<p><strong>■ Resumen en una oración:</strong> Este libro presenta un enfoque práctico para realizar análisis de datos utilizando R.<br>
+<strong>■ Argumento central:</strong> La manipulación y visualización de datos son fundamentales para el análisis efectivo en R.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> El enfoque puede no ser aplicable a conjuntos de datos extremadamente grandes o complejos.<br>
+<strong>■ Resumen en un párrafo:</strong> <em>R for Data Science</em> es un libro clave para quienes deseen aprender a manejar y analizar datos utilizando R. A través de ejemplos prácticos, Wickham y Grolemund explican cómo importar, limpiar y visualizar datos de manera efectiva. El texto enfatiza la importancia de una buena manipulación de datos como base para el análisis y la toma de decisiones informadas en ciencia de datos.<br>
+<strong>■ <a href="https://r4ds.had.co.nz">Fuente</a></strong>: <span class="citation" data-cites="Ref14">Wickham y Grolemund (<a href="#ref-Ref14" role="doc-biblioref">2017</a>)</span></p>
+<hr>
+<p><strong>Ficha 15:</strong></p>
+<p><strong>■ Título:</strong> An Introduction to Statistical Learning with Applications in R<br>
+<strong>■ Autor(es):</strong> James, Gareth; Witten, Daniela; Hastie, Trevor; y Tibshirani, Robert<br>
+<strong>■ Año:</strong> 2021<br>
+<strong>■ Nombre del tema:</strong> Aprendizaje estadístico.<br>
+<strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Evolución del aprendizaje estadístico.<br>
+- <strong>Metodológico:</strong> Enfoque teórico y práctico.<br>
+- <strong>Temático:</strong> Modelos estadísticos y su aplicación en R.<br>
+- <strong>Teoría:</strong> Aprendizaje automático y estadística.</p>
+<p><strong>■ Resumen en una oración:</strong> El libro ofrece un enfoque accesible al aprendizaje estadístico y sus aplicaciones prácticas.<br>
+<strong>■ Argumento central:</strong> La comprensión de los modelos estadísticos es esencial para aplicar técnicas de aprendizaje automático.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> Puede ser complejo para principiantes sin formación previa en estadística.<br>
+<strong>■ Resumen en un párrafo:</strong> <em>An Introduction to Statistical Learning</em> es una referencia fundamental para quienes buscan entender el aprendizaje estadístico. Los autores presentan conceptos clave y modelos prácticos en un formato accesible, utilizando R como herramienta principal. Se abordan temas desde la regresión hasta el aprendizaje no supervisado, brindando ejemplos que facilitan la comprensión de la teoría detrás de cada técnica. Este libro es un recurso valioso para estudiantes y profesionales que desean aplicar métodos estadísticos en sus investigaciones y proyectos.<br>
+<strong>■ <a href="https://www.statlearning.com">Fuente</a></strong>: <span class="citation" data-cites="Ref15">James et&nbsp;al. (<a href="#ref-Ref15" role="doc-biblioref">2021</a>)</span></p>
+<hr>
+<p><strong>Ficha 16:</strong></p>
+<p><strong>■ Título:</strong> Some Methods for Classification and Analysis of Multivariate Observations<br>
+<strong>■ Autor(es):</strong> MacQueen, J.<br>
+<strong>■ Año:</strong> 1967<br>
+<strong>■ Nombre del tema:</strong> Clustering y clasificación.<br>
+<strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Desarrollo del método K-means.<br>
+- <strong>Metodológico:</strong> Investigación teórica y práctica.<br>
+- <strong>Temático:</strong> Clasificación y análisis multivariado.<br>
+- <strong>Teoría:</strong> Métodos estadísticos de agrupamiento.</p>
+<p><strong>■ Resumen en una oración:</strong> Este artículo introduce el método K-means para el agrupamiento de datos multivariados.<br>
+<strong>■ Argumento central:</strong> K-means es un método efectivo para clasificar y analizar conjuntos de datos complejos.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> El rendimiento del algoritmo depende de la inicialización de los centroides y puede ser sensible a outliers.<br>
+<strong>■ Resumen en un párrafo:</strong> En su artículo seminal, MacQueen presenta el método K-means, un enfoque innovador para clasificar datos en grupos basados en sus características. El autor describe el algoritmo, su implementación y las ventajas de su uso en el análisis multivariado. A través de ejemplos, MacQueen ilustra cómo K-means puede simplificar la clasificación y la interpretación de conjuntos de datos complejos, aunque también señala las limitaciones del método, especialmente en términos de sensibilidad a la elección de los centroides iniciales y la presencia de valores atípicos.<br>
+<strong>■ <a href="https://projecteuclid.org/euclid.bsmsp/1200512992">Fuente</a></strong>: <span class="citation" data-cites="Ref16">MacQueen (<a href="#ref-Ref16" role="doc-biblioref">1967</a>)</span></p>
+<p><strong>Ficha 17:</strong></p>
+<p><strong>■ Título:</strong> The Impact of Video Games on the Players Behaviors: A Survey<br>
+<strong>■ Autor(es):</strong> Muhannad, Quwaider; Alabed, Abdullah y Duwairi, Rehab.<br>
+<strong>■ Año:</strong> 2019<br>
+<strong>■ Nombre del tema:</strong> Impacto de los videojuegos en el comportamiento<br>
+<strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Comportamiento de los jugadores conforme el desarrollo de videojuegos<br>
+- <strong>Metodológico:</strong> Investigación teórica y práctica.<br>
+- <strong>Temático:</strong> Impactos positivos y negativos sobre el comportamiento.<br>
+- <strong>Teoría:</strong> Psicología moldeable de los jugadores.</p>
+<p><strong>■ Resumen en una oración:</strong> Este artículo concluye comportamientos típicos de ciertos jugadores. <strong>■ Argumento central:</strong> Comportamientos positivos y negativos sobre el comportamiento de los jugadores.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> A veces puede parecer sesgado.<br>
+<strong>■ Resumen en un párrafo:</strong> Es bien sabido que los videojuegos impactan de manera emocional en las personas, se han documentado ya efectos negativos y positivos en otros artículos. La propuesta de los autores se enfoca más en analizar esa parte agresiva que queda expuesta más que nada por los juegos competitivos.</p>
+<p><strong>Ficha 18:</strong></p>
+<p><strong>■ Título:</strong> Sports: pasado y presente de las competiciones de videojuegos <strong>■ Autor(es):</strong> Mesonero,. S.<br>
+<strong>■ Año:</strong> 2019<br>
+<strong>■ Nombre del tema:</strong> Deportes electrónicos.<br>
+<strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Auge de los deportes electrónicos en la última década.<br>
+- <strong>Metodológico:</strong> Investigación teórica.<br>
+- <strong>Temático:</strong> Competiciones de videojuegos.<br>
+- <strong>Teoría:</strong> Historia de la evolución de los eSports; retos y desarrollo.</p>
+<p><strong>■ Resumen en una oración:</strong> El autor narra la evolución que han tenido los deportes electrónicos; desde juegos arcaicos de arcade hasta videojuegos como League of Legends. <strong>■ Argumento central:</strong> Historia de los eSports.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> El autor es muy optimista al respecto y no menciona mucho las partes negativas.<br>
+<strong>■ Resumen en un párrafo:</strong> Mucha gente nunca se hubiera imaginado que los videojuegos podrían ser un trabajo; es el rompimiento de dichos paradigmas en lo que se enfoca este artículo. A grandes rasgos se da a entender que un competidor de videojuegos está tan enfocado en ello que hasta puede darse el lujo de vivir de esto.</p>
+<p><strong>Ficha 19:</strong></p>
+<p><strong>■ Título:</strong> Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions <strong>■ Autor(es):</strong> Goh, Edward y Al-Tabbaa, Omar y Khaan, Zaheer<br>
+<strong>■ Año:</strong> 2023 <strong>■ Nombre del tema:</strong> Industria de los videojuegos. <strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Actualidad.<br>
+- <strong>Metodológico:</strong> Investigación teórica.<br>
+- <strong>Temático:</strong> Mercado de los videojuegos y filosofía económica. - <strong>Teoría:</strong> Importancia y complejidad de la industria de los videojuegos.</p>
+<p><strong>■ Resumen en una oración:</strong> Análisis en varias aristas sobre el mercado de los videojuegos. <strong>■ Argumento central:</strong> Análisis socioeconómico del mercado de los videojuegos.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> Se siente redundante y circular por momentos.<br>
+<strong>■ Resumen en un párrafo:</strong> Los videojuegos, vistos desde un foco económico, no son más que otro mercado. Este comprende aspectos como: el marketing, consumidores y las empresas. Con base en estos y otros datos económicos se pretende predecir el comportamiento de este mercado (desde cuanto generará para el 2027 hasta la calidad de los videojuegos).</p>
+<p><strong>Ficha 20:</strong></p>
+<p><strong>■ Título:</strong> Interview: the science and art of Metacritic <strong>■ Autor(es):</strong> Stuart, Keith<br>
+<strong>■ Año:</strong> 2008 <strong>■ Nombre del tema:</strong> Crecimiento de las críticas de videojuegos. <strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Auge de los sistemas modernos de críticas de videojuegos.<br>
+- <strong>Metodológico:</strong> Entrevista a profesional.<br>
+- <strong>Temático:</strong> Filosofía de las críticas de videojuegos. - <strong>Teoría:</strong> Críticas de videojuegos.</p>
+<p><strong>■ Resumen en una oración:</strong> Entrevista para entender el impacto que pueden tener estas críticas. <strong>■ Argumento central:</strong> Análisis de las críticas de videojuegos.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> El entrevistado en ese entonces trabaja con Metacritic, una de las empresas importantes de críticas de videojuegos, por lo tanto puede ser que estuviera ignorando bastante cosas negativas.<br>
+<strong>■ Resumen en un párrafo:</strong> El auge de los videojuegos o de cualquier medio de entretenimiento aviva la idea medir la calidad del mismo mediante la crítica. El entrevistado, quien trabaja para Metacritic (empresa importante a día de hoy sobre crítica de videojuegos) para ese momento, menciona el porqué de la importancia de una industria dedicada a la crítica de los videojuegos; mencionando que la crítica puede ser beneficiosa, pues obligaría a las desarrolladoras a mejorar la calidad de sus productos.</p>
+<p><strong>Ficha 21:</strong></p>
+<p><strong>■ Título:</strong> Do Metacritic scores affect game sales? <strong>■ Autor(es):</strong> Imad, Khan<br>
+<strong>■ Año:</strong> 2021 <strong>■ Nombre del tema:</strong> Efectos de la crítica sobre la venta de videojuegos. <strong>■ Forma de organizarlo:</strong><br>
+- <strong>Cronológico:</strong> Análisis de datos del 2012.<br>
+- <strong>Metodológico:</strong> Artículo informativo.<br>
+- <strong>Temático:</strong> El rol de las críticas en los videojuegos. - <strong>Teoría:</strong> Teoría del consumidor: preferencias.</p>
+<p><strong>■ Resumen en una oración:</strong> El autor concluye de estudios previos que las críticas no afectan a las ventas. <strong>■ Argumento central:</strong> Críticas de videojuegos.<br>
+<strong>■ Problemas con el argumento o el tema:</strong> Pese a que la conclusión a la que llega el autor es acertada, el artículo se siente bastante corto.<br>
+<strong>■ Resumen en un párrafo:</strong> El autor asegura que la crítica de videojuegos, más específicamente las de Metacritic, no afectan a las ventas de los videojuegos. Esto con base en un estudio sobre ventas del 2012, donde se comparaban ventas de videojuegos y sus respectivos análisis en Metacritic.</p>
 </section>
 </section>
 <section id="construcción-de-la-uve-de-gowin" class="level2" data-number="2.3">
@@ -620,7 +760,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="imagenes/V-de-gowin.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Diagrama de Gowin</figcaption><p></p>
+<figcaption>Diagrama de Gowin</figcaption>
 </figure>
 </div>
 <p>Fuentes:</p>
@@ -634,7 +774,7 @@ div.csl-indent {
 <h1 data-number="3"><span class="header-section-number">3</span> Parte de escritura</h1>
 <section id="selección-de-la-pregunta" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="selección-de-la-pregunta"><span class="header-section-number">3.1</span> Selección de la pregunta:</h2>
-<p>¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxitocomercial de los videojuegos?</p>
+<p>¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxito comercial de los videojuegos?</p>
 <section id="argumentación" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="argumentación"><span class="header-section-number">3.1.1</span> Argumentación:</h3>
 <p>La pregunta escogida tiene origen en la investigación realizada de las otras tres preguntas potenciales. La razón principal es qué la misma tiene la característica de englobar (no necesariamente en una magnitud uniforrme) a las demás de manera explícita como ímplicita. Para dilucidar la naturaleza de la pregunta, se mostrará la siguiente comparación:</p>
@@ -644,54 +784,63 @@ div.csl-indent {
 <p>El vínculo entre estas dos preguntas no parece tan clara a primera vista, no obstante y de manera empírica se pueden utilizar las conclusiones del Estudio sobre juegos para móviles: hábitos en el sector ‘gaming’ (<span class="citation" data-cites="Ref13">We Are Testers (<a href="#ref-Ref13" role="doc-biblioref">2024</a>)</span>) para proponer respuestas a la primera pregunta. En este estudio se mencionan dos cosas importantes: <em>frecuencia de juego</em> y <em>celulares</em>, el celular es posiblemente el objeto más utilizado del siglo ventiúno. “El celular es el objeto más utilizado” es lo mismo que decir “La frecuencia de uso del celular corresponde a la mayor de otro objeto”, entonces es natural pensar que si existen videojuegos de celulares, esto implicaría que no es de extrañar que los videojuegos para móbiles sean tan populares; ¿Son estas características fundamentales (relación con lo planteado en (i)) para el éxito de los videojuegos? Si la respuesta es afirmativa, entonces por transitividad se llega a que esta podría ser una razón de preferencia de los consumidores frente a los videojuegos. De semejante manera se llega a la misma conclusión que en (i): la respuesta ante la hipótesis planteada en este inciso funciona para ambas interrogantes.</p>
 <p><strong>(iii)</strong> ¿Cómo se puede analizar el mercado de los videojuegos? ó ¿Por qué a las personas les atraen los videojuegos y cuál es su relación con el éxito comercial de los videojuegos?</p>
 <p>Se desestimó fácilmente la primera pregunta, pues el mercado se puede analizar desde las preferencias, y para entender las preferencias se necesita entender el por qué de esta; o sea, el origen de la atracción que los videojuegos han cultivado en millones de personas. #</p>
-</section>
-</section>
-</section>
-<section id="referencias" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Referencias:</h1>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Ref9" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Ref9" class="csl-entry" role="listitem">
 Csikszentmihalyi, Mihaly. 1990. <em>Flow: The Psychology of Optimal Experience</em>. Harper &amp; Row.
 </div>
-<div id="ref-Ref5" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref5" class="csl-entry" role="listitem">
 Desconocido, Autor. 2024a. <span>«Análisis de la industria del videojuego en España»</span>. <em>Riunet</em>. <a href="https://riunet.upv.es/bitstream/handle/10251/45702/Trabajo%20final%20carrera.pdf">https://riunet.upv.es/bitstream/handle/10251/45702/Trabajo%20final%20carrera.pdf</a>.
 </div>
-<div id="ref-Ref6" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref6" class="csl-entry" role="listitem">
 ———. 2024b. <span>«Plan de marketing para una empresa de videojuegos»</span>. <em>Universidad Nacional de Cuyo</em>. <a href="https://bdigital.uncu.edu.ar/objetos_digitales/15654/plan-de-marketing-para-una-empresa-de-videojuegos.pdf">https://bdigital.uncu.edu.ar/objetos_digitales/15654/plan-de-marketing-para-una-empresa-de-videojuegos.pdf</a>.
 </div>
-<div id="ref-Ref8" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref8" class="csl-entry" role="listitem">
 Deterding, Sebastian, Marc Malmdorf Andersen, Julian Kiverstein, y Mark Miller. 2022. <span>«Mastering uncertainty: A predictive processing account of enjoying uncertain success in video game play»</span>. <em>Frontiers in Psychology</em> 13. <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.924953/full">https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.924953/full</a>.
 </div>
-<div id="ref-Ref2" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref2" class="csl-entry" role="listitem">
 Di Blasi, Maria. 2019. <span>«Problematic video game use as an emotional coping strategy: Evidence from a sample of MMORPG gamers»</span>. <em>Journal of Behavioral Addictions</em> 8 (1): 25-34. https://doi.org/<a href="https://doi.org/10.1556/2006.8.2019.02">https://doi.org/10.1556/2006.8.2019.02</a>.
 </div>
-<div id="ref-Ref3" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref19" class="csl-entry" role="listitem">
+Goh, Edward, Omar Al-Tabbaa, y Zaheer Khaan. 2023. <span>«Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions»</span>. <em>Telematics and Informatics Reports</em> 12: 1-18. <a href="https://www.sciencedirect.com/science/article/pii/S2772503023000609#sec0002">https://www.sciencedirect.com/science/article/pii/S2772503023000609#sec0002</a>.
+</div>
+<div id="ref-Ref3" class="csl-entry" role="listitem">
 Guerrero Pastor, Marta. 2018. <span>«¿Qué hace divertido un videojuego? Acercamiento al concepto de diversión a través del análisis de videojuegos»</span>. <a href="https://rua.ua.es/dspace/bitstream/10045/73641/1/Que_hace_divertido_un_videojuego_Acercamiento_al_conce_GUERRERO_PASTOR_MARTA.pdf">https://rua.ua.es/dspace/bitstream/10045/73641/1/Que_hace_divertido_un_videojuego_Acercamiento_al_conce_GUERRERO_PASTOR_MARTA.pdf</a>.
 </div>
-<div id="ref-Ref7" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref7" class="csl-entry" role="listitem">
 Handrich, Franziska, Sven Heidenreich, y Tobias Kraemer. 2022. <span>«Innovate or game over? Examining effects of product innovativeness on video game success»</span>. <em>Electronic Markets</em> 32 (2). <a href="https://doi.org/10.1007/s12525-022-00521-7">https://doi.org/10.1007/s12525-022-00521-7</a>.
 </div>
-<div id="ref-Ref1" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref1" class="csl-entry" role="listitem">
 Hevia, Carme Mangiron i. 2012. <span>«Manga, anime y videojuegos japoneses: análisis de los principales factores de su éxito global»</span>. <em>Puertas a la lectura</em>, n.º 24: 28-43.
 </div>
-<div id="ref-Ref10" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref15" class="csl-entry" role="listitem">
+James, Gareth, Daniela Witten, Trevor Hastie, y Robert Tibshirani. 2021. <em>An Introduction to Statistical Learning with Applications in R</em>. Springer. <a href="https://www.statlearning.com">https://www.statlearning.com</a>.
+</div>
+<div id="ref-Ref16" class="csl-entry" role="listitem">
+MacQueen, J. 1967. <span>«Some Methods for Classification and Analysis of Multivariate Observations»</span>. <em>Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability</em> 1: 281-97. <a href="https://projecteuclid.org/euclid.bsmsp/1200512992">https://projecteuclid.org/euclid.bsmsp/1200512992</a>.
+</div>
+<div id="ref-Ref17" class="csl-entry" role="listitem">
+Muhannad, Rehab, Quwaider &amp; Alabed. 2019. <span>«The Impact of Video Games on the Players Behaviors: A Survey»</span>. <em>Procedia Computer Science</em> 151: 575-82. <a href="https://www.sciencedirect.com/science/article/pii/S1877050919305393#abs0001">https://www.sciencedirect.com/science/article/pii/S1877050919305393#abs0001</a>.
+</div>
+<div id="ref-Ref18" class="csl-entry" role="listitem">
+Sergi Mesonero. 2019. <span>«eSports: pasado y presente de las competiciones de videojuegos»</span>. <a href="https://telos.fundaciontelefonica.com/esports-pasado-y-presente-de-las-competiciones-de-videojuegos/" class="uri">https://telos.fundaciontelefonica.com/esports-pasado-y-presente-de-las-competiciones-de-videojuegos/</a>.
+</div>
+<div id="ref-Ref10" class="csl-entry" role="listitem">
 Skinner, B. F. 1938. <em>The Behavior of Organisms: An Experimental Analysis</em>. Appleton-Century.
 </div>
-<div id="ref-Ref4" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref4" class="csl-entry" role="listitem">
 STEAM, ON. s.&nbsp;f. <span>«LA POLÍTICA A LA QUE JUGAMOS. CULTURA, VIDEOJUEGOS Y LUDOFICCIÓN POLÍTICA EN LA PLATAFORMA STEAM»</span>.
 </div>
-<div id="ref-Ref13" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ref13" class="csl-entry" role="listitem">
 We Are Testers. 2024. <span>«Estudio de mercado sobre juegos para móviles y gaming»</span>. <a href="https://www.wearetesters.com/estudios-de-mercado/gaming/">https://www.wearetesters.com/estudios-de-mercado/gaming/</a>.
 </div>
-<div id="ref-Ref12" class="csl-entry" role="doc-biblioentry">
-Wikipedia. 2024a. <span>«Video game mechanics»</span>. <a href="https://en.wikipedia.org/wiki/Video_game_mechanics" class="uri">https://en.wikipedia.org/wiki/Video_game_mechanics</a>.
-</div>
-<div id="ref-Ref11" class="csl-entry" role="doc-biblioentry">
-———. 2024b. <span>«Video game preferences»</span>. <a href="https://en.wikipedia.org/wiki/Video_game_preferences" class="uri">https://en.wikipedia.org/wiki/Video_game_preferences</a>.
+<div id="ref-Ref14" class="csl-entry" role="listitem">
+Wickham, Hadley, y Garrett Grolemund. 2017. <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em>. O’Reilly Media. <a href="https://r4ds.had.co.nz">https://r4ds.had.co.nz</a>.
 </div>
 </div>
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -722,9 +871,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -760,10 +923,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("google\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -773,8 +958,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -786,9 +980,245 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -826,32 +1256,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/google\.com/);
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
+      <a href="./index.html" class="pagination-link" aria-label="Introducción">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introducción</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./bitacora-2.html" class="pagination-link" aria-label="Bitácora 2">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Bitácora 2</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
