@@ -2,6 +2,12 @@ library(tidyverse)
 library(broom)
 library(cluster)
 library(tidyr)
+library(dplyr)
+library(cowplot)
+library(ggplot2)
+library(scales)
+library(hexbin)
+
 #1.Simulacion de base de datos.
 sim_data <- tibble(
   Title = paste("Game", 1:1000),
@@ -83,9 +89,7 @@ ggplot(clean_database, aes(x = ReleaseDate, y = EstimatedPlayers)) +
 
 playtime_platforms_long <- clean_database %>%
   select(Windows, Mac, Linux, Average.playtime.forever) %>%
-  pivot_longer(cols = c(Windows, Mac, Linux), names_to = "Plataform", values_to = "Supported") %>%
-  filter(Supported == TRUE)
-
+  pivot_longer(cols = c(Windows, Mac, Linux), names_to = "Plataform", values_to = "Supported")
 # Gráfico de violín con puntos dispersos para cada plataforma
 ggplot(playtime_platforms_long, aes(x = Plataform, y = Average.playtime.forever, fill = Plataform)) +
   geom_violin(trim = FALSE, alpha = 0.7, color = "black") +
@@ -104,4 +108,87 @@ ggplot(playtime_platforms_long, aes(x = Plataform, y = Average.playtime.forever,
     legend.position = "none",
     panel.grid.major = element_line(color = "gray85")
   )
+# Cris
+#1
+library(ggplot2)
+library(cowplot)
+library(hexbin)
+ggplot(clean_database, aes(x = Price, y = EstimatedPlayers)) +
+  geom_hex(alpha = 0.5, size = 1, position = position_jitter(width = 0.1, height = 0.1)) +  # Cambié alpha a 0.5
+  scale_y_log10(labels = scales::number) +
+  scale_x_continuous(breaks = seq(0, 70, by = 10)) +
+  labs(title = "Gráfico de dispersión entre el número de jugadores y el precio",
+       x = "Precio",
+       y = "Número de jugadores",
+       fill = "Gradiente de densidad") +
+  cowplot::theme_cowplot() +
+  scale_fill_gradient(low = "blue", high = "red")  # Asegúrate de que no haya caracteres extraños
+#2
+ggplot(clean_database, aes(x = Metacritic.score, y = EstimatedPlayers)) +
+  geom_point(alpha = 20, color = "black", position = position_jitter()) +
+  scale_y_log10(labels = scales::number) +
+  scale_x_continuous(breaks = seq(0, 100, by = 10)) +
+  labs(title = "Dispersión entre las variables jugadores estimados y nota en Metacritic", x = "Nota en Metacritic", y = "Jugadores estimados") +
+  cowplot::theme_cowplot() +
+  geom_smooth(method = "lm", se = FALSE,color = "blue")
+#3
+ggplot(clean_database, aes(x = clean_database$ReleaseDate)) +
+  geom_freqpoly(alpha = 20, binwidth = 2.5, color = "black", size = 0.9) +
+  labs(x = "Año de lanzamiento", y = "Cantidad de videojuegos", title = "Cantidad de videojuegos lanzados por año") +
+  cowplot::theme_cowplot()
+
+#Oscar:
+# Cargar las librerías necesarias
+library(dplyr)
+library(kableExtra)
+
+# Crear el data frame
+tabla <- data.frame(
+  Tipo = c("Teórico", "Metodológico", "Teórico", "Temático", "Metodológico", 
+           "Metodológico", "Temático", "Metodológico", "Teórico", 
+           "Metodológico", "Temático"),
+  Tema_General = c("Videojuegos y cultura japonesa", "Adicción a videojuegos", 
+                   "Diversión en videojuegos", "Videojuegos y política", 
+                   "Industria de videojuegos", "Marketing de videojuegos", 
+                   "Innovación en videojuegos", "Experiencia de juego", 
+                   "Psicología del juego", "Análisis de comportamiento", 
+                   "Juegos móviles y mercado"),
+  Tema_Especifico = c("Análisis de éxito global de videojuegos japoneses", 
+                      "Uso de videojuegos como estrategia de afrontamiento emocional", 
+                      "Concepto de diversión a través del análisis de videojuegos", 
+                      "Ludoficción política en Steam", 
+                      "Análisis de la industria del videojuego en España", 
+                      "Plan de marketing para empresas de videojuegos", 
+                      "Innovación en productos y éxito en videojuegos", 
+                      "Procesamiento predictivo y disfrute de la incertidumbre en videojuegos", 
+                      "Experiencia óptima (flow)", 
+                      "Análisis experimental del comportamiento", 
+                      "Estudio de mercado sobre juegos para móviles y gaming"),
+  Titulo = c("Manga, anime y videojuegos japoneses: análisis de los principales factores de su éxito global",
+             "Problematic video game use as an emotional coping strategy",
+             "¿Qué hace divertido un videojuego? Acercamiento al concepto de diversión",
+             "LA POLÍTICA A LA QUE JUGAMOS. CULTURA, VIDEOJUEGOS Y LUDOFICCIÓN POLÍTICA EN STEAM",
+             "Análisis de la industria del videojuego en España",
+             "Plan de marketing para una empresa de videojuegos",
+             "Innovate or game over? Examining effects of product innovativeness on video game success",
+             "Mastering uncertainty: A predictive processing account of enjoying uncertain success in video game play",
+             "Flow: The Psychology of Optimal Experience",
+             "The Behavior of Organisms: An Experimental Analysis",
+             "Estudio de mercado sobre juegos para móviles y gaming"),
+  Año = c(2012, 2019, 2015, 2024, 2024, 2024, 2022, 2022, 1990, 1938, 2024),
+  Autores = c("Hevia, Carme Mangiron", "Di Blasi, Maria", "Guerrero Pastor, Marta", 
+              "STEAM, ON", "Autor Desconocido", "Autor Desconocido", 
+              "Handrich, Franziska; Heidenreich, Sven; Kraemer, Tobias", 
+              "Deterding, Sebastian; Andersen, Marc Malmdorf; Kiverstein, Julian", 
+              "Csikszentmihalyi, Mihaly", "Skinner, B.F.", "We Are Testers")
+)
+
+# Crear la tabla en formato horizontal
+tabla %>%
+  kable("html", caption = "Tabla de Temas Relacionados con Videojuegos", align = 'c', escape = FALSE) %>%
+  kable_styling("striped", full_width = TRUE, position = "center") %>%
+  column_spec(1:5, width = "15em") %>% 
+  kable_styling(latex_options = "striped", html_font = "Arial") %>%
+  row_spec(0, bold = TRUE) %>% 
+  footnote(general = 
 
