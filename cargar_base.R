@@ -13,7 +13,6 @@ if (file.exists(file_path)) {
   
 
   message("Archivo cargado exitosamente.")
-  print(head(clean_database))
 } else {
  
   message("El archivo clean_database.xlsx no se encuentra en la ruta especificada.")
