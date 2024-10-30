@@ -7,6 +7,9 @@ library(cowplot)
 library(ggplot2)
 library(scales)
 library(hexbin)
+library(forcats)
+library(stringr)
+library(ggplot2)
 
 #1.Simulacion de base de datos.
 sim_data <- tibble(
@@ -185,10 +188,63 @@ tabla <- data.frame(
 
 # Crear la tabla en formato horizontal
 tabla %>%
-  kable("html", caption = "Tabla de Temas Relacionados con Videojuegos", align = 'c', escape = FALSE) %>%
-  kable_styling("striped", full_width = TRUE, position = "center") %>%
-  column_spec(1:5, width = "15em") %>% 
-  kable_styling(latex_options = "striped", html_font = "Arial") %>%
-  row_spec(0, bold = TRUE) %>% 
-  footnote(general = 
+ 
+library(dplyr)
+library(forcats)
+library(stringr)
+library(ggplot2)
+
+# Agrupar desarrolladores y contar
+developers_lumped <- clean_database |> 
+  mutate(Developers = fct_lump(Developers, n = 20)) |> 
+  count(Developers, sort = TRUE) |> 
+  filter(Developers != "Other")  # Filtrar "Other" directamente
+
+# Crear tibble para géneros
+clean_databaseForGenres <- tibble(Developers = clean_database$Developers, 
+                                  Genres = clean_database$Genres)
+
+# Asegurar que 'Developers' sea un factor
+clean_databaseForGenres$Developers <- as.factor(clean_databaseForGenres$Developers)
+levels_developers <- levels(clean_databaseForGenres$Developers) |> as.character()
+
+# Filtrar los desarrolladores en la base de datos de géneros
+clean_databaseForGenres <- clean_databaseForGenres |> 
+  filter(Developers %in% levels_developers)
+
+# Reemplazar desarrolladores con nombres complicados
+clean_databaseForGenres$Developers <- 
+  gsub("Eidos-Montréal,Crystal Dynamics,Nixxes,Feral Interactive (Mac),Feral interactive (Linux)", 
+       "Eidos-Montréal, Crystal Dynamics", 
+       clean_databaseForGenres$Developers)
+
+# Factorizar géneros
+genres_factoured <- clean_databaseForGenres |> 
+  mutate(Genres = factor(Genres)) |> 
+  mutate(Genres = fct_collapse(
+    Genres,
+    "Action" = str_subset(levels(Genres), "Action"),
+    "Adventure" = str_subset(levels(Genres), "Adventure"),
+    "Simulation" = str_subset(levels(Genres), "Simulation"),
+    "Indie" = str_subset(levels(Genres), "Indie"),
+    "Strategy" = str_subset(levels(Genres), "Strategy"),
+    "RPG" = str_subset(levels(Genres), "RPG"),
+    "Casual" = str_subset(levels(Genres), "Casual"),
+    "Free to Play" = str_subset(levels(Genres), "Free to Play"),
+    "Massively Multiplayer" = str_subset(levels(Genres), "Massively Multiplayer"),
+    "Sports" = str_subset(levels(Genres), "Sports")
+  ))
+
+# Contar géneros y crear gráfico
+genres_factoured |> 
+  count(Genres, sort = TRUE) |> 
+  ggplot(aes(x = Genres, y = n, fill = Genres)) +
+  geom_col() +
+  labs(title = "Frecuencia de géneros de videojuegos", 
+       y = "Cantidad de juegos", 
+       x = NULL) +  # Cambia 'X' a 'x'
+  theme(axis.title.x = element_blank(), 
+        axis.ticks.x = element_blank(), 
+        axis.text.x = element_blank()) +
+  guides(fill = guide_legend(title = NULL))
 

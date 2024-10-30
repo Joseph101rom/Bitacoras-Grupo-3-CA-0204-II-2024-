@@ -5,6 +5,8 @@ format: pdf
 editor: 
   markdown: 
     wrap: 72
+    header-includes:
+      - \AtBeginEnvironment{verbatim}{\tiny}
 ---
 
 ## Comando 1:

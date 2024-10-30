@@ -2,18 +2,20 @@
 title: "Bitácora 2"
 date: "2024"
 format: pdf
-output: html_document
 editor: 
   markdown: 
     wrap: 72
+always_allow_html: true
 ---
 
 ```{r}
 #| echo: false
 #| warning: false
+library(extrafont)
 library(tidyverse)
 library(broom)
 library(cluster)
+library(knitr)
 library(tidyr)
 library(dplyr)
 library(cowplot)
@@ -365,14 +367,12 @@ ggplot(playtime_platforms_long, aes(x = Plataform, y = Average.playtime.forever,
     x = "Plataforma",
     y = "Tiempo de Juego Promedio (horas)"
   ) +
-  theme_classic(base_family = "Arial") +
+  theme_classic(base_family = "sans") +
   theme(
     plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
     axis.title = element_text(size = 14),
     axis.text = element_text(size = 12),
-    legend.position = "none",
-    panel.grid.major = element_line(color = "gray85")
-  )
+    legend.position = "none")
 ```
 
 ```{r}
@@ -453,6 +453,36 @@ número estimado de propietarios de un videojuego.
 
 ## Construcción de Fichas de Resultados
 
+**Ficha**
+
+■ Nombre del hallazgo/resultado: Comparación del tiempo de juego
+promedio por plataforma.
+
+■ Resumen en una oración: El tiempo de juego promedio varía
+considerablemente entre plataformas, con una mayor concentración en
+Windows.
+
+■ Principal característica: Diferencia notable en la distribución del
+tiempo de juego entre usuarios de Windows, Mac y Linux, con Windows
+dominando en cantidad de horas. Se refleja en el gráfico 7.4.
+
+■ Posibles desafíos: Las diferencias en tiempo de juego entre
+plataformas podrían estar influenciadas por factores más allá de la
+disponibilidad de títulos, como la optimización y características
+específicas de cada plataforma. Comprender cómo estos factores afectan
+la experiencia del usuario será fundamental para maximizar la audiencia
+en diferentes plataformas.
+
+■ Resumen en un párrafo: El análisis de la distribución del tiempo de
+juego promedio por plataforma revela que los usuarios de Windows tienden
+a tener un tiempo de juego mucho mayor en comparación con los de Mac y
+Linux. Esto puede deberse a la disponibilidad limitada de ciertos
+juegos, la optimización de rendimiento para diferentes sistemas
+operativos o incluso las preferencias inherentes de cada grupo de
+usuarios. Abordar estos desafíos podría ayudar a los desarrolladores a
+diversificar su audiencia y mejorar la experiencia del usuario en
+plataformas menos representadas.
+
 **Ficha I**:
 
 ■ Nombre del hallazgo: Relación entre jugadores y la crítica de juegos.
@@ -519,37 +549,7 @@ pues en la base de datos está el videojuego Dota 2, el cual es un juego
 competitivo, y como se mencionó en varias fichas de literatura: este
 tipo de juegos es un gran atractor de masas (Di Blasi, 2019).
 
-**Ficha IV**
-
-■ Nombre del hallazgo/resultado: Comparación del tiempo de juego
-promedio por plataforma.
-
-■ Resumen en una oración: El tiempo de juego promedio varía
-considerablemente entre plataformas, con una mayor concentración en
-Windows.
-
-■ Principal característica: Diferencia notable en la distribución del
-tiempo de juego entre usuarios de Windows, Mac y Linux, con Windows
-dominando en cantidad de horas. Se refleja en el gráfico 7.4.
-
-■ Posibles desafíos: Las diferencias en tiempo de juego entre
-plataformas podrían estar influenciadas por factores más allá de la
-disponibilidad de títulos, como la optimización y características
-específicas de cada plataforma. Comprender cómo estos factores afectan
-la experiencia del usuario será fundamental para maximizar la audiencia
-en diferentes plataformas.
-
-■ Resumen en un párrafo: El análisis de la distribución del tiempo de
-juego promedio por plataforma revela que los usuarios de Windows tienden
-a tener un tiempo de juego mucho mayor en comparación con los de Mac y
-Linux. Esto puede deberse a la disponibilidad limitada de ciertos
-juegos, la optimización de rendimiento para diferentes sistemas
-operativos o incluso las preferencias inherentes de cada grupo de
-usuarios. Abordar estos desafíos podría ayudar a los desarrolladores a
-diversificar su audiencia y mejorar la experiencia del usuario en
-plataformas menos representadas.
-
-**Ficha V**:
+**Ficha IV**:
 
 ■ Nombre del hallazgo/resultado: Tendencia creciente en la cantidad
 estimada de jugadores. ■ Resumen en una oración: La cantidad estimada de

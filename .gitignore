@@ -6,6 +6,28 @@
 .RData
 .RDataTmp
 
+#
+avg_metacritic_by_developer.xlsx
+
+#
+clean_databaseForGenres.xlsx
+
+#
+developers_lumped.xlsx
+
+#
+genres_factoured.xlsx
+
+#
+mean_genres_per_developer.xlsx
+
+#
+mean_genres_per_genre.xlsx
+
+#
+ultimate_genres.xlsx
+
+
 
 # User-specific files
 .Ruserdata
