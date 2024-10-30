@@ -1,0 +1,653 @@
+---
+title: "Bitacora 3"
+editor: visual
+---
+
+# Parte de planificación
+## Changelog
+
+
+### Chore
+
+- Se agregan en quarto los histogramas de las fechas de lanzamiento y de notas en Metacritic, respectivamente.
+- Se agregan dos fichas bibliográficas sobre críticas de videojuegos
+- Se agrega un análisis entre fichas bibliográficas que contrasta puntos de vista acerca de la crítica de videojuegos
+
+### Feat
+
+- Agregando archivo necesario para poder completar el merge
+
+### Chore
+
+- Agregue los documentos necesarios para el funcionamiento del repositorio
+- Generar sitio en docs
+- Se agregaron las referencias de las fichas y de la busqueda bibliografica
+- Modifique el archivo de referencias
+- Se agregaron referencias necesarias para la V de gowin
+- Se agregaron y modificaron documentos
+- Se hacen unas correcciones a bitacora 1
+- Se agregan lo archivos docs para que la pagina web funcione
+- Se agregan cambios para poner mas referencias y agregar el apartado bitacora 2
+- Se agrega la carpeta docs para que funcione la pagina web
+- Se agrega base de datos
+- Se agregó el gráfico de densidad hexagonal entre las variables jugadores estimados y precio
+- Se agrega la ficha número 1 de resultados
+- Se agrega la segunda ficha deresultados
+- Se agrega la tercera ficha de literatura
+- Pdf
+- Se agregaron las imagenes de los graficos 4 y 5
+- Se agregan documentos y se quitan documentos del docs para subir todo a la web
+- Se agregan cambios en gitignore
+- Se agrega base de datos y script para cargarla automaticamente
+- Se carga lo necesario para que la web funcione
+- Se agregan los scripts necesarios para que la base se cargue sola
+- Datos necesarios para cargar web<3
+
+### Feat
+
+- Agregue el archivo bitacora 1
+- Borre contenido de bitacora 1
+- Agregue el titulo de la bitacora 1
+- Se agregaron cambios en la bitacora
+- Se agrega contenido a la bitácora; líneas 1-166.
+- Se agrego contenido de la linea 166 a la 314
+- Se agregaron las referncias de la busqueda bibliografica
+- Se corrigen los subtitulos de la bitacora, y se agrega el apartado de referencias
+- Correccion del apartado de referencias de la bitacora
+- Se agrega la parte de escritura en las líneas 336-354
+- Se agregó el parrafo introductorio antes de la UVE de Gowin
+- Se borró el parrafo introductorio antes de la UVE de Gowin del archivo bitacora-1.qmd  y se puso en index.qmd
+- Agregue la V de gowin y hice algunas correciones
+- Se eliminaros las referencias no funcionales y las repetidas
+- Se corrigió el formato de las referencias de la busqueda bibliografica
+- Se arreglo un subtitulo del la bitacora 1
+- Se quitaron las referencias referencias no recomendadas por el profesor, así como sus respectivas fichas y se agregaron nuevas en el archivo references.bib con sus respectivas fichas, tambien se cambio el sistema de llamara las referencias por (Refn) donde n es el numero de referencia
+- Se cambiaron las demás partes de la bitacora que llamaran a las referencias con el sistema antiguo y se cambió por el sistema Refn
+- Se corrige la infornación de la treceava ficha bibliografica
+- Se agrega contenido a bitacora 2 y se agregan mas fichas de literatura a bitacora 1
+- Se agrega el análisis entre tres fichas bibliográficas en la parte de planificación
+- Se limpió la base de datos, quedando con 26 columnas y 3936 filas
+- Se agrega el gráfico de la distribución de los videojuegos de acuerdo a su nota en Metacritic
+- Se agregan gráficos de histogramas y de dispersión acerca de las variables de la base de datos
+- Se agregan los cuadros que resumen las variables importantes
+- Se agrega gráfico de distribución entre las variables jugadores estimados y notas en Metacritic
+- Agregue las maqueta de programacion y realice los graficos 4 y 5
+- Se agregaron los graficos, los enlaces literarios y las propuesta metodologica
+- Seagregan las 11 primeras fichas parafraseadas y se eliminana las referencias provenientes de Wikipedia
+- Se agrega la tabla de ordenamiento de la literatura
+- Se agregan las ultimas fichas de literatura
+- Se agregan los comandos 1,2 y 3
+- Se agregan nuevos gráficos de frecuencia de géneros de videojuegos y desarrolladoras
+- Se agregan las primeras 11 fichas bibliograficas con los cambios necesarios según la plantilla del profesor y se quitaron las referencias de wikipedia
+- Se retiran las referencias de Wikipedia y se agrega parcialmente la tabla de ordenamiento de literatura
+- Se agregan las primeras 11 fichas bibliograficas con los cambios necesarios según la plantilla del profesor y se quitaron las referencias de wikipedia
+- Se retiran las referencias de Wikipedia y se agrega parcialmente la tabla de ordenamiento de literatura
+- Agregue los graficos
+- Se agregan chunks en los graficos
+
+### Fix
+
+- Se corrigen alguno archivos ya que no dejaba darle push ni pull
+- Se cambia el gráfico de dispersión de los jugadores y el precio por uno hexagonal con las mismas variables
+- Se cambia el histograma que había de las notas de Metacritic por un gráfico de distribución con línea de tendencia entre jugadores estimados y notas de Metacritic
+- Se crea la rama arreglos para arreglar la mala ejecución de ciertos commits
+- Se actualizan los datos del workspace para que sirve
+- Se corrige la posición de los gráficos y se cambia el gráfico 1 por otro que es un histograma poligonal de las fechas de lanzamientos y videojuegos.
+- Se modifican varios errores ortográficos
+
+
+
+## Análisis de modelación
+
+### Carga automática de datos
+
+```{r, results='hide', warning=FALSE, eval=FALSE}
+library(viridis)
+library(readxl)   
+library(dplyr)
+library(tidyverse)
+library(broom)
+library(ProjectTemplate)
+library(RColorBrewer)
+library(car)
+library(forcats)
+library(stringr)
+library(ggplot2)
+library(extrafont)
+library(tidyverse)
+library(broom)
+library(cluster)
+library(knitr)
+library(tidyr)
+library(cowplot)
+library(ggplot2)
+library(scales)
+library(hexbin)
+library(kableExtra)
+
+
+
+file_path <- "clean_database.xlsx"  
+if (file.exists(file_path)) {
+ 
+  clean_database <<- read_excel(file_path)  
+  
+
+  message("Archivo cargado exitosamente.")
+} else {
+ 
+  message("El archivo clean_database.xlsx no se encuentra en la ruta especificada.")
+}
+
+avg_metacritic_by_developer <- read_excel("avg_metacritic_by_developer.xlsx")
+View(avg_metacritic_by_developer)
+
+clean_databaseForGenres <- read_excel("clean_databaseForGenres.xlsx")
+View(clean_databaseForGenres)
+
+developers_lumped <- read_excel("developers_lumped.xlsx")
+View(developers_lumped)
+
+genres_factoured <- read_excel("genres_factoured.xlsx")
+View(genres_factoured)
+
+mean_genres_per_developer <- read_excel("mean_genres_per_developer.xlsx")
+View(mean_genres_per_developer)
+
+ultimate_genres <- read_excel("ultimate_genres.xlsx")
+View(ultimate_genres)
+
+mean_genres_per_genre <- read_excel("mean_genres_per_genre.xlsx")
+View(mean_genres_per_genre)
+
+```
+
+### Análisis descriptivo completo
+
+::: callout
+**Jugadores estimados**:
+
+-   Mediana: 150 000.
+
+-   Promedio: 861937,2.
+
+-   Mínimo: 10000.
+
+-   Máximo: 150000000.
+
+-   Rango: 149999000.
+
+-   Desviación estándar: 4003982,9.
+:::
+
+::: callout
+**Precio de los videojuegos (en dólares)**:
+
+-   Mediana: 12,99.
+
+-   Promedio: 15,03278
+
+-   Mínimo: 0.
+
+-   Máximo: 69,99.
+
+-   Rango: 69,99.
+
+-   Desviación estándar: 11,78411.
+:::
+
+::: callout
+**Nota de Metacritic**:
+
+-   Mediana: 74.
+
+-   Promedio: 72,93191.
+
+-   Mínimo: 20.
+
+-   Máximo: 97.
+
+-   Rango: 77.
+
+-   Desviación estándar: 10,58026.
+:::
+
+::: callout
+**Reseñas positivas (positive)**:
+
+-   Mediana: 929.
+
+-   Promedio: 12588,49.
+
+-   Mínimo: 0.
+
+-   Máximo: 5764420.
+
+-   Rango: 5764420.
+
+-   Desviación estándar: 106383,23.
+:::
+
+::: callout
+**Negative (reseñas negativas)**:
+
+-   Mediana: 198.
+
+-   Promedio: 1691,981.
+
+-   Mínimo: 0.
+
+-   Máximo: 766677.
+
+-   Rango: 766677.
+
+-   Desviación estándar: 14692,469.
+:::
+
+::: callout
+**Fechas de lanzamiento**:
+
+-   Mínimo: 1997.
+
+-   Máximo: 2024.
+
+-   Rango: 27.\
+:::
+
+```{r}
+
+# Análisis Descriptivo
+variables <- c("Price", "Positive", "Negative", "Metacritic.score", "EstimatedPlayers")
+cat("Resumen estadístico de las variables clave:\n")
+print(summary(clean_database[variables]))
+
+# Matriz de correlación
+cor_matrix <- cor(clean_database[variables], use = "complete.obs")
+cat("\nMatriz de correlación:\n")
+print(cor_matrix)
+
+# Ajuste del Modelo (Regresión Lineal Múltiple)
+data_model <- clean_database %>% select(EstimatedPlayers, Metacritic.score, Price, Positive) %>% na.omit()
+modelo <- lm(EstimatedPlayers ~ Metacritic.score + Price + Positive, data = data_model)
+
+# Resumen del modelo de regresión
+cat("\nResumen del modelo de regresión:\n")
+print(summary(modelo))
+
+# Comentarios sobre el modelo
+cat("\nComentarios sobre el modelo:\n")
+cat("- Metacritic.score y Positive son influencias significativas en EstimatedPlayers.\n")
+cat("- Un menor precio está asociado con un mayor número de jugadores.\n")
+
+
+```
+
+## Graficos
+
+```{r}
+
+genres_factoured |>
+count(Genres, sort = TRUE) |>
+ggplot(aes(x = Genres, y = n, fill = Genres)) +
+geom_col() +
+labs(title = "Frecuencia de géneros de videojuegos", y = "Cantidad de juegos", X = NULL) +
+theme(axis.title.x = element_blank(), axis.ticks.x = element_blank(), axis.text.x = element_blank()) +
+guides(fill = guide_legend(title = NULL))
+
+
+
+```
+
+```{r}
+clean_database %>%
+ ggplot(aes(x = Achievements, y = EstimatedPlayers)) +
+ geom_point(color = "black", size = 1.3, alpha = 20) +
+ labs(title = "Cantidad de jugadores de acuerdo a logros en el juego", x = "Cantidad de logros", y = "Jugadores estimados") +
+ scale_x_continuous(breaks = seq(0, 1500, by = 100)) +
+ scale_y_log10() +
+ theme_minimal()
+
+
+```
+
+```{r}
+ggplot(mean_genres_per_genre, aes(x = Genres, y = mean_players, fill = Genres)) +
+ 	geom_bar(stat = "identity")+
+ 	scale_fill_viridis_d() +
+ 	scale_y_log10() +
+ 	theme_minimal() +
+ 	theme (
+     	axis.text.x = element_blank(),  
+     	axis.ticks.x = element_blank(), legend.title = element_blank() ) +
+ 	labs(title = "Media de jugadores estimados por género de videojuegos", y = "Media de jugadores estimados", x = NULL)
+
+```
+
+```{r}
+ggplot(developers_lumped,aes(x = Developers, y = n, fill = Developers)) + geom_col() + labs(title = "Frecuencia de desarrolladoras", y = "Cantidad de juegos", x = "") + theme(axis.ticks.x = element_blank(), axis.text.x = element_blank(), axis.title.x = element_blank()) + scale_fill_viridis_d(option = "D", guide = guide_legend(ncol = 2, title = NULL))
+```
+
+```{r}
+games_per_year <- ultimate_genres %>%
+    group_by(ReleaseDate, Genres) %>%
+    summarise(Count = n(), .groups = 'drop')
+
+ggplot(games_per_year, aes(x = ReleaseDate, y = Count, fill = Genres)) + 
+    geom_bar(stat = "identity", position = "dodge") +  
+    scale_fill_brewer(palette = "Set3") + 
+    theme_minimal() + 
+    labs(
+        title = "Cantidad de Juegos Lanzados por Año y Género",
+        y = "Cantidad de Juegos",
+        x = "Año de Lanzamiento"
+    ) +
+    theme(
+        axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.title = element_blank()
+    ) +
+    scale_y_continuous(breaks = seq(0, max(games_per_year$Count, na.rm = TRUE), by = 20)) + 
+    scale_x_continuous(breaks = seq(min(games_per_year$ReleaseDate), max(games_per_year$ReleaseDate), by = 1))
+
+```
+
+```{r}
+avg_metacritic_by_genre <- ultimate_genres %>%
+    group_by(Genres) %>%
+    summarise(avg_score = mean(Metacritic.score, na.rm = TRUE), .groups = 'drop') %>%
+    arrange(avg_score)
+
+ggplot(avg_metacritic_by_genre, aes(x = reorder(Genres, avg_score), y = avg_score, fill = Genres)) + 
+    geom_bar(stat = "identity") + 
+    scale_fill_brewer(palette = "Set3") +  
+    theme_minimal() + 
+    labs(
+        title = "Promedio del Puntaje de Metacritic por Género (Ordenado de Menor a Mayor)",
+        y = "Promedio del Puntaje de Metacritic",
+        x = "Género"
+    ) +
+    theme(
+        axis.text.x = element_text(angle = 45, hjust = 1),  
+        legend.title = element_blank()
+    ) +
+    scale_y_continuous(breaks = seq(0, max(avg_metacritic_by_genre$avg_score, na.rm = TRUE), by = 10))
+
+```
+
+```{r}
+num_colors <- nrow(avg_metacritic_by_developer)
+
+my_colors <- colorRampPalette(brewer.pal(9, "Set1"))(num_colors)
+
+ggplot(avg_metacritic_by_developer, aes(x = reorder(Developers, avg_score), y = avg_score, fill = Developers)) + 
+    geom_bar(stat = "identity") + 
+    scale_fill_manual(values = my_colors) + 
+    theme_minimal() + 
+    labs(
+        title = "Promedio del Puntaje de Metacritic por Desarrolladora",
+        y = "Promedio del Puntaje de Metacritic",
+        x = "Desarrolladora"
+    ) +
+    theme(
+        axis.text.x = element_text(angle = 30, hjust = 1, size = 8),
+        axis.ticks.x = element_blank(),
+        legend.title = element_blank()
+    ) +
+    scale_y_continuous(breaks = seq(0, max(avg_metacritic_by_developer$avg_score, na.rm = TRUE), by = 5))
+
+```
+
+```{r}
+avg_players_by_developer <- genres_factoured %>%
+    group_by(Developers) %>%
+    summarise(avg_estimated_players = mean(EstimatedPlayers, na.rm = TRUE), .groups = 'drop') %>%
+    arrange(desc(avg_estimated_players))
+
+num_colors <- nrow(avg_players_by_developer)
+
+my_colors <- colorRampPalette(brewer.pal(9, "Set1"))(num_colors)
+
+ggplot(avg_players_by_developer, aes(x = reorder(Developers, avg_estimated_players), y = avg_estimated_players, fill = Developers)) + 
+    geom_bar(stat = "identity") + 
+    scale_fill_manual(values = my_colors) + 
+    theme_minimal() + 
+    labs(
+        title = "Promedio de Jugadores Estimados por Desarrolladora",
+        y = "Promedio de Jugadores Estimados",
+        x = "Desarrolladora"
+    ) +
+    theme(
+        axis.text.x = element_text(angle = 30, hjust = 1, size = 8),
+        axis.ticks.x = element_blank(),
+        legend.title = element_blank()
+    )
+
+```
+
+## Construcción de fichas de resultados
+
+**Ficha de Resultados V**
+
+■ Nombre del hallazgo/resultado: Evolución en la cantidad de géneros y lanzamientos de videojuegos (1997-2024).
+
+■ Resumen en una oración: Desde 1997 hasta 2024, la cantidad de géneros y videojuegos lanzados ha aumentado significativamente, con un ascenso desde 1997 hasta 2015 y posteriormente un descenso desde 2016 hasta 2024.
+
+■ Principal característica: Entre más géneros de videojuegos sacan las desarrolladoras, más juegos se venden en general.
+
+■ Posibles desafíos: ¿Qué factores externos, como la tecnología o cambios en la demanda del consumidor, han influido en el aumento de lanzamientos? Es crucial investigar cómo estos elementos han moldeado la industria.
+
+■ Resumen en un párrafo: El análisis del gráfico muestra una clara evolución en la cantidad de géneros y videojuegos lanzados entre 1997 y 2024. Durante los primeros años, las empresas desarrolladoras lanzaban un número limitado de géneros, con una notable ausencia en 1999. Sin embargo, desde 2001, el número de lanzamientos anuales comenzó a aumentar, alcanzando su punto máximo entre 2006 y 2015, donde múltiples géneros se introdujeron cada año. A partir de 2021, se observa una disminución en la cantidad de videojuegos lanzados anualmente, lo que sugiere un cambio en las dinámicas del mercado.
+
+**Ficha de Resultados VI**
+
+■ Nombre del hallazgo/resultado: Promedio de puntajes por género de videojuegos.
+
+■ Resumen en una oración: Todos los géneros de videojuegos analizados tienen puntajes promedio entre 70 y 75, indicando una recepción generalmente positiva.
+
+■ Principal característica: Todos los géneros de videojuegos tienen en general una buena aceptación por parte de los jugadores.
+
+■ Posibles desafíos: ¿Qué aspectos específicos dentro de cada género pueden estar afectando las calificaciones? Identificar estos factores podría ayudar a mejorar la calidad de los juegos menos valorados.
+
+■ Resumen en un párrafo: El análisis del gráfico revela que los promedios de puntajes para todos los géneros de videojuegos se sitúan entre 70 y 75, lo que indica un buen nivel de aceptación general por parte de los jugadores. Sin embargo, se destaca que el género Adventure recibió el puntaje más alto, mientras que Racing fue el menos popular, con una diferencia entre estos menor a 5 puntos. Esta información sugiere que los jugadores valoran a los juegos casi en igual medida.
+
+**Ficha de Resultados VII**
+
+■ Nombre del hallazgo/resultado: Puntajes promedio de desarrolladoras de videojuegos.
+
+■ Resumen en una oración: Los puntajes promedio de las 20 desarrolladoras con más juegos publicados varían entre 62.5 y 87.5.
+
+■ Principal característica: Todas las desarrolladoras analizadas tienen un puntaje promedio en Metacritic superior a 62.5, lo que indica una buena aceptación general de sus lanzamientos.
+
+■ Posibles desafíos: ¿Qué estrategias utilizan las desarrolladoras con puntajes bajos para mejorar su recepción? Es fundamental investigar cómo pueden adaptarse o innovar para aumentar su competitividad en el mercado.
+
+■ Resumen en un párrafo: El análisis del gráfico revela que los puntajes promedio de las 20 desarrolladoras más prolíficas en la industria de videojuegos oscilan entre 62.5 y 87.5. BioWare se posiciona como la desarrolladora con el puntaje más alto, mientras que Furqrum Publishing tiene el más bajo, con una diferencia menor a 25 puntos entre estos. Esto sugiere que sí existe una clara diferencia entre los puntajes promedio de estas empresas. A pesar de esta variabilidad, en general, los lanzamientos de las empresas son bien recibidos por los jugadores.
+
+**Ficha de Resultados VIII**
+
+■ Nombre del hallazgo/resultado: Distribución de jugadores estimados por desarrolladora.
+
+■ Resumen en una oración: Se identifican tres subgrupos de desarrolladoras según el número estimado de jugadores: más de 17.5 millones de jugadores estimados, entre 17.5 millones y 2.5 millones de jugadores estimados, y finalmente, menos de 2.5 millones.
+
+■ Principal característica: Solo la desarrolladora Valve se encuentra en el primer subgrupo con más de 17.5 millones de jugadores estimados y más del triple de jugadores que las demás desarrolladoras.
+
+■ Posibles desafíos: ¿Qué factores contribuyen a que algunas desarrolladoras acumulen más jugadores que otras? Investigar estos elementos podría ofrecer estrategias exitosas de captación y retención de usuarios.
+
+■ Resumen en un párrafo: El análisis del gráfico muestra una clara segmentación entre las 20 desarrolladoras más destacadas en términos de jugadores estimados. Se forman tres subgrupos: el primero incluye a Valve, que cuenta con más de 17.5 millones de jugadores; el segundo abarca a Bethesda Game Studios, Gearbox Software y CAPCOM Co., Ltd., quienes tienen entre 5 millones y 2.5 millones de jugadores estimados; y el tercero incluye a todas las demás desarrolladoras, ninguna de las cuales supera los 2.5 millones de jugadores estimados. Este hallazgo resalta la disparidad en la popularidad y alcance entre diferentes compañías.
+
+**Ficha de Resultados IX**
+
+■ Nombre del hallazgo/resultado: Los jugadores tienen tendencia a jugar videojuegos de entre 0 y 200 logros.
+
+■ Resumen en una oración: Los jugadores prefieren juegos de entre 0 y 200 logros.
+
+■ Principal característica: Gran volumen de jugadores entre los 0 y 200 logros por videojuego.
+
+■ Posibles desafíos: ¿Tendrá algo que ver esto con la tendencia de la calidad del videojuego, o es algo meramente subjetivo?
+
+■ Resumen en un párrafo: En el gráfico, se puede observar que el rango de logros va de 0 a aproximadamente 1500; sin embargo, los jugadores prefieren juegos que están muy por debajo de la mediana, lo cual genera curiosidad. Posiblemente se explique mediante alguna teoría psicológica.
+
+**Ficha de Resultados X**
+
+■ Nombre del hallazgo/resultado: Frecuencia de videojuegos según género de acuerdo a las 20 empresas más exitosas.
+
+■ Resumen en una oración: Con qué frecuencia las empresas sacan videojuegos de los géneros más populares.
+
+■ Principal característica: Los juegos de acción, aventura y de rol son los más frecuentes.
+
+■ Posibles desafíos: Descubrir por qué razón las compañías sacan más juegos de acción, aventura o de rol.
+
+■ Resumen en un párrafo: Ya que estamos hablando de la frecuencia de los géneros más populares de acuerdo a las empresas más exitosas, uno esperaría que la distribución fuera más uniforme por cada género. Se intentará explicar el porqué de este fenómeno.
+
+**Ficha de Resultados XI**
+
+■ Nombre del hallazgo/resultado: Media de jugadores por género de videojuegos.
+
+■ Resumen en una oración: Media de jugadores por género de videojuegos.
+
+■ Principal característica: Distribución uniforme de la media entre cada género de videojuegos de acuerdo a la cantidad de jugadores estimados.
+
+■ Posibles desafíos: Dificulta hallar por qué es tan uniforme.
+
+■ Resumen en un párrafo: En el gráfico correspondiente se nota una uniformidad de la media de los jugadores estimados por género de videojuegos. Posiblemente sea normal dado que estos son los más populares; sin embargo, podría haber otra razón.
+
+**Ficha de Resultados XII**
+
+■ Nombre del hallazgo/resultado: Desarrolladoras más comunes.
+
+■ Resumen en una oración: En el gráfico se muestran cuáles son las empresas que más sacan juegos.
+
+■ Principal característica: Las empresas que más sacan videojuegos.
+
+■ Posibles desafíos: Que sean las más comunes no necesariamente indica que son las que representan en su totalidad a la industria.
+
+■ Resumen en un párrafo: Estas empresas son las que más se han sostenido a lo largo de los años sobre el pilar de la industria de los videojuegos, forjándose cada una prestigio en la misma; por lo tanto, tienen bastante poder en la industria y vale la pena analizar estas implicaciones.
+
+## Ordenamiento de los elementos de reporte
+
+### Elementos primarios y secundarios
+
+```{r}
+elementos_reporte <- data.frame(
+  Primarios = c(
+    "Teoría sobre el éxito comercial de los videojuegos",
+    "Análisis del éxito comercial basado en características del juego",
+    "Características que afectan la preferencia del consumidor",
+    "Relación entre la cantidad de jugadores y la puntuación de Metacritic",
+    "Teoría del Refuerzo (Skinner)",
+    "Teoría del Flujo (Csikszentmihalyi)"
+  ),
+  Secundarios = c(
+    "Teoría sobre las tendencias del mercado de videojuegos",
+    "Comparativa con otros estudios",
+    "Análisis descriptivo de datos",
+    "Diferencias de éxito según plataformas",
+    "Análisis de la motivación del jugador",
+    "Estrategias de diseño de videojuegos"
+  )
+)
+
+# Mostrar la tabla
+kable(elementos_reporte, caption = "Elementos de Reporte")
+
+```
+
+### Orden de los elementos en el reporte
+
+```{r}
+# Crear la tabla de Guía para el Ordenamiento del Trabajo
+ordenamiento_trabajo <- data.frame(
+  Sección = c(
+    "Introducción", "Introducción", "Introducción", "Introducción", "Introducción",
+    "Metodología", "Metodología", "Metodología", "Resultados y Conclusiones",
+    "Resultados y Conclusiones", "Resultados y Conclusiones", "Resultados y Conclusiones",
+    "Resultados y Conclusiones", "Resultados y Conclusiones", "Resultados y Conclusiones",
+    "Resultados y Conclusiones", "Resultados y Conclusiones"
+  ),
+  Temas_a_Tratar = c(
+    "Teoría sobre el éxito comercial de los videojuegos (Primario)",
+    "Análisis del éxito comercial basado en características del juego (Primario)",
+    "Resultados de otros autores sobre tendencias del mercado (Secundario)",
+    "Resultados de análisis descriptivo (Secundario)",
+    "Otros temas relevantes (Secundario)",
+    "Descripción de los datos (Primario)",
+    "Método de Análisis Exploratorio de Datos (Primario)",
+    "Método de Regresión Lineal Múltiple (Secundario)",
+    "Características que afectan la preferencia del consumidor (Primario)",
+    "Relación entre la cantidad de jugadores y la puntuación de Metacritic (Primario)",
+    "Relación positiva entre la puntuación de Metacritic y la cantidad de jugadores (Primario)",
+    "Cantidad de juegos lanzados en el período 2014-2019 (Primario)",
+    "Relación negativa entre el número de jugadores y el precio de los videojuegos (Primario)",
+    "Comparación del tiempo de juego promedio por plataforma (Primario)",
+    "Otros hallazgos relevantes (Secundario)",
+    "Síntesis de las teorías de Skinner y Csikszentmihalyi en el contexto de los videojuegos (Primario)",
+    "Implicaciones para el diseño y marketing de videojuegos (Primario)"
+  )
+)
+
+# Mostrar la tabla
+kable(ordenamiento_trabajo, caption = "Guía para el Ordenamiento del Trabajo")
+
+```
+
+# Parte de escritura
+
+Antes de realizar el análisis de los resultados y la comparación de las mismas, es de menester reiterar la pregunta de investigación. La misma, se puede enunciar como: *¿Qué características tienen los videojuegos que hacen que sean tan exitoso?*; que está siendo respondida mediante la idea *Análisis del éxito de los videojuegos basado en características del videojuego*.
+
+Estas características -a un nivel más general- constituyen temas como las mecánicas del videojuego, el género al que pertenece, su precio, etc.
+
+La primer ficha de resultados, trata sobre la relación entre el número de jugadores y la nota que obtuvieron los videojuegos en el sitio de críticas profesional *Metacritic*. Se notó que entre más alta era la nota que se le adjudicaba a cada videojuego en *Metacritic*, más jugadores tenían este videojuego; dando a entender de esta manera qué, la crítica es un factor importante que toman en consideración los consumidores. Este resultado termina dando origen entonces a una característica que es determinística en el contexto del éxito en los videojuegos: la crítica. Ante esta idea de la crítica como una variable importante en el éxito que puede tener un videojuego, se antepone (Imad, 2021), quien con base en un estudio realizado en el año 2012, determinó que las notas de *Metacritic* no afectan a las ventas que puede tener un videojuego.
+
+Por otra parte, (Stuart, 2008) le realiza una entrevista a quien para ese entonces era un directivo de *Metacritic*. A modo de predicción, el entrevistado menciona que un sistema de críticas (en este caso la empresa que representa) consistente sería beneficioso para el mercado de videojuegos; forzando a las empresas a lanzar y/o actualizar juegos nuevos en pro de mejorar la calidad de los productos. Las visiones de ambos autores acerca de un sistema de críticas de videojuegos se contrastan entre sí; más aún, la visión de (Imad, 2021) es contraria a la conjetura de la primera ficha de resultados, mientras que la que se expuso por (Stuart, 2008) es más afín a la misma. De hecho, según Skinner (1938) y de acuerdo a su teoría del comportamiento, no sería extraño que las empresas con tal de obtener una buena nota en *Metacritic* mejoren la calidad de sus productos, dándole cierto grado de razón a la entrevista de Stuart; será esta misma teoría la que dará pie al análisis posterior de la teoría de los jugadores y géneros de videojuegos.
+
+En la ficha de resultados número 9, se encontró que la mayoría de jugadores se encontraban condensados en juegos que tenían entre 0 a 200 logros. Estos logros representan una serie de desafíos en el juego que el jugador debe de cumplir, estos desafíos tienen como objetivo alentar al jugador a jugar más para completarlos todos -este sistema se basa más en recompensas sin castigos-. Que tantos logros son satisfactorios de completar es una cuestión muy subjetiva y depende de parámetros como el tiempo que el jugador le puede dedicar al juego. Esta variable de logros tiene un rango que va de 0 a aproximadamente 1450, uno creería que de acuerdo a la teoría del comportamiento de Skinner, los jugadores prefieran en promedio algo cercano a la mediana (o sea, los jugadores preferirían jugar juegos con 725 logros), pero no es así. Esta yuxtaposición entre el resultado de esta ficha y la teoría del comportamiento de Skinner puede ser explicada mediante Csikszentmihalyi (1990) y su intento por explicar el comportamiento mediante su teoría. Csikszentmihalyi aboga más por encontrar un equilibrio entre los estímulos a los que se someten los individiuos, en el contexto de los videojuegos, un ejemplo que ilustre este equilibrio sería: un juego que fuera exigente, pero no tanto como para aburrir al jugador, que tenga el contenido necesario y suficiente para que el jugador no se sienta saturado y que tenga una cantidad de objetivos (entiéndase objetivos como logros en el videojuego) que hacen que el jugador no sienta el completarlos como una responsabilidad equiparable a las que le competen en su vida cotidiana. Además, Skinner propone a las recompensas como el sustento de su teoría; si un jugador al completar todos los logros de un videojuego recibiera más que solo la "gloria" y satisfacción, es probable que los jugadores prefieran juegos con aún más logros que los que se observó en esta ficha de resultados. Por lo tanto, hasta ahora quien mejor explicaría hipotéticamente este hallazgo sería Csikszentmihalyi.
+
+Hablando de la teoría de Csikszentmihalyi, resulta que si se toma como referencia la inmersión que se obtiene como resultado de una amplia gamma de estímulos bien equilibrados, se explicaría el porqué de un resultado específico de la ficha número 10: el género de *RPG* o *Role-Playing-Game* que se traduciría como juego de rol, es el más lanzado por las 20 empresas más comercialmente activas (el tema de las empresas será comentado más adelante), esto indica que estas desarrolladoras en su intento de vender videojuegos inmersivos y que gusten a los jugadores se decanten por realizar este tipo de videojuegos. ¿Pero, qué tienen este tipo de videojuegos exactamente? Los videojuegos de rol -en su forma más arcaica- son juegos que se basan en juegos de cartas y de mesa clásico, en donde el objetivo de los mismos en avanzar a través de enemigos (en su mayoría fantasiosos) e ir obteniendo recompensas (mediante la realización de misiones simples).
+
+Esta idea de los *RPG* ha evolucionado a través del tiempo volviendo al género más sofisticado; y es qué, gracias a los nuevos sistemas operativos y consolas, es posible que estos juegos ahora tengan mundos mucho más detallados, con mejores gráficos, una historia más entretenida, mejor banda sonora y mejores mecánicas. Un ejemplo muy popular en la actualidad es el videojuego de *Elden Ring*, el grupo ha tenido la oportunidad de probar este juego, y en su experiencia es el juego más inmersivo y entretenido que ha jugado, pues resulta que cumple con los estándares de la teoría de Csikszentmihalyi(1990). Sin embargo, el optimismo de este resultado no está exento de críticas: Deterding et al en “Mastering Uncertainty: A Predictive Processing Account of Enjoying Uncertain Success in Video Game Play” (2022)" relacionan la importancia de la incertidumbre en los juegos con el éxito de los mismos. El problema es que los videojuegos cuyo género es *RPG* llegan a un punto en donde su extensión es tal que se vuelven monótonos y el jugador a grandes rasgos se encuentre con el siguiente dilema: "Llevo X horas jugando este videojuego *RPG*, pero ya realicé la mayoría de objetivos del juego y los que restan son iguales que los anteriores, ¿Debería de seguir jugándolo?" Según Deterding et al, este jugador frente a este dilema, posiblemente elija la opción de dejar de jugarlo; ya que el factor incertidumbre se ve agrietado dado que el jugador ya tiene conocimiento de lo que va a suceder en sus siguientes sesiones de juego.
+
+Las empresas, quienes juegan un rol importante en esta industria, también son analizadas dentro del contexto de este proyecto. En el gráfico respectivo a la ficha número 12, se especifican cuales son las 20 empresas que más videojuegos han desarrollado y respectivamente lanzado. El hecho de que se hayan elegido 20 fue porque al elegir 20, se notó que cada una por separado había lanzado bastantes juegos en comparación con la mayoría de empresas (que sacaron menos de 5 videojuegos) y como era de esperarse, muchas son conocidas por los jugadores (véase que en el gráfico está *Capcom*, creadores de videojuegos como *Resident Evil*); también se analizaron exhaustivamente las más populares porque son empresas que ya han forjado su prestigio a lo largo del tiempo. Relacionado a este resultado se encuentra la ficha número 10, en donde se ve como estas empresas distribuyen sus videojuegos de acuerdo a los géneros más populares.
+
+De acuerdo a la ficha de resultados número 10, se puede observar como los juegos de género *RPG*, *Aventura* y de *Acción* son los más desarrollados por estas empresas; aúnado a este resultado se encuentra uno de la ficha número 5: los géneros más populares que estas empresas más han desarrollado han ido disminuyendo durante el último lustro. Para entender este suceso, Handrich et al., en su estudio ¿El estudio “Innovate or Game Over?” (2022) proporcionan como herramienta la innovación en las mecánicas de los videojuegos, y dado que los géneros de videojuegos están intimamente relacionados con sus mecánicas, se deduce que las empresas se encuentran en una fase de producción en la cual, después de venir sacando bastantes juegos de los géneros ya comentados (durante 1997-2020); caen en cuenta de que es necesario empezar a innovar (lo que de hecho, reduce también el volumen total de los videojuegos nuevos en general). Esta tendencia también la siguen el resto de compañías (veáse el gráfico de la ficha de resultado número 5, en donde la frecuencia de géneros es a nivel general) evidenciando la influencia de estas grandes compañías.
+
+Aunque quedarse solamente con los resultados de las empresas grandes puede ser tentador, sería caer en un error y se estaría ignorando una gran parte de la masa que mueve este mercado: los juegos de género *Indie*. Los juegos de este género se caracterizan porque son juegos simples, desarrollados por empresas pequeñas (muy pequeñas, muchos de estos juegos son realizados por personas desde su casa). Estos juegos son los que más crecimiento y lanzamientos han tenido a lo largo de los años (resultado de la ficha de resultados número 5), de hecho, este volumen de juegos fue bastante pronunciado en el período 2015-2020; período en el cual se registró la mayor cantidad de videojuegos (de todos los géneros y desarrolladoras) lanzados. Dado lo económico y sencillo que es producir este tipo de juegos, no es de extrañar que muchas microempresas y/o personas desarrollen y publiquen este tipo de juegos en masa, lo que explicaría el pico de juegos lanzados observado en el gráfico de la ficha número 2. Goh et al., en su artículo "Unravelling the complexity of the Video Game Industry: An integrative framework and future research directions" mencionan un aspecto importante acerca de los juegos *Indie*, y este es el de su unicidad.
+
+Mencionan que estos juegos forman un mercado de videojuegos especial, por aparte del que las más grandes empresas se encuentran, pues la visión que tienen los desarrolladores es la de la libertad: desarrollan videojuegos que tocan temas delicados, mecánicas innovadoras y características únicas que para las empresas grandes les resulta arriesgado; finalmente esta receta de los juegos de género *Indie* dan como resultados juegos frescos, innovadores e inmersivos, atendiendo a las necesidades psicológicas que mencionaban ya Skinner y Csikszentmihalyi en sus respectivas teorías acerca del comportamiento. Al mismo tiempo, los juegos *Indie* resultaron tener mucha más influencia de lo que se creía para este proyecto, pues el hecho de que muchas personas los jueguen (un resultado de la ficha número 11) y que hayan bastantes juegos de este tipo, proporcionarían entonces una respuesta al resultado de la ficha número 3: las personas prefieren jugar juegos más baratos (la media por juego es de aproximadamente 13 dólares). La ficha número 4 tiene como resultado principal que existen varios videojuegos lanzados en años aledaños al 2015 que acumulan aproximadamente 100000 jugadores o más, lo cual tiene sentido si se asocia con que nuevamente, en esa época salieron muchos juegos del tipo *Indie*, que son baratos, que son inmersivos.
+
+Di Blasi(2020) en su estudio "Problematic video game use as an emotional coping strategy: Evidence from a sample of MMORPG gamers" concluye que el éxito en los videojuegos no va tanto del lado de la innovación, o de características tan específicas como las mecánicas de un videojuego, sino que va de la mano de si el videojuego en cuestión tiene la capacidad de reprimir, o exhibir todo el arsenal emocional de la persona. Para este estudio, realizó una encuesta a jugadores de videojuegos del género *Massively Multiplayer Online Game* o *MMO*, en ella encontró que dado que este género se caracteriza porque ofrece un alto nivel de sociabilidad al ser juegos de multijugador en linea, muchos jugadores tenían la facilidad ya sea para combatir la depresión, la ansiedad o cualquier emoción que ellos consideren negativas y que deseen reprimir.
+
+Asimismo, encontró que habían muchos jugadores que saciaban su competitividad en este tipo de videojuegos -pues estos juegos se caracterizan también por su alto nivel de competitividad-, en cualquier caso, concluye que este tipo de entornos favorecidos por el videojuego propician que el jugador se vuelva adicto al mismo. Comenta que cuando un jugador que jugaba para huir de su realidad se vuelve adicto, este volverá a un estado mucho peor del que estaba antes y que no se dará cuenta. Según la teoría de Di Blasi, los videojuegos más jugados deberían de ser en su mayoría los más adictivos y competitivos, esto se ve reflejado en que en la abse de datos de este proyecto, el videojuego *Dota 2* es el más jugado, con aproximadamente 150 000 000 (ciento cincuenta millones) de jugadores, *Dota 2* es un videojuego competitivo *MMO*. De hecho, la naturaleza del éxito de *Dota 2* iría en contra de lo propuesto por Deterding et al. (2022) y su justificación del éxito de los videojuegos, pues por ejemplo, *Dota 2* no cumple en su totalidad que el juego tenga incertidumbre, pues este juego se basa en partidas de ganar o perder solamente.
+
+Ya que nos adentramos al terreno de géneros de videojuegos y del éxito comercial de las empresas, y también dado que ya se explicó al principio acerca del nuevo factor de éxito de los videojuegos *Metacritic*, surge la pregunta: ¿Qué relación hay entre el éxito de las empresas y *Metacritic*? aún más, ¿Será que los géneros más populares tienen buena nota en *Metacritic*? y ¿Qué explicaría las respuestas?
+
+Primero, al intentar responder la primera pregunta y ver el resultado de la ficha número 7 (notas de *Metacritic* promedio por empresa, varía entre 62 y 85) se esperaría que la respuesta es que no hay una relación directa, pues se tiene como concepción general que una buena nota no se encontraría en este rango, sin embargo, Greenwood et al.,(2013) en su artículo "On the Validity of Metacritic in Assessing Game Value" afirman el poder real de *Metacritic* y hacen énfasis en que el sitio de críticas debería de estar regulado. El artículo expone a modo de introducción una "paradoja" de la industria con respecto al sitio de críticas:
+
+-Las notas de los videojuegos afectan directamente a las ventas del videojuego.
+
+-La nota que proporciona la crítica no es fiable; o sea, no determina el nivel de calidad del producto.
+
+Como ejemplos de esto, Greenwood et al mencionan el caso de una empresa famosa que obtuvo una nota promedio de 70 en *Metacritic*, acto seguido la empresa sufre una caída del 20% en el precio de sus acciones; después, el CEO de una desarrolladora comentó que la misma había recopilado agregados qué, según ellos, si los añadían al juego obtendrían al menos 5% más de nota en *Metacritic*. Este último ejemplo es uno de los más impactantes, ya que quiere decir que existen desarrolladoras que con tal de "obtener una buena calificación" estarían dispuestas a sacrificar la visión original y la creatividad que los creadores tenían en mente y que no iban en conjunción con los "agregados" para asegurar una calificación notable. El impacto de las notas de *Metacritic* también se traslada al sector de reclutamiento de desarrolladores de videojuegos, esto porque Greenwood et al exponen el caso de una empresa publicadora de videojuegos que le exigía a sus reclutadores contratar solo a personas que hayan trabajado en al menos un videojuego que haya obtenido un 85% o más de calificación en el sitio.
+
+Por lo tanto, queda evidenciado que efectivamente, *Metacritic* puede influir -aunque de manera injusta- en el éxito comercial de los videojuegos; afectando desde el sector microeconómico (empleados-empleadores) hasta un nivel macroeconómico (bolsa de valores).
+
+Por otra parte, en la ficha de resultados número 6, se corrobora la uniformidad de las notas en *Metacritic*, -de hecho, este rango recuerda al de notas de *Metacritic* por desarrolladora- con notas entre 70-75. Esta uniformidad podría explicar la apuesta segura de las empresas por desarrollar más juegos de este tipo de géneros.
+
+Para finalizar todo este análisis, se procederá con un resumen, con el objetivo de unificar los resultados de manera más precisa.
+
+Este análisis determina cuales pueden ser las características clave que más contribuyen al éxito de los videojuegos; haciendo un enfoque en elementos como la crítica, las mecánicas del juego, los géneros más populares, el número de logros de un videojuego y los precios de los mismos. En primer lugar, se observó una correlación entre las calificaciones en el sitio de reseñas Metacritic y el número de jugadores; una buena crítica pareciera que atrae a más usuarios. Sin embargo, algunos estudios cuestionan esta relación: Imad (2021) afirma que las calificaciones en Metacritic no afectan directamente a las ventas de videojuegos, mientras que un exdirectivo de *Metacritic* sugería que un sistema de reseñas beneficiaría al mercado al impulsar a las empresas a mejorar la calidad de los productos.
+
+La importancia de los logros en los videojuegos y su impacto en la satisfacción de los jugadores es otro aspecto analizado. La mayoría de los jugadores prefiere juegos con entre 0 y 200 logros, lo cual puede contradecir la teoría del comportamiento de Skinner (en términos de satisfacción por logros). En lugar de buscar recompensas interminables, los jugadores buscarían un equilibrio, según la teoría de Csikszentmihalyi (1990), que enfatiza la inmersión y el equilibrio en los estímulos para maximizar el disfrute del jugador. Este principio de equilibrio también ayuda a entender por qué los juegos de rol *RPG* son los más lanzados por las empresas líderes en producción de videojuegos, ya que ofrecen experiencias inmersivas que responden a estas necesidades psicológicas.
+
+Asimismo, se observa que las 20 empresas más activas se enfocan en los géneros más populares, como rol, acción y aventura, aunque este patrón ha disminuido en los últimos cinco años. Según Handrich et al. (2022), esta tendencia refleja la necesidad de innovar, ya que una producción excesiva en géneros familiares puede resultar en una saturación del mercado.
+
+Los juegos *Indie*, que son títulos desarrollados con pocos recursos pero con alta originalidad, también destacan en el estudio, ya que presentan un crecimiento exponencial. Debido a su bajo coste y enfoque en la innovación y en generar una conexión emocional con el jugador, han ganado popularidad, especialmente en el periodo de los años 2015-2020. Estos juegos, que atienden las necesidades emocionales y psicológicas de los jugadores, permiten una conexión única y auténtica con el usuario, aspecto que exploran Goh et al. (2021), y como resultan más asequibles, con un precio promedio de 13 dólares, sería normal que mucha gente llegue al menos a probarlos y jugarlos un poco. También, hace falta mencionar que las grandes empresas y los desarrolladores *Indie* cumplen diferentes roles en el mercado, siendo los primeros más conservadores y los segundos más propensos a la creatividad y a la experimentación.
+
+Por último, el análisis explora cómo *Metacritic* afecta a las empresas de videojuegos. Greenwood et al. (2013) destacan que las puntuaciones en *Metacritic* pueden influir significativamente en el éxito comercial, impactando tanto en el valor en bolsa de las empresas como en las políticas de contratación. Además, la uniformidad en las calificaciones (entre 70 y 75) sugiere que muchas compañías juegan “a lo seguro” al centrarse en géneros y mecánicas que aseguren un nivel de éxito predecible.
+
+En resumen, el éxito de los videojuegos depende de una combinación de factores (que a simple vista no se notan) que incluyen la crítica, la innovación en mecánicas y géneros, el precio, y la conexión emocional del usuario con el juego.
+
+# Parte de reflexión
+
+"El éxito en la industria de los videojuegos es un equilibrio precario entre la innovación constante y la seguridad de lo conocido. Mientras las grandes compañías buscan fórmulas comprobadas y altas calificaciones en Metacritic, los desarrolladores independientes destacan con propuestas más arriesgadas y personales. La clave está en crear experiencias que no solo entretengan, sino que también conecten emocionalmente con los jugadores, ofreciendo mundos significativos y diversos."
+
+## Revisión de objetivos y pregunta de investigación en la UVE
+
+![](imagenes/V-deGowin-1-2.png){width="679"}
