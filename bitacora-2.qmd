@@ -322,7 +322,7 @@ de lanzamiento en donde se omitirán algunas mediciones.
 ```{r}
 #| warning: false
 ggplot(clean_database, aes(x = clean_database$ReleaseDate)) +
-  geom_freqpoly(alpha = 20, binwidth = 2.5, color = "black", size = 0.9) +
+  geom_freqpoly(alpha = 20, binwidth = 2.5, color = "orange", size = 0.9) +
   labs(x = "Año de lanzamiento", y = "Cantidad de videojuegos", title = "Cantidad de videojuegos lanzados por año") +
   cowplot::theme_cowplot()
 ```
@@ -381,7 +381,7 @@ ggplot(clean_database, aes(x = Price, y = EstimatedPlayers)) +
     y = "Número estimado de jugadores",
     fill = "Densidad"
   ) +
-  scale_fill_gradient(low = "yellow", high = "blue") + # Colores vibrantes
+  scale_fill_gradient(low = "red", high = "blue") + # Colores vibrantes
   theme_minimal(base_size = 14) +
   theme(
     panel.grid.major = element_line(color = "gray80"),
