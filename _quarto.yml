@@ -1,16 +1,14 @@
 project:
-  type: website
+  type: book
   output-dir: "docs"
-  
 
 lang: es
 
 book:
   repo-actions: [edit]
-  title: "Bitácora Grupo 3 , CA-204 (II-2024)"
+  title: "Bitácora Grupo 3, CA-204 (II-2024)"
   author: "Joseph Romero, Cristhofer Urrutia, Oscar Espinoza"
   date: today
-  site-url: google.com
   chapters:
     - "index.qmd"
     - "bitacora-1.qmd"
@@ -21,16 +19,19 @@ bibliography: references.bib
 
 format:
   html:
-      # Pueden usar cualquier tema de los que están aca:
-      # https://quarto.org/docs/output-formats/html-themes.html a excepción de
-      # los oscuros porque no entiende nada.
     theme: cosmo
+    css: styles.css # Si tienes un archivo de estilos personalizado
+    embed-resources: true # Para garantizar que los recursos de Shiny estén embebidos
+    code-fold: true # Opcional, para plegar bloques de código
+    number-sections: true
   pdf:
     documentclass: scrreprt
+    number-sections: true
 
 execute:
   freeze: auto
   cache: true
+  shiny: auto # Habilita Shiny automáticamente para los capítulos
 
 from: markdown+tex_math_single_backslash+emoji
 link-external-newwindow: true
