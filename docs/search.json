@@ -228,5 +228,25 @@
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bitacora 3</span>"
     ]
+  },
+  {
+    "objectID": "proyecto_final.html",
+    "href": "proyecto_final.html",
+    "title": "4  Mi Proyecto de Investigación",
+    "section": "",
+    "text": "5 Resumen\nEste estudio aborda el fenómeno del éxito en los videojuegos, enfocándose principalmente en los juegos Indie y la influencia de la crítica profesional. Se conectan teorías del comportamiento humano para explicar cómo los videojuegos generan recompensas y mantienen a los jugadores motivados. Además, se examina cómo la crítica en sitios como Metacritic influye en las decisiones de los jugadores, aunque algunos estudios sugieren que no siempre tiene un impacto directo en las ventas.\nA través de un análisis de datos de Steam y con herramientas de ciencias de datos, se observa un crecimiento significativo en el número de juegos Indie lanzados entre 2010 y 2020, lo que refleja una mayor base de jugadores. Los resultados también indican que las calificaciones más altas en Metacritic están asociadas con un mayor número de jugadores, sugiriendo que la crítica puede afectar el éxito de los juegos.\nPalabras clave: videojuegos, éxito, industria, evolución.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mi Proyecto de Investigación</span>"
+    ]
+  },
+  {
+    "objectID": "proyecto_final.html#enlaces-para-las-versiones-alternativas-en-shiny-de-algunas-figuras-y-al-repositorio-de-github",
+    "href": "proyecto_final.html#enlaces-para-las-versiones-alternativas-en-shiny-de-algunas-figuras-y-al-repositorio-de-github",
+    "title": "4  Mi Proyecto de Investigación",
+    "section": "11.1 Enlaces para las versiones alternativas en Shiny de algunas figuras y al repositorio de Github",
+    "text": "11.1 Enlaces para las versiones alternativas en Shiny de algunas figuras y al repositorio de Github\n\nEnlace para la figura figura1 (versión Shiny interactiva): https://josepe.shinyapps.io/Graf1_2/\nEnlaces para las versiones en Shiny de la figura figura3:\n\nhttps://josepe.shinyapps.io/Shiny3/ (tabla dinámica)\nhttps://josepe.shinyapps.io/Shiny4/ (gráficos interactivos de densidades por género de videojuegos y año)\n\nEnlace para la versión interactiva en Shiny de la figura figura5: https://josepe.shinyapps.io/Graf_Dispersion/\nRepositorio de Github: haz click aquí",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Mi Proyecto de Investigación</span>"
+    ]
   }
 ]

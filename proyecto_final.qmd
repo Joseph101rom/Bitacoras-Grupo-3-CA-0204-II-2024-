@@ -1,0 +1,220 @@
+---
+title: "Mi Proyecto de Investigación"
+author: "Joseph"
+format: html
+bibliography: references.bib
+---
+
+# Resumen
+
+Este estudio aborda el fenómeno del éxito en los videojuegos, enfocándose principalmente en los juegos *Indie* y la influencia de la crítica profesional. Se conectan teorías del comportamiento humano para explicar cómo los videojuegos generan recompensas y mantienen a los jugadores motivados. Además, se examina cómo la crítica en sitios como *Metacritic* influye en las decisiones de los jugadores, aunque algunos estudios sugieren que no siempre tiene un impacto directo en las ventas.
+
+A través de un análisis de datos de *Steam* y con herramientas de ciencias de datos, se observa un crecimiento significativo en el número de juegos *Indie* lanzados entre 2010 y 2020, lo que refleja una mayor base de jugadores. Los resultados también indican que las calificaciones más altas en *Metacritic* están asociadas con un mayor número de jugadores, sugiriendo que la crítica puede afectar el éxito de los juegos.
+
+**Palabras clave**: videojuegos, éxito, industria, evolución.
+
+# Introducción
+
+En las últimas décadas, la industria de los videojuegos ha experimentado un gran crecimiento, posicionándose como un fenómeno cultural y económico de gran relevancia. Los videojuegos no solo han transformado la manera en que las personas consumen entretenimiento, sino que también han pasado a ser un pilar de la economía global. Sin embargo, el éxito comercial de un juego no siempre depende de un solo factor, sino de una combinación de características que pueden resonar de distintas maneras en el público.
+
+En este estudio, se analiza el potencial y coadyuvancia de dos fenómenos sobre el éxito de la industria del videojuego: los videojuegos *Indie* y la crítica profesional de juegos de video. Antes de definir lo que significa que un videojuego sea *Indie*, es necesario aclarar ciertos detalles que involucran al comportamiento humano y su relación con el gusto por los videojuegos, y lo que significa que un videojuego sea de cierto género. Comencemos con lo primero. Las siguientes dos teorías explican mecanismos del comportamiento humano:
+
+**Comportamiento de los organismos según Burrhus Frederic Skinner:** Esta teoría se fundamenta bajo un sistema de recompensas. Este sistema de recompensas pretende predecir el comportamiento de los seres vivos de acuerdo a la magnitud de la recompensa; entre más gratificante sea la percepción de la misma, aumentarán las probabilidades de que el sujeto que la recibió continúe realizando la serie de acciones que lo llevaron a obtenerla. Por el contrario, si el sujeto percibe recompensas no tan "agradables", entonces este perderá el interés por ellas [@ref26]. Esta teoría a día de hoy sigue siendo bastante aceptada en el mundo de la psicología y recientemente, dentro de la neurología y psiquiatría gracias a los estudios que se han hecho acerca del neurotransmisor de la dopamina, estrechamente relacionado con la sensación de satisfacción [@ref33].
+
+**Teoría del flujo:** Lo que se plantea en esta teoría es que los humanos alcanzan un estado mental de "flujo". Este flujo le permite al sujeto fluir de manera excepcional en actividades que involucran recompensas. Como efectos principales del flujo se encuentran: una alta concentración y motivación, permitiéndole al individuo mejorar sus habilidades a un ritmo agigantado en la actividad donde se manifieste el fenómeno [@ref25]. Un ejemplo de este fenómeno es el de una persona que quiere mejorar en un deporte; según esta teoría, esta persona eventualmente en sus entrenamientos llegará a un estado en donde su única meta será mejorar más y más como atleta, ignorando todo lo innecesario para su meta dentro de su entorno. El flujo normalmente se da en lapsos cortos.
+
+La incertidumbre en los videojuegos es un aspecto clave para comprender su éxito, pues es esta sensación la que mantiene a los jugadores enganchados [@ref24]. Este hallazgo, bajo la teoría de Skinner, sería catalizado por el deseo del jugador, quien, al saber que va a obtener una recompensa, seguirá jugando hasta obtenerla. Asimismo, el proceso de obtener dicha recompensa, según la teoría del flujo, generaría este estado de flujo en el jugador. Finalmente, la combinación de ambas teorías despertaría en el jugador deseos de seguir jugando de manera fluida y satisfactoria para mejorar en ellos, lo que explica por qué los videojuegos son tan amados por las personas.
+
+Ahora, ya podemos definir lo que significa que un videojuego sea de cierto género. El género en un videojuego se refiere al conjunto de características que tienen en común varios juegos. Por ejemplo, si un juego incluye disparos como mecánica principal o secundaria y hay varios que comparten dicha mecánica, sería catalogado como *shooter* (o juego de disparos). También se pueden catalogar juegos con base en los objetivos que ofrecen y/o en las emociones que evocan. Un ejemplo de esto son los videojuegos multijugador masivo; en ellos, el objetivo es cooperar con otros jugadores en línea para cumplir metas en común. De hecho, los videojuegos multijugador masivo también tienen en común la capacidad de provocar emociones en el jugador, como el enojo, tristeza y felicidad [@ref22].
+
+Lo que hace interesante a los videojuegos del género *Indie* es que lo único que tienen en común es que son desarrollados por micro-desarrolladoras de videojuegos. Por lo general, son sencillos y baratos. A pesar de las limitantes económicas que pueden tener sus desarrolladoras, los videojuegos de este género suelen tener una calidad excelente, con narrativas y mecánicas increíblemente originales [@ref29]. En el mismo estudio, se contrasta a los videojuegos *Indie* con juegos de otros géneros y se llega a la conclusión de que los juegos *Indie* presentan características innovadoras como la historia, banda sonora, apartado gráfico y mecánicas no vistas en otros videojuegos de géneros más consolidados. Cabe recalcar que este género es algo reciente, sin embargo, dado su factor de originalidad, no sería extraño que haya experimentado un auge en su popularidad y éxito en la actualidad. De hecho, la innovación es un determinante efectivo del éxito de los videojuegos [@ref23].
+
+**Introduciendo la crítica de videojuegos:** *Metacritic* actualmente es el sitio de críticas de videojuegos más popular dentro de la comunidad de videojugadores. Su metodología consiste en recopilar la opinión y voto que le corresponde al videojuego según críticos profesionales, quienes se espera tengan experiencia en el área y ofrezcan una opinión objetiva.
+
+Cualquier persona podría pensar que las notas que obtiene un videojuego por la crítica no deberían afectar la percepción de los jugadores sobre el videojuego en cuestión, ya que, al final de cuentas, los videojuegos son un medio de entretenimiento o, para muchas personas, una expresión artística cuya percepción de la calidad es meramente subjetiva. La importancia de estas notas ha sido puesta en duda por numerosas personas. Por ejemplo, un estudio de 2015 concluyó que las notas en *Metacritic* no afectaban el número de ventas de videojuegos; sin embargo, este hallazgo se ve contrastado por el caso de una compañía que canceló todos los planes futuros de un videojuego por no haber cumplido con la expectativa de la nota en *Metacritic* por un punto [@ref34]. El debate aumenta cuando en una entrevista realizada a un directivo de *Metacritic*, se le preguntó sobre los objetivos de las críticas de videojuegos que se realizan en la empresa. Su respuesta fue que las notas ayudarían a las empresas a guiarse sobre la calidad de sus productos y a mejorarlos [@ref30].
+
+En este proyecto, se pretende verificar mediante herramientas estadísticas sobre una base de datos de videojuegos de la plataforma Steam [@ref32], que contiene datos desde 1997 hasta la actualidad, las relaciones positivas entre el éxito de los videojuegos, los juegos *Indie* y las notas de *Metacritic*. Esto con el fin de aportar nuevas ideas que puedan explicar el porqué del éxito de los videojuegos desde la óptica de ambos factores.
+
+# Metodologia
+
+El presente proyecto tiene como objetivo analizar la evolución de los videojuegos a lo largo de la última década -especialmente de los videojuegos *Indie*-, utilizando herramientas de análisis de datos y apoyándose en fuentes secundarias como primarias y una base de datos específica. Se adoptó una metodología estructurada que permite identificar patrones, tendencias emergentes y correlaciones significativas entre variables clave. En primer lugar, se llevó a cabo un análisis exploratorio de datos (EDA) utilizando el paquete *tidyverse*, que ofrece un conjunto robusto de herramientas para importar, limpiar, transformar y visualizar datos [@wickham2017r]. Dentro de este paquete, se utilizó *ggplot2*, una librería poderosa para la visualización de datos que permite crear gráficos detallados y personalizados. Esta herramienta resultó fundamental para obtener una visión preliminar de los datos, identificar valores atípicos y detectar patrones. El EDA es una etapa crucial en nuestro análisis, ya que garantiza la calidad del conjunto de datos antes de proceder con análisis más profundos.
+
+La base de datos utilizada para este análisis proviene de *Steam* disponible en el sitio web *Kaggle*, que contiene información detallada sobre más de 85,000 videojuegos publicados [@fronkongames2024]. Esta fuente de datos proporciona una amplia gama de variables clave como las ventas, los géneros de los videojuegos y su fecha de lanzamiento, lo que permite realizar un análisis exhaustivo de la evolución de los videojuegos en los últimos años. Además, el proyecto se basa en fuentes secundarias, como estudios previos sobre la evolución de los videojuegos, que proporcionan contexto adicional y permiten validar los resultados obtenidos en el análisis. La revisión de investigaciones pasadas sobre el comportamiento del mercado de los videojuegos es esencial para identificar la existencia de las tendencias más relevantes en la industria y comprender mejor los patrones observados en los datos. Esta información secundaria complementa y enriquece los hallazgos obtenidos a través del análisis de los datos. Para estudiar las relaciones entre variables numéricas, se implementó un modelo de regresión lineal. Según [@dagnino2014regresion], este modelo permite estimar cómo varía una variable en relación con otra, además de ayudar a identificar posibles relaciones causales. El modelo fue implementado utilizando funciones de *R*, como *lm()*, que ajusta el modelo lineal y proporciona los resultados clave que permiten interpretar las correlaciones entre las variables. En este contexto, la esperanza matemática, también conocida como valor esperado, juega un papel importante. Se trata de una medida que permite predecir el resultado promedio de una variable aleatoria a largo plazo. Este concepto se calcula como la suma del producto de cada posible resultado por su probabilidad [@lopez2024esperanza], y es especialmente útil para estimar indicadores clave en conjuntos de datos de videojuegos, como las calificaciones de los usuarios o las ventas por género, esta es su fórmula: $$\mathbb{E}[X] = \frac{1}{n} \sum_{i=1}^n x_i $$\$
+
+Donde ${E}[X]$ es la esperanza del conjunto de datos (X); ( n ) es el número total de datos y ( x_i ) corresponde al valor de cada dato (con ( i = 1, 2, . . . . , n )).
+
+También, algunas de las tablas dinámicas y gráficos interactivos publicados como una aplicación en línea del paquete *Shiny* de *R* fueron llevados a cabo gracias a la librería llamada *plotly*, la cual permite mejorar la reactividad al permitirle al usuario, por ejemplo; ver valores en ciertos momentos de las figuras [@ref36].
+
+Para la visualización interactiva de los datos, se utilizó *Shiny*, un paquete de *R* que facilita el desarrollo de aplicaciones dinámicas. Esta combinación de herramientas, junto con otras librerías de visualización como *plotly*, permitió crear aplicaciones interactivas que mejoran la interpretación y presentación de los resultados obtenidos en el análisis de los datos.
+
+Para guardar y actualizar de manera segura todos los datos obtenidos y relevantes para el proyecto, se contó con la ayuda de un repositorio en *Github* [@ref37].
+
+# Resultados
+
+Primeramente, se realizó una figura de densidad que muestra la cantidad de videojuegos lanzados por año.
+
+```{r}
+#| warning: false
+library(tidyverse)
+ggplot(clean_database, aes(x = clean_database$ReleaseDate)) +
+  geom_freqpoly(alpha = 20, binwidth = 2.5, color = "orange", size = 0.9) +
+  labs(x = "Año de lanzamiento", y = "Cantidad de videojuegos", title = "Cantidad de videojuegos lanzados por año") +
+  cowplot::theme_cowplot()
+```
+
+El resultado que proporciona esta figura es que hubo un crecimiento exponencial durante el periodo 2010-2020. Visitaremos este gráfico otra vez cuando analicemos los demás; pues más adelante cobrará más sentido este resultado. Para observar la versión interactiva de este gráfico, visitar el Anexo A. Similar a la figura anterior, se puede observar cómo evolucionan los jugadores a través del tiempo mediante el siguiente gráfico de líneas.
+
+```{r}
+#| warning: false
+library(tidyverse)
+ggplot(clean_database, aes(x = ReleaseDate, y = EstimatedPlayers)) +
+geom_line(color = "dodgerblue", size = 2 ) +
+labs(
+title = "Jugadores a lo largo del tiempo",
+x = "Año",
+y = "Millones de Jugadores",
+) +
+theme_minimal()
+```
+
+A partir de este resultado, ya se pueden empezar a notar patrones con respecto a la figura anterior. No es difícil notar picos altos de jugadores durante la época 2010-2015; periodo similar al de los años comprendidos entre 2010-2020. Por lo tanto, en esta década se tiene que hubo un aumento exponencial de videojuegos lanzados mientras se gestaba un incremento en la cantidad de jugadores. Este resultado sugiere no ser una coincidencia, por lo que se filtró aún más la base de datos tal que se pudiera obtener información más detallada sobre está época. Una vez modificada la base de datos, se llega al resultado que muestra la siguiente figura.
+
+```{r}
+#| warning: false
+library(dplyr)
+library(ggplot2)
+library(cowplot)
+
+games_per_year <- ultimate_genres %>%
+  group_by(ReleaseDate, Genres) %>%
+  summarise(Count = n(), .groups = 'drop') %>%
+  mutate(Genres = ifelse(is.na(Genres), "Others", Genres))
+
+ggplot(games_per_year, aes(x = ReleaseDate, y = Count, color = Genres)) +
+  geom_line(size = 2) +
+  facet_wrap(~Genres) +
+  labs(
+    title = "Número de Juegos Lanzados por Género",
+    x = "Año",
+    y = "Número de Juegos"
+  ) +
+  scale_x_continuous(breaks = seq(min(games_per_year$ReleaseDate), max(games_per_year$ReleaseDate), by = 5)) +
+  theme_minimal() +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(hjust = 0.5, vjust = -2),
+    axis.title.x = element_text(size = 12),
+    axis.title.y = element_text(size = 12),
+    strip.text = element_text(size = 14),
+    axis.text.x = element_text(angle = 45, hjust = 1)  # Rota las etiquetas del eje X
+  )
+
+```
+
+Esta tabla muestra la evolución de cada género de la base de datos a través del tiempo. Este resultado es contundente: se puede observar cómo los videojuegos de género *RPG* (juegos de rol) y de tipo *Indie* encabezan la lista en cuanto a la magnitud de dicha evolución. Más aún, los videojuegos *Indie* mostraron ser los que mayor evolución experimentaron; especialmente en la década 2010-2020.
+
+Resumiendo los resultados obtenidos a partir de esta figura y de las figuras anteriores, tenemos que en el periodo 2010-2020 hubo un aumento significativo de la cantidad de jugadores, la cantidad de videojuegos lanzados alcanzó su pico y los videojuegos de género *Indie* experimentaron un incremento en su cantidad lanzada. Dadas las características que hacen únicos a los videojuegos de este género, este resultado era de esperarse: los videojuegos *Indie* tuvieron su auge el cual les permitió consolidarse dentro de la industria, captando más y más jugadores a medida que se expanden en cantidad [@ref29]. Otro determinante de este resultado es el de la esperanza de jugadores por género de videojuegos a lo largo del tiempo. Se observó que en el caso de los videojuegos *Indie*, la esperanza de jugadores fue de 35,000 durante 2000-2005, mientras que en los años 2015-2020 la esperanza fue de 355,860. Al mismo tiempo, si vemos esta evolución de los juegos *Indie* como algo general, la misma podría ser explicada porque sus características innovadoras, aunado al aumento en su cantidad durante la década 2010-2020, hicieron a los mismos atractivos [@ref23].
+
+En el Anexo A podrá encontrar dos enlaces que le ayudarán a visualizar de mejor manera esta figura; uno de ellos le llevará a una tabla dinámica donde podrá ver los datos numéricos de la evolución de los géneros de los videojuegos, y el otro hacia una aplicación donde podrá interactuar con los gráficos de densidades de cada género.
+
+```{r}
+#| warning: False
+library(ggplot2)
+library(scales)
+
+ggplot(clean_database, aes(x = Price, y = EstimatedPlayers)) +
+  geom_hex(
+    aes(fill = ..count..), 
+    alpha = 1, 
+    size = 0.5
+  ) +  
+  scale_y_log10(labels = scales::number) +
+  scale_x_continuous(breaks = seq(0, 70, by = 10)) +
+  labs(
+    title = "Relación entre el precio y el número de jugadores",
+    x = "Precio (USD)",
+    y = "Número estimado de jugadores",
+    fill = "Densidad"
+  ) +
+  scale_fill_gradient(low = "red", high = "blue") + # Colores vibrantes
+  theme_minimal(base_size = 14) +
+  theme(
+    panel.grid.major = element_line(color = "gray80"),
+    panel.grid.minor = element_blank(),
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    axis.title = element_text(face = "bold"),
+    axis.text = element_text(size = 12),
+    legend.position = "right"
+  )
+
+```
+
+A modo de refuerzo, se tiene la siguiente figura que se lee de la siguiente manera: los puntos azules representan una cantidad alta de videojuegos; a medida que los puntos se van volviendo amarillos, quiere decir que esos puntos representan una cantidad menor de videojuegos que su contraparte con tonalidades más inclinadas al azul. Dicho esto, se puede observar que los jugadores prefieren videojuegos de entre 10 y 20 dólares, pues esa zona es de alta afluencia para puntos con colores azulados. De hecho, el precio medio por videojuego es de 15 dólares, lo cual tiene sentido de acuerdo a la figura. Esto también refuerza la idea del éxito de los videojuegos *Indie*, pues estos suelen ser muy baratos [@ref29].
+
+Como resultado final, se encontró una relación importante acerca de las notas en *Metacritic* de acuerdo a la siguiente dispersión con regresión lineal.
+
+```{r}
+#| warning: false
+library(ggplot2)
+library(scales)
+library(viridis)
+
+ggplot(clean_database, aes(x = Metacritic.score, y = EstimatedPlayers)) +
+  geom_point(
+    alpha = 0.6, # Reducción de opacidad
+    color = "steelblue", # Color único suave para los puntos
+    position = position_jitter(width = 1, height = 0.2)
+  ) +
+  scale_y_log10(labels = scales::number) +
+  scale_x_continuous(breaks = seq(0, 100, by = 10)) +
+  labs(
+    title = "Dispersión entre jugadores y nota en Metacritic",
+    x = "Nota en Metacritic",
+    y = "Jugadores estimados"
+  ) +
+  theme_minimal(base_size = 14) +
+  geom_smooth(
+    method = "lm",
+    se = FALSE,
+    color = "green",
+    size = 1
+  ) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    axis.title = element_text(face = "bold"),
+    axis.text = element_text(size = 12),
+    legend.position = "none" # Ocultamos la leyenda
+  )
+
+```
+
+Como se puede observar, a medida que aumenta la nota en *Metacritic*, aumenta la cantidad de jugadores. Este resultado también es deducible a través de la línea creciente de regresión lineal. Por lo tanto, se tiene que las notas en *Metacritic*, más allá de afectar solo a los desarrolladores a nivel interno [@ref34], se pueden ver sus implicaciones en los usuarios; estos prefieren juegos con mejor nota en *Metacritic*. En el mejor de los casos, esto se explica bajo los objetivos que tiene dicha empresa crítica de los videojuegos en mejorar la calidad de la industria [@ref30].
+
+Para ver la versión *Shiny* de esta figura, visitar el anexo A.
+
+# Conclusiones
+
+Se pudo comprender mejor qué es lo que hace que los videojuegos sean tan exitosos a nivel de experiencia del usuario. En esta misma línea de experiencia del jugador, se pueden analizar características como los géneros de videojuegos: este trabajo pretendió demostrar el éxito de los videojuegos bajo la premisa de la evolución y consolidación de los videojuegos *Indie* [@ref29], tomando datos desde el año 1997 hasta 2024. Dado lo reciente que son los videojuegos de este género, se añadió a la premisa que esto fue posible gracias a la innovación que traen consigo estos videojuegos [@ref23].
+
+Se llegó a la conclusión de que los videojuegos *Indie* ya están consolidados en la industria de los videojuegos desde aproximadamente el año 2015. Primero, se analizó la evolución de la cantidad de videojuegos por año y la de sus respectivos géneros, al mismo tiempo que la de los jugadores, y fue donde se notó la coincidencia entre las fechas de los incrementos que tuvo cada variable. Por un lado, lo barato que es producir este tipo de juegos hizo que se aumentara la producción de ellos, y dadas sus características, se hicieron atractivos para la población de videojugadores. Esta combinación resultó ser perfecta para este auge dentro del género y la industria en general. Para apoyar estos resultados, se comparó la esperanza en el número de jugadores del lustro del pico en los videojuegos *Indie* y otro en el que apenas iban surgiendo; se corroboró un aumento significativo.
+
+Por otro lado, la crítica de los videojuegos resulta jugar un papel importante dentro del éxito de los mismos: los jugadores tienen una tendencia por jugar videojuegos que poseen una alta calificación en *Metacritic*. Dicho suceso puede ser explicado porque las empresas se ven motivadas a lanzar mejores videojuegos para obtener una mejor nota [@ref30].
+
+Durante la investigación, se presentaron limitaciones como la falta de datos acerca de la utilidad o felicidad que le generan los videojuegos a las personas; para trabajos posteriores, esta variable a considerar podría expandir los horizontes de la investigación y enriquecerla. Otra limitación fue la de bases de datos específicas para videojuegos del tipo *Indie*, siendo que ya estos videojuegos están consolidados en la industria, deberían recibir más atención por parte de analistas. 
+
+# Agradecimientos
+
+Queremos expresar nuestro más sincero agradecimiento al profesor Maikol Solís Chacón y a la asistente Ana Laura López Murillo por su invaluable apoyo y orientación a lo largo de las diversas etapas de este proyecto. Su dedicación, paciencia y compromiso fueron fundamentales para superar los desafíos que se nos presentaron. Gracias a su experiencia y disposición para ayudarnos, pudimos avanzar de manera significativa, resolviendo problemas complejos y mejorando la calidad de nuestro trabajo. Su guía no solo enriqueció nuestra comprensión del tema, sino que también nos motivó a dar lo mejor de nosotros mismos. Apreciamos profundamente el tiempo y esfuerzo que ambos dedicaron para ayudarnos a superar las dificultades.
+
+# Anexos
+
+## Enlaces para las versiones alternativas en *Shiny* de algunas figuras y al repositorio de *Github*
+
+-   Enlace para la figura `figura1` (versión *Shiny* interactiva): <https://josepe.shinyapps.io/Graf1_2/>
+-   Enlaces para las versiones en *Shiny* de la figura `figura3`:
+    -   <https://josepe.shinyapps.io/Shiny3/> (tabla dinámica)
+    -   <https://josepe.shinyapps.io/Shiny4/> (gráficos interactivos de densidades por género de videojuegos y año)
+-   Enlace para la versión interactiva en *Shiny* de la figura `figura5`: <https://josepe.shinyapps.io/Graf_Dispersion/>
+-   Repositorio de *Github*: [haz click aquí](https://github.com/Joseph101rom/Bitacoras-Grupo-3-CA-0204-II-2024-)
+
+# Bibliografía

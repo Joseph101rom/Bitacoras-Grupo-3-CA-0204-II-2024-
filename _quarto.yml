@@ -14,9 +14,10 @@ book:
     - "bitacora-1.qmd"
     - "bitacora-2.qmd"
     - "bitacora-3.qmd"
+    - "proyecto_final.qmd"
+  
 
 bibliography: references.bib
-
 format:
   html:
     theme: cosmo
